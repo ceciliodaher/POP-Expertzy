@@ -35,7 +35,29 @@ Este projeto disponibiliza uma interface web elegante e funcional para consulta,
 ## 🚀 Acesso Rápido
 
 ### 🌐 Site Principal
-**[Acessar POPs](https://ceciliodaher.github.io/POP-Equiplex/)**
+**[Acessar POPs](https://ceciliodaher.github.io/POP-Expertzy/)**
+
+### 🚀 Como Inicializar para Desenvolvimento
+
+**IMPORTANTE**: Para evitar erros CORS, sempre use um servidor HTTP local:
+
+```bash
+# Navegue para o diretório do projeto
+cd /caminho/para/POP-Expertzy
+
+# Opção 1: Python (Recomendado)
+python3 -m http.server 8000
+# Acesse: http://localhost:8000
+
+# Opção 2: Node.js
+npx serve .
+# Acesse: http://localhost:3000
+
+# Opção 3: PHP
+php -S localhost:8000
+```
+
+⚠️ **Não abra o arquivo `index.html` diretamente no navegador** - isso causará erros CORS.
 
 ### 📞 Contato e Suporte
 - **📧 Email**: [contato@expertzy.com.br](mailto:contato@expertzy.com.br)
@@ -117,14 +139,14 @@ Este projeto disponibiliza uma interface web elegante e funcional para consulta,
 
 ```bash
 # 1. Clone o repositório
-git clone https://github.com/ceciliodaher/POP-Equiplex.git
+git clone https://github.com/ceciliodaher/POP-Expertzy.git
 
 # 2. Navegue para o diretório
-cd POP-Equiplex
+cd POP-Expertzy
 
-# 3. Abra o arquivo index.html
-# Ou use um servidor local simples:
-python -m http.server 8000
+# 3. SEMPRE use um servidor HTTP local:
+python3 -m http.server 8000
+# Acesse: http://localhost:8000
 ```
 
 ## 🌟 Características Técnicas
@@ -197,6 +219,7 @@ Este projeto e todos os POPs são propriedade exclusiva da Expertzy Inteligênci
 **Desenvolvido com ❤️ para a Expertzy Inteligência Tributária**
 
 [![Expertzy](https://img.shields.io/badge/Visite-expertzy.com.br-FF002D?style=for-the-badge&logo=safari&logoColor=white)](https://expertzy.com.br)
+[![GitHub Pages](https://img.shields.io/badge/Acesse-POP--Expertzy-FF002D?style=for-the-badge&logo=github&logoColor=white)](https://ceciliodaher.github.io/POP-Expertzy/)
 
 *Última atualização: 24 de agosto de 2025*
 

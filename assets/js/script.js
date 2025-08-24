@@ -477,8 +477,8 @@ document.addEventListener('DOMContentLoaded', app.init);
 // Expor funções globais necessárias
 window.popManager = popManager;
 
-// Service Worker para cache (opcional, para melhor performance)
-if ('serviceWorker' in navigator) {
+// Service Worker para cache (apenas em produção HTTPS)
+if ('serviceWorker' in navigator && (location.protocol === 'https:' || location.hostname === 'localhost')) {
     window.addEventListener('load', () => {
         navigator.serviceWorker.register('/sw.js')
             .then(registration => {
