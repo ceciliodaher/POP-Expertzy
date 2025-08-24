@@ -1,0 +1,34 @@
+# Sistema operacional
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDEs e Editores
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Arquivos temporários
+*.tmp
+*.bak
+*.log
+
+# Dependências (caso sejam adicionadas futuramente)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Arquivos de build (se aplicável)
+dist/
+build/
+
+# Arquivos pessoais
+.claude/
+*.private

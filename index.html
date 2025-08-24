@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Expertzy Inteligência Tributária">
+    <meta name="description" content="Procedimentos Operacionais Padrão - Expertzy Inteligência Tributária">
+    <title>POPs - Expertzy Inteligência Tributária</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <h1 class="logo-text">EXPERTZY</h1>
+                    <span class="logo-subtitle">INTELIGÊNCIA TRIBUTÁRIA</span>
+                </div>
+                <nav class="nav">
+                    <ul class="nav-list">
+                        <li><a href="#inicio" class="nav-link">Início</a></li>
+                        <li><a href="#pops" class="nav-link">POPs</a></li>
+                        <li><a href="#contato" class="nav-link">Contato</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <section id="inicio" class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1 class="hero-title">Procedimentos Operacionais Padrão</h1>
+                    <p class="hero-description">
+                        Acesse todos os POPs da Expertzy para garantir conformidade e excelência operacional. 
+                        Documentos técnicos especializados em tributação, transporte e procedimentos farmacêuticos.
+                    </p>
+                    <div class="hero-stats">
+                        <div class="stat">
+                            <span class="stat-number" id="popCount">4</span>
+                            <span class="stat-label">POPs Disponíveis</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">3</span>
+                            <span class="stat-label">Categorias</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="pops" class="pops-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Procedimentos Operacionais</h2>
+                    <div class="search-filter">
+                        <input type="text" id="searchInput" placeholder="Buscar procedimentos..." class="search-input">
+                        <select id="categoryFilter" class="category-filter">
+                            <option value="">Todas as Categorias</option>
+                            <option value="tributario">Tributário</option>
+                            <option value="transporte">Transporte</option>
+                            <option value="farmaceutico">Farmacêutico</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="pops-grid" id="popsGrid">
+                    <!-- POPs serão carregados dinamicamente via JavaScript -->
+                </div>
+
+                <div class="no-results" id="noResults" style="display: none;">
+                    <h3>Nenhum procedimento encontrado</h3>
+                    <p>Tente ajustar os filtros de busca ou entre em contato conosco para solicitar um procedimento específico.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contato" class="contact-section">
+            <div class="container">
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <h2>Precisa de Ajuda?</h2>
+                        <p>Entre em contato conosco para sugestões de melhorias ou solicitação de novos procedimentos.</p>
+                        <div class="contact-methods">
+                            <a href="https://wa.me/5511999999999" class="contact-btn whatsapp" target="_blank">
+                                <span class="contact-icon">📱</span>
+                                WhatsApp
+                            </a>
+                            <a href="mailto:contato@expertzy.com.br" class="contact-btn email">
+                                <span class="contact-icon">📧</span>
+                                contato@expertzy.com.br
+                            </a>
+                        </div>
+                    </div>
+                    <div class="contact-illustration">
+                        <div class="illustration-placeholder">
+                            <span>💬</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Modal para visualização de POPs -->
+    <div id="popModal" class="modal" style="display: none;">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 id="modalTitle">Título do POP</h2>
+                <div class="modal-actions">
+                    <button id="downloadMd" class="btn btn-secondary">
+                        <span>📄</span> Download MD
+                    </button>
+                    <button id="downloadPdf" class="btn btn-secondary">
+                        <span>📑</span> Download PDF
+                    </button>
+                    <button id="printPop" class="btn btn-secondary">
+                        <span>🖨️</span> Imprimir
+                    </button>
+                    <button id="closeModal" class="btn-close">×</button>
+                </div>
+            </div>
+            <div class="modal-body">
+                <div id="modalContent" class="pop-content">
+                    <!-- Conteúdo do POP será carregado aqui -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <p>© 2025 Expertzy Inteligência Tributária</p>
+                    <p>Desenvolvido com tecnologia avançada para soluções tributárias</p>
+                </div>
+                <div class="footer-links">
+                    <a href="https://expertzy.com.br" target="_blank">expertzy.com.br</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
