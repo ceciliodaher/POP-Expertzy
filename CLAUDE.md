@@ -29,7 +29,9 @@ POP-Equiplex/
 │   ├── Ticket-Solucoes.md
 │   ├── transportes_fluxos_pop_v2.md
 │   ├── procedimento-incineracao-farmaceutica.md
-│   └── pop_impostos_importacao_v1.md
+│   ├── pop_impostos_importacao_v1.md
+│   ├── pop_ajustes_inventario.md
+│   └── pop_fomentar_padronizado.md
 ├── docs/                     # Versões PDF (geradas automaticamente)
 ├── marca/                    # Diretrizes e assets da marca
 │   ├── _Arquivos da Marca/
@@ -86,20 +88,30 @@ POP-Equiplex/
 
 ## POPs Catalogados
 
-### Categoria Tributário
+### Categoria Tributário (4 POPs)
 1. **Escrituração das Operações com Cartão Combustível** (v1.0)
    - Ticket Soluções, ICMS, créditos fiscais
    
 2. **Procedimentos de Impostos de Importação** (v1.0)
    - II, IPI, PIS, COFINS, ICMS em comércio exterior
 
-### Categoria Transporte
-3. **Fluxos Transportadora** (v2.0)
+3. **Ajustes de Inventário na Indústria Farmacêutica** (v1.0)
+   - Diretrizes para execução de ajustes de inventário
+   - Conformidade com NBC TG 16 e legislação fiscal
+   - Medicamentos controlados e SNGPC
+
+4. **Apuração do ICMS - Programa FOMENTAR** (v1.0)
+   - Procedimentos de apuração mensal para beneficiários FOMENTAR
+   - Classificação por CFOPs e cálculo do financiamento
+   - Preenchimento da EFD ICMS/IPI
+
+### Categoria Transporte (1 POP)
+5. **Fluxos Transportadora** (v2.0)
    - Operações de transporte e armazenamento
    - Foco especial em medicamentos e farmacêuticos
 
-### Categoria Farmacêutico
-4. **Remessa para Incineração de Produtos Farmacêuticos** (v1.0)
+### Categoria Farmacêutico (1 POP)
+6. **Remessa para Incineração de Produtos Farmacêuticos** (v1.0)
    - Procedimentos fiscais e operacionais para descarte
 
 ## Tecnologias Utilizadas
@@ -133,8 +145,11 @@ touch pop/novo-procedimento.md
 }
 ```
 
-### 3. Atualizar contador
-O contador de POPs é atualizado automaticamente baseado no array `popsData`.
+### 3. Atualizar contadores
+Os contadores de POPs são atualizados automaticamente baseado no array `popsData`. Para contadores estáticos no HTML, atualizar manualmente:
+- Navigation badge: `#popsBadge`  
+- Hero section: `#popCount`
+- Mobile menu badge
 
 ## Estrutura de Arquivos MD
 
@@ -231,7 +246,7 @@ O contador de POPs é atualizado automaticamente baseado no array `popsData`.
 
 ### Para Conteúdo
 - **Email**: contato@expertzy.com.br
-- **WhatsApp**: [Número a ser configurado]
+- **WhatsApp**: +55 62 99654-3141
 
 ## Licença e Direitos
 
@@ -243,4 +258,4 @@ Este projeto foi desenvolvido especificamente para **Expertzy Inteligência Trib
 
 **Última atualização**: 24 de agosto de 2025
 **Desenvolvido por**: Claude Code (Anthropic)
-**Status do projeto**: ✅ Concluído - Pronto para produção
+**Status do projeto**: ✅ Concluído - 6 POPs disponíveis
