@@ -381,15 +381,15 @@ body {
 }
 
 .modal-header {
-    background: linear-gradient(135deg, #F8F9FA 0%, #F1F3F4 100%);
-    border-bottom: 2px solid var(--expertzy-blue);
+    background: var(--expertzy-blue);
+    color: var(--expertzy-light);
     padding: 20px 24px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     border-radius: var(--border-radius-lg) var(--border-radius-lg) 0 0;
     position: relative;
-    box-shadow: 0 2px 12px rgba(9, 26, 48, 0.06);
+    box-shadow: 0 2px 12px rgba(9, 26, 48, 0.15);
 }
 
 .modal-header::before {
@@ -408,7 +408,7 @@ body {
     font-size: 18px;
     margin: 0;
     flex: 1;
-    color: var(--expertzy-blue);
+    color: var(--expertzy-light);
     display: flex;
     align-items: center;
     gap: 12px;
@@ -416,8 +416,8 @@ body {
 
 .modal-header h2::before {
     content: '📋';
-    background: var(--expertzy-red);
-    color: var(--expertzy-light);
+    background: var(--expertzy-light);
+    color: var(--expertzy-red);
     width: 28px;
     height: 28px;
     border-radius: 6px;
@@ -435,8 +435,8 @@ body {
 
 .btn-close {
     background: transparent;
-    border: 2px solid var(--expertzy-blue);
-    color: var(--expertzy-blue);
+    border: 2px solid var(--expertzy-light);
+    color: var(--expertzy-light);
     font-size: 1.2rem;
     font-weight: 500;
     cursor: pointer;
@@ -447,10 +447,11 @@ body {
 }
 
 .btn-close:hover {
-    background: var(--expertzy-blue);
+    background: var(--expertzy-red);
+    border-color: var(--expertzy-red);
     color: var(--expertzy-light);
     transform: translateY(-1px);
-    box-shadow: 0 4px 12px rgba(9, 26, 48, 0.2);
+    box-shadow: 0 4px 12px rgba(255, 0, 45, 0.3);
 }
 
 .modal-body {
