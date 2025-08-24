@@ -307,35 +307,10 @@ const popManager = {
     },
 
     downloadPdf: () => {
-        if (!appState.selectedPop) return;
-        
-        // Implementação básica usando window.print()
-        // Em uma implementação real, seria melhor usar uma biblioteca como jsPDF
-        const originalTitle = document.title;
-        document.title = appState.selectedPop.title;
-        
-        // Ocultar elementos desnecessários
-        const elementsToHide = ['header', 'footer', 'modal-header'];
-        elementsToHide.forEach(className => {
-            const elements = document.querySelectorAll(`.${className}`);
-            elements.forEach(el => el.style.display = 'none');
-        });
-        
-        // Aplicar estilos de impressão
-        elements.modalContent.style.position = 'static';
-        elements.modalContent.style.padding = '0';
-        
-        window.print();
-        
-        // Restaurar elementos
-        elementsToHide.forEach(className => {
-            const elements = document.querySelectorAll(`.${className}`);
-            elements.forEach(el => el.style.display = '');
-        });
-        
-        elements.modalContent.style.position = '';
-        elements.modalContent.style.padding = '';
-        document.title = originalTitle;
+        // Funcionalidade temporariamente desabilitada
+        console.log('Download PDF temporariamente desabilitado - aguardando implementação adequada');
+        alert('Funcionalidade em desenvolvimento. Use "Imprimir" como alternativa.');
+        return;
     },
 
     printPop: () => {

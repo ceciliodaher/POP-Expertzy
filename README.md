@@ -61,7 +61,7 @@ php -S localhost:8000
 
 ### 📞 Contato e Suporte
 - **📧 Email**: [contato@expertzy.com.br](mailto:contato@expertzy.com.br)
-- **📱 WhatsApp**: [Clique aqui](https://wa.me/5511999999999)
+- **📱 WhatsApp**: [Clique aqui](https://wa.me/5562996543141)
 - **🌍 Site Oficial**: [expertzy.com.br](https://expertzy.com.br)
 
 ## 🎨 Identidade Visual
