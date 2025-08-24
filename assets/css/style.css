@@ -99,8 +99,9 @@ body {
 }
 
 .logo-oficial {
-    width: 120px;
-    height: 60px;
+    width: 180px;
+    height: 50px;
+    object-fit: contain;
     transition: var(--transition);
 }
 
@@ -995,8 +996,9 @@ body {
     }
     
     .logo-oficial {
-        width: 80px;
-        height: 40px;
+        width: 140px;
+        height: 38px;
+        object-fit: contain;
     }
     
     .brand-name {

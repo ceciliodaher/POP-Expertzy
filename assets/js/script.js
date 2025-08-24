@@ -45,6 +45,26 @@ const popsData = [
         version: 'v1.0',
         date: '2025-08-24',
         filename: 'pop_impostos_importacao_v1.md'
+    },
+    {
+        id: 'ajustes-inventario',
+        title: 'Ajustes de Inventário na Indústria Farmacêutica',
+        category: 'tributario',
+        categoryLabel: 'Tributário',
+        description: 'Diretrizes para execução de ajustes de inventário em indústrias farmacêuticas, assegurando conformidade com NBC TG 16 e legislação fiscal aplicável, incluindo tratamento de medicamentos controlados e SNGPC.',
+        version: 'v1.0',
+        date: '2025-08-24',
+        filename: 'pop_ajustes_inventario.md'
+    },
+    {
+        id: 'fomentar-padronizado',
+        title: 'Apuração do ICMS - Programa FOMENTAR',
+        category: 'tributario',
+        categoryLabel: 'Tributário',
+        description: 'Procedimentos para apuração mensal do ICMS por estabelecimentos industriais beneficiários do Programa FOMENTAR, incluindo classificação por CFOPs, cálculo do financiamento e preenchimento da EFD ICMS/IPI.',
+        version: 'v1.0',
+        date: '2025-08-24',
+        filename: 'pop_fomentar_padronizado.md'
     }
 ];
 
