@@ -11,9 +11,9 @@ const popsData = [
         title: 'Escrituração das Operações com Cartão Combustível',
         category: 'tributario',
         categoryLabel: 'Tributário',
-        description: 'Procedimentos fiscais e contábeis para operações com cartão combustível da Ticket Soluções, incluindo escrituração obrigatória e aproveitamento de créditos de ICMS.',
+        description: 'Procedimento operacional completo para escrituração das operações com cartão combustível corporativo, incluindo fluxogramas detalhados em Mermaid, controles de validação, aspectos fiscais específicos e templates BPMN para integração com ERPs.',
         version: 'v1.0',
-        date: '2025-08-24',
+        date: '2025-08-25',
         filename: 'tributario/Ticket-Solucoes.md'
     },
     {
