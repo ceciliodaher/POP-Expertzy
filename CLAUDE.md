@@ -16,7 +16,7 @@ Este projeto foi desenvolvido para criar uma página web moderna e funcional par
 ## Estrutura do Projeto
 
 ```
-POP-Equiplex/
+POP-Expertzy/
 ├── index.html                 # Página principal
 ├── assets/
 │   ├── css/
@@ -25,14 +25,19 @@ POP-Equiplex/
 │   │   └── script.js         # Funcionalidades interativas
 │   ├── fonts/                # Fontes corporativas (reservado)
 │   └── images/               # Imagens e recursos visuais
-├── pop/                      # Arquivos dos POPs em Markdown
-│   ├── Ticket-Solucoes.md
-│   ├── transportes_fluxos_pop_v2.md
-│   ├── procedimento-incineracao-farmaceutica.md
-│   ├── pop_impostos_importacao_v1.md
-│   ├── pop_ajustes_inventario.md
-│   └── pop_fomentar_padronizado.md
-├── docs/                     # Versões PDF (geradas automaticamente)
+├── pop/                      # Arquivos dos POPs organizados por categoria
+│   ├── tributario/           # POPs da área tributária (7 arquivos)
+│   │   ├── Ticket-Solucoes.md
+│   │   ├── pop_ajustes_inventario.md
+│   │   ├── pop_fomentar_padronizado.md
+│   │   ├── pop_impostos_importacao_v1.md
+│   │   ├── pop_ciap_goias.md
+│   │   ├── pop_icms_st_energia_goias.md
+│   │   └── pop_icms_st_frete.md
+│   ├── transporte/           # POPs da área de transporte (1 arquivo)
+│   │   └── transportes_fluxos_pop_v2.md
+│   └── farmaceutico/         # POPs da área farmacêutica (1 arquivo)
+│       └── procedimento-incineracao-farmaceutica.md
 ├── marca/                    # Diretrizes e assets da marca
 │   ├── _Arquivos da Marca/
 │   │   └── expertzy-brand-guidelines.md
@@ -147,8 +152,10 @@ POP-Equiplex/
 
 ### 1. Criar o arquivo Markdown
 ```bash
-# Criar novo POP na pasta apropriada
-touch pop/novo-procedimento.md
+# Criar novo POP na pasta apropriada por categoria
+touch pop/tributario/novo-procedimento-tributario.md
+touch pop/transporte/novo-procedimento-transporte.md
+touch pop/farmaceutico/novo-procedimento-farmaceutico.md
 ```
 
 ### 2. Atualizar o JavaScript
@@ -161,8 +168,8 @@ touch pop/novo-procedimento.md
     categoryLabel: 'Tributário',
     description: 'Descrição detalhada do procedimento...',
     version: 'v1.0',
-    date: '2025-08-24',
-    filename: 'novo-procedimento.md'
+    date: '2025-08-25',
+    filename: 'tributario/novo-procedimento-tributario.md' // Incluir pasta da categoria
 }
 ```
 

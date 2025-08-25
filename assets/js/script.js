@@ -14,7 +14,7 @@ const popsData = [
         description: 'Procedimentos fiscais e contábeis para operações com cartão combustível da Ticket Soluções, incluindo escrituração obrigatória e aproveitamento de créditos de ICMS.',
         version: 'v1.0',
         date: '2025-08-24',
-        filename: 'Ticket-Solucoes.md'
+        filename: 'tributario/Ticket-Solucoes.md'
     },
     {
         id: 'transportes-fluxos',
@@ -24,7 +24,7 @@ const popsData = [
         description: 'Procedimentos operacionais padrão para atividades de transporte e armazenamento, com ênfase em medicamentos e produtos farmacêuticos. Inclui fluxogramas detalhados.',
         version: 'v3.0',
         date: '2025-08-25',
-        filename: 'transportes_fluxos_pop_v2.md'
+        filename: 'transporte/transportes_fluxos_pop_v2.md'
     },
     {
         id: 'incineracao-farmaceutica',
@@ -34,7 +34,7 @@ const popsData = [
         description: 'Procedimentos fiscais, contábeis e operacionais para remessa de produtos farmacêuticos vencidos ou deteriorados para incineração.',
         version: 'v2.0',
         date: '2025-08-25',
-        filename: 'procedimento-incineracao-farmaceutica.md'
+        filename: 'farmaceutico/procedimento-incineracao-farmaceutica.md'
     },
     {
         id: 'impostos-importacao',
@@ -44,7 +44,7 @@ const popsData = [
         description: 'Diretrizes consolidadas para cálculo e recolhimento de impostos de importação, incluindo II, IPI, PIS, COFINS e ICMS em operações de comércio exterior.',
         version: 'v2.0',
         date: '2025-08-25',
-        filename: 'pop_impostos_importacao_v1.md'
+        filename: 'tributario/pop_impostos_importacao_v1.md'
     },
     {
         id: 'ajustes-inventario',
@@ -54,7 +54,7 @@ const popsData = [
         description: 'Diretrizes para execução de ajustes de inventário em indústrias farmacêuticas, assegurando conformidade com NBC TG 16 e legislação fiscal aplicável, incluindo tratamento de medicamentos controlados e SNGPC.',
         version: 'v2.0',
         date: '2025-08-25',
-        filename: 'pop_ajustes_inventario.md'
+        filename: 'tributario/pop_ajustes_inventario.md'
     },
     {
         id: 'fomentar-padronizado',
@@ -64,7 +64,7 @@ const popsData = [
         description: 'Procedimentos para apuração mensal do ICMS por estabelecimentos industriais beneficiários do Programa FOMENTAR, incluindo classificação por CFOPs, cálculo do financiamento e preenchimento da EFD ICMS/IPI.',
         version: 'v2.0',
         date: '2025-08-25',
-        filename: 'pop_fomentar_padronizado.md'
+        filename: 'tributario/pop_fomentar_padronizado.md'
     },
     {
         id: 'ciap-goias',
@@ -74,7 +74,7 @@ const popsData = [
         description: 'Metodologia completa para o Controle de Crédito de ICMS do Ativo Permanente no Estado de Goiás, incluindo apropriação parcelada dos créditos tributários.',
         version: 'v1.0',
         date: '2025-08-25',
-        filename: 'pop_ciap_goias.md'
+        filename: 'tributario/pop_ciap_goias.md'
     },
     {
         id: 'icms-st-energia',
@@ -84,7 +84,7 @@ const popsData = [
         description: 'Procedimentos para cálculo e registro do ICMS-ST sobre energia elétrica adquirida em Ambiente de Contratação Livre (ACL) por empresas em Goiás.',
         version: 'v1.0',
         date: '2025-08-25',
-        filename: 'pop_icms_st_energia_goias.md'
+        filename: 'tributario/pop_icms_st_energia_goias.md'
     },
     {
         id: 'icms-st-frete',
@@ -94,7 +94,7 @@ const popsData = [
         description: 'Metodologia padronizada para identificação, cálculo, apuração e recolhimento do ICMS por Substituição Tributária incidente sobre serviços de transporte de cargas.',
         version: 'v1.0',
         date: '2025-08-25',
-        filename: 'pop_icms_st_frete.md'
+        filename: 'tributario/pop_icms_st_frete.md'
     }
 ];
 
