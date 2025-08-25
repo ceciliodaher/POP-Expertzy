@@ -18,12 +18,12 @@ const popsData = [
     },
     {
         id: 'transportes-fluxos',
-        title: 'Fluxos Transportadora',
+        title: 'Fluxos Transportadora - Medicamentos',
         category: 'transporte',
         categoryLabel: 'Transporte',
-        description: 'Procedimentos operacionais padrão para atividades de transporte e armazenamento, com ênfase em medicamentos e produtos farmacêuticos.',
-        version: 'v2.0',
-        date: '2025-08-24',
+        description: 'Procedimentos operacionais padrão para atividades de transporte e armazenamento, com ênfase em medicamentos e produtos farmacêuticos. Inclui fluxogramas detalhados.',
+        version: 'v3.0',
+        date: '2025-08-25',
         filename: 'transportes_fluxos_pop_v2.md'
     },
     {
@@ -32,18 +32,18 @@ const popsData = [
         category: 'farmaceutico',
         categoryLabel: 'Farmacêutico',
         description: 'Procedimentos fiscais, contábeis e operacionais para remessa de produtos farmacêuticos vencidos ou deteriorados para incineração.',
-        version: 'v1.0',
-        date: '2025-08-24',
+        version: 'v2.0',
+        date: '2025-08-25',
         filename: 'procedimento-incineracao-farmaceutica.md'
     },
     {
         id: 'impostos-importacao',
-        title: 'Procedimentos de Impostos de Importação',
+        title: 'Procedimentos de Impostos de Importação Consolidado',
         category: 'tributario',
         categoryLabel: 'Tributário',
-        description: 'Diretrizes para cálculo e recolhimento de impostos de importação, incluindo II, IPI, PIS, COFINS e ICMS em operações de comércio exterior.',
-        version: 'v1.0',
-        date: '2025-08-24',
+        description: 'Diretrizes consolidadas para cálculo e recolhimento de impostos de importação, incluindo II, IPI, PIS, COFINS e ICMS em operações de comércio exterior.',
+        version: 'v2.0',
+        date: '2025-08-25',
         filename: 'pop_impostos_importacao_v1.md'
     },
     {
@@ -52,8 +52,8 @@ const popsData = [
         category: 'tributario',
         categoryLabel: 'Tributário',
         description: 'Diretrizes para execução de ajustes de inventário em indústrias farmacêuticas, assegurando conformidade com NBC TG 16 e legislação fiscal aplicável, incluindo tratamento de medicamentos controlados e SNGPC.',
-        version: 'v1.0',
-        date: '2025-08-24',
+        version: 'v2.0',
+        date: '2025-08-25',
         filename: 'pop_ajustes_inventario.md'
     },
     {
@@ -62,9 +62,39 @@ const popsData = [
         category: 'tributario',
         categoryLabel: 'Tributário',
         description: 'Procedimentos para apuração mensal do ICMS por estabelecimentos industriais beneficiários do Programa FOMENTAR, incluindo classificação por CFOPs, cálculo do financiamento e preenchimento da EFD ICMS/IPI.',
-        version: 'v1.0',
-        date: '2025-08-24',
+        version: 'v2.0',
+        date: '2025-08-25',
         filename: 'pop_fomentar_padronizado.md'
+    },
+    {
+        id: 'ciap-goias',
+        title: 'Controle de Crédito de ICMS do Ativo Permanente (CIAP) - Goiás',
+        category: 'tributario',
+        categoryLabel: 'Tributário',
+        description: 'Metodologia completa para o Controle de Crédito de ICMS do Ativo Permanente no Estado de Goiás, incluindo apropriação parcelada dos créditos tributários.',
+        version: 'v1.0',
+        date: '2025-08-25',
+        filename: 'pop_ciap_goias.md'
+    },
+    {
+        id: 'icms-st-energia',
+        title: 'ICMS-ST sobre Energia Elétrica em Mercado Livre - Goiás',
+        category: 'tributario',
+        categoryLabel: 'Tributário',
+        description: 'Procedimentos para cálculo e registro do ICMS-ST sobre energia elétrica adquirida em Ambiente de Contratação Livre (ACL) por empresas em Goiás.',
+        version: 'v1.0',
+        date: '2025-08-25',
+        filename: 'pop_icms_st_energia_goias.md'
+    },
+    {
+        id: 'icms-st-frete',
+        title: 'ICMS-ST sobre Frete',
+        category: 'tributario',
+        categoryLabel: 'Tributário',
+        description: 'Metodologia padronizada para identificação, cálculo, apuração e recolhimento do ICMS por Substituição Tributária incidente sobre serviços de transporte de cargas.',
+        version: 'v1.0',
+        date: '2025-08-25',
+        filename: 'pop_icms_st_frete.md'
     }
 ];
 
@@ -269,6 +299,20 @@ const popManager = {
     },
 
     markdownToHtml: (markdown) => {
+        let mermaidCounter = 0;
+        const mermaidBlocks = [];
+        
+        // Primeiro, extrair e substituir blocos Mermaid temporariamente
+        markdown = markdown.replace(/```mermaid\n([\s\S]*?)```/g, (match, mermaidCode) => {
+            const placeholder = `__MERMAID_BLOCK_${mermaidCounter}__`;
+            mermaidBlocks.push({
+                id: `mermaid-diagram-${mermaidCounter}`,
+                code: mermaidCode.trim()
+            });
+            mermaidCounter++;
+            return placeholder;
+        });
+        
         // Conversão básica de Markdown para HTML
         let html = markdown
             // Headers
@@ -283,7 +327,7 @@ const popManager = {
             .replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>')
             .replace(/\*([^*]+)\*/g, '<em>$1</em>')
             
-            // Code blocks
+            // Code blocks (não-mermaid)
             .replace(/```([^`]+)```/g, '<pre><code>$1</code></pre>')
             .replace(/`([^`]+)`/g, '<code>$1</code>')
             
@@ -303,6 +347,19 @@ const popManager = {
         html = html.replace(/(<\/h[1-6]>)<\/p>/g, '$1');
         html = html.replace(/<p>(<pre>)/g, '$1');
         html = html.replace(/(<\/pre>)<\/p>/g, '$1');
+        
+        // Substituir placeholders Mermaid por divs apropriados
+        mermaidBlocks.forEach((block, index) => {
+            const mermaidDiv = `<div class="mermaid-container"><pre class="mermaid" id="${block.id}">${block.code}</pre></div>`;
+            html = html.replace(`__MERMAID_BLOCK_${index}__`, mermaidDiv);
+        });
+        
+        // Agendar renderização do Mermaid após o HTML ser inserido no DOM
+        if (mermaidBlocks.length > 0) {
+            setTimeout(() => {
+                mermaid.run();
+            }, 100);
+        }
         
         return html;
     },

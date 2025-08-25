@@ -1091,3 +1091,56 @@ body {
         justify-content: center;
     }
 }
+
+/* Mermaid Diagram Styles */
+.mermaid-container {
+    margin: 2rem 0;
+    padding: 1rem;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    overflow-x: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.mermaid {
+    max-width: 100%;
+    text-align: center;
+}
+
+/* Override Mermaid default styles to match brand */
+.mermaid .node rect,
+.mermaid .node circle,
+.mermaid .node ellipse,
+.mermaid .node polygon,
+.mermaid .node path {
+    stroke: var(--expertzy-blue) !important;
+}
+
+.mermaid .node.clickable {
+    cursor: pointer;
+}
+
+.mermaid .edgeLabel {
+    background-color: white;
+    padding: 2px 4px;
+    border-radius: 4px;
+}
+
+.mermaid .flowchart-link {
+    stroke: var(--expertzy-blue) !important;
+}
+
+/* Print styles for Mermaid */
+@media print {
+    .mermaid-container {
+        page-break-inside: avoid;
+        background-color: white;
+        border: 1px solid #ddd;
+    }
+    
+    .mermaid svg {
+        max-width: 100%;
+        height: auto;
+    }
+}

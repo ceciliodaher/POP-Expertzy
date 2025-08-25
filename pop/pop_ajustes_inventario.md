@@ -2,661 +2,837 @@
 
 ## AJUSTES DE INVENTÁRIO NA INDÚSTRIA FARMACÊUTICA - VERSÃO 1.0
 
-# SUMÁRIO
+### SUMÁRIO
 
 1. **OBJETIVO** ........................................................................... 3
 2. **ALCANCE** ........................................................................... 3
 3. **DEFINIÇÕES E CONCEITOS** ........................................................ 3
 4. **BASE LEGAL** ........................................................................ 5
-5. **ESTRUTURA DE CONTROLE DE ESTOQUE** ........................................... 6
-6. **PROCEDIMENTOS DE INVENTÁRIO** .................................................. 8
-7. **TRATAMENTO CONTÁBIL DOS AJUSTES** ........................................... 11
-8. **ASPECTOS FISCAIS E TRIBUTÁRIOS** ............................................... 13
-9. **FLUXOS OPERACIONAIS** ........................................................... 16
-10. **ASPECTOS CONTÁBEIS DETALHADOS** ............................................. 18
-11. **DOCUMENTAÇÃO E CONTROLES** ................................................... 20
-12. **PERGUNTAS FREQUENTES** ........................................................ 22
+5. **ESTRUTURA DE CONTROLE DE INVENTÁRIO** ........................................ 6
+6. **METODOLOGIA E PROCEDIMENTOS** ................................................... 8
+7. **CONTROLES E VALIDAÇÕES** ....................................................... 11
+8. **ASPECTOS OPERACIONAIS** ......................................................... 13
+9. **FLUXOS E PROCESSOS** ............................................................. 15
+10. **ASPECTOS CONTÁBEIS E FISCAIS** ................................................ 18
+11. **DOCUMENTAÇÃO E ANEXOS** ........................................................ 21
+12. **PERGUNTAS FREQUENTES E TROUBLESHOOTING** .................................... 23
 
 ---
 
 # 1. OBJETIVO
 
-Este Procedimento Operacional Padrão estabelece diretrizes padronizadas para execução de ajustes de inventário em indústrias farmacêuticas, assegurando conformidade com as normas contábeis brasileiras (NBC TG 16 - Estoques) e legislação fiscal aplicável (ICMS, regulamentações sanitárias). O documento visa minimizar discrepâncias entre estoque físico e contábil, garantir adequado tratamento fiscal das diferenças identificadas e estabelecer controles internos robustos para produtos farmacêuticos, incluindo medicamentos controlados sujeitos ao Sistema Nacional de Gerenciamento de Produtos Controlados (SNGPC).
+Este Procedimento Operacional Padrão estabelece diretrizes sistemáticas e padronizadas para execução de ajustes de inventário em indústrias farmacêuticas, assegurando conformidade integral com as normas contábeis brasileiras NBC TG 16 (Estoques), legislação fiscal aplicável e regulamentações sanitárias específicas do setor. O procedimento visa minimizar discrepâncias entre estoque físico e contábil, garantir tratamento adequado das diferenças identificadas, estabelecer controles internos robustos para produtos farmacêuticos e medicamentos controlados, além de assegurar compliance com o Sistema Nacional de Gerenciamento de Produtos Controlados (SNGPC) da ANVISA.
 
 # 2. ALCANCE
 
-Este POP aplica-se a todos os processos de inventário realizados pela indústria farmacêutica, abrangendo produtos acabados, matérias-primas, materiais de embalagem e insumos farmacêuticos. O escopo contempla diferenças positivas (sobras) e negativas (faltas) identificadas durante contagens físicas, incluindo procedimentos específicos para medicamentos controlados, antimicrobianos e produtos sujeitos à substituição tributária do ICMS. O documento cobre desde a preparação do inventário até a finalização dos ajustes contábeis e fiscais necessários.
+Este POP aplica-se integralmente a todos os processos de inventário realizados pela indústria farmacêutica, abrangendo produtos acabados, matérias-primas farmacológicas, excipientes, materiais de embalagem primária e secundária, insumos farmacêuticos ativos e produtos intermediários. O escopo contempla tratamento específico para diferenças positivas (sobras) e negativas (faltas) identificadas durante contagens físicas sistemáticas, incluindo procedimentos diferenciados para medicamentos controlados das listas A1, A2, A3, B1, B2, C1, C2, C4, C5 da Portaria 344/98, antimicrobianos e produtos sujeitos ao regime de substituição tributária do ICMS. O documento estabelece diretrizes desde a preparação do inventário até a finalização completa dos ajustes contábeis, fiscais e regulatórios necessários.
 
 # 3. DEFINIÇÕES E CONCEITOS
 
 ## 3.1 Definições Operacionais
 
-**Inventário Físico:** Contagem física sistemática de todos os itens em estoque em data específica, comparada com os registros contábeis para identificação de divergências.
+**Inventário Físico:** Procedimento sistemático de contagem física de todos os itens em estoque realizado em data específica, com comparação obrigatória aos registros contábeis para identificação precisa de divergências e posterior tratamento conforme legislação aplicável.
 
-**Diferenças de Inventário:** Divergências identificadas entre o estoque físico apurado e o saldo contábil registrado nos sistemas de controle.
+**Diferenças de Inventário:** Divergências numéricas ou valorativas identificadas entre o estoque físico efetivamente apurado através de contagem e o saldo contábil registrado nos sistemas de controle da empresa, classificadas como positivas ou negativas.
 
-**Ajuste a Maior (Sobras):** Situação em que o estoque físico supera o saldo contábil registrado, resultando em diferença positiva.
+**Ajuste a Maior (Sobras):** Situação em que o estoque físico apurado supera quantitativamente o saldo contábil registrado, resultando em diferença positiva que requer análise de causas e tratamento contábil específico sem impacto fiscal direto.
 
-**Ajuste a Menor (Faltas):** Situação em que o estoque físico é inferior ao saldo contábil registrado, resultando em diferença negativa.
+**Ajuste a Menor (Faltas):** Situação em que o estoque físico apurado é quantitativamente inferior ao saldo contábil registrado, resultando em diferença negativa que exige emissão de documento fiscal, estorno de créditos e lançamento contábil como despesa.
 
-**SNGPC:** Sistema Nacional de Gerenciamento de Produtos Controlados, sistema informatizado da ANVISA para controle da movimentação de medicamentos sujeitos à vigilância sanitária.
+**Sistema Nacional de Gerenciamento de Produtos Controlados (SNGPC):** Sistema informatizado da ANVISA para controle obrigatório da movimentação de medicamentos e substâncias sujeitas a controle especial conforme Portaria SVS/MS nº 344/98.
 
 ## 3.2 Conceitos Técnicos
 
-### 3.2.1 Classificação de Discrepâncias
+### 3.2.1 Classificação de Discrepâncias por Origem
 
-**Erros Operacionais:** Divergências decorrentes de falhas nos processos de movimentação, digitação inadequada ou problemas sistêmicos nos controles de estoque.
+**Erros Operacionais Sistêmicos:** Divergências decorrentes de falhas nos processos de movimentação física, digitação inadequada de dados, problemas de comunicação entre sistemas integrados ou inconsistências nos controles automatizados de estoque.
 
-**Perdas Físicas:** Reduções de estoque decorrentes de deterioração, vencimento, quebras, furtos ou outras causas que resultem em perda efetiva de produtos.
+**Perdas Físicas Identificáveis:** Reduções efetivas de estoque decorrentes de deterioração natural, vencimento de prazo de validade, quebras durante manuseio, contaminação cruzada, furtos comprovados ou outras causas que resultem em perda material dos produtos.
 
-**Correções de Sistema:** Ajustes necessários para correção de inconsistências identificadas nos sistemas de gestão de estoque.
+**Correções de Sistema e Processo:** Ajustes necessários para correção de inconsistências históricas identificadas nos sistemas de gestão de estoque, incluindo reclassificações, correções de unidades de medida e adequações de estrutura de dados.
 
-### 3.2.2 Categorização por Causa
+### 3.2.2 Categorização por Impacto Regulatório
 
-**Perdas Técnicas:** Perdas inerentes ao processo produtivo ou armazenamento, incluindo evaporação, absorção de umidade ou degradação natural.
+**Perdas Técnicas Inerentes:** Perdas consideradas normais ao processo produtivo farmacêutico ou armazenamento especializado, incluindo evaporação de solventes, absorção de umidade ambiental, degradação natural de princípios ativos ou sublimação de substâncias voláteis.
 
-**Perdas Administrativas:** Perdas decorrentes de falhas nos controles internos, procedimentos inadequados ou erro humano.
+**Perdas Administrativas Controláveis:** Perdas decorrentes de falhas identificáveis nos controles internos, procedimentos operacionais inadequados, treinamento insuficiente de colaboradores ou deficiências nos sistemas de segurança patrimonial.
 
-**Perdas Extraordinárias:** Perdas decorrentes de eventos não recorrentes como sinistros, furtos, contaminação ou recall de produtos.
+**Perdas Extraordinárias Não Recorrentes:** Perdas decorrentes de eventos de baixa probabilidade e alto impacto, incluindo sinistros, contaminação microbiológica, recall regulatório, decisões judiciais ou alterações súbitas na regulamentação sanitária.
 
 # 4. BASE LEGAL
 
 ## 4.1 Legislação Federal
 
-- **NBC TG 16 (R2) - Estoques:** Norma brasileira de contabilidade que estabelece critérios para mensuração, reconhecimento e divulgação de estoques.
-- **Lei nº 6.404/76 - Lei das Sociedades Anônimas:** Define critérios contábeis para avaliação de ativos, incluindo estoques.
-- **Decreto-Lei nº 1.598/77:** Regulamenta tratamento tributário dos estoques para fins de imposto de renda.
+- **NBC TG 16 (R2) - Estoques:** Norma brasileira de contabilidade que estabelece critérios obrigatórios para mensuração, reconhecimento inicial e subsequente, divulgação em demonstrações financeiras e tratamento de perdas por redução ao valor recuperável de estoques.
+- **Lei nº 6.404/76 - Lei das Sociedades Anônimas:** Define princípios e critérios contábeis fundamentais para avaliação de ativos circulantes, incluindo estoques, e estabelece responsabilidades da administração na manutenção de controles internos adequados.
+- **Decreto-Lei nº 1.598/77:** Regulamenta especificamente o tratamento tributário dos estoques para fins de apuração do imposto de renda e contribuição social, definindo critérios de dedutibilidade de perdas e métodos de avaliação aceitos.
+- **Instrução Normativa RFB nº 1.700/17:** Disciplina obrigatoriamente a escrituração do Livro Registro de Inventário e estabelece procedimentos específicos para documentação de diferenças identificadas em inventários físicos.
 
 ## 4.2 Legislação Estadual
 
-- **RCTE (Regulamento do ICMS):** Artigo 58 e dispositivos correlatos sobre estorno de créditos em casos de perda de estoque.
-- **Convênio ICMS 100/97:** Disciplina substituição tributária para produtos farmacêuticos.
-- **CFOP 5.927:** Código Fiscal de Operações e Prestações específico para baixa de estoque por perda, roubo ou deterioração.
+- **RICMS - Regulamento do ICMS:** Artigo 67 e dispositivos correlatos estabelecem regras mandatórias sobre estorno de créditos de ICMS em casos documentados de perda, deterioração ou consumo de mercadorias em estoque.
+- **Convênio ICMS 100/97:** Disciplina integralmente o regime de substituição tributária para produtos farmacêuticos, definindo responsabilidades, procedimentos de cálculo e documentação fiscal obrigatória.
+- **CFOP 5.927:** Código Fiscal de Operações e Prestações específico e obrigatório para "lançamento efetuado a título de baixa de estoque decorrente de perda, roubo ou deterioração" com procedimentos detalhados de preenchimento.
 
 ## 4.3 Normas e Regulamentações Específicas
 
-- **RDC ANVISA nº 67/2007:** Estabelece boas práticas de manipulação de preparações magistrais e oficinais.
-- **Portaria SVS/MS nº 344/98:** Regulamenta controle de medicamentos controlados e define obrigatoriedades do SNGPC.
-- **IN RFB nº 1.700/17:** Disciplina escrituração do Livro Registro de Inventário.
+- **RDC ANVISA nº 67/2007 e atualizações:** Estabelece Boas Práticas de Fabricação de Medicamentos, incluindo controles obrigatórios de estoque, rastreabilidade e documentação de movimentações para produtos farmacêuticos.
+- **Portaria SVS/MS nº 344/98 e suas atualizações:** Regulamenta integralmente o controle de medicamentos controlados, define listas de substâncias sujeitas a controle especial e estabelece obrigatoriedades específicas do SNGPC.
+- **Lei nº 13.021/14:** Define atividades privativas do farmacêutico e estabelece responsabilidades técnicas específicas para controle de estoque em estabelecimentos farmacêuticos, incluindo indústrias.
 
-# 5. ESTRUTURA DE CONTROLE DE ESTOQUE
+# 5. ESTRUTURA DE CONTROLE DE INVENTÁRIO
 
-## 5.1 Organização Física do Estoque
+## 5.1 Organização Física Especializada
 
-### 5.1.1 Segregação por Categoria
+### 5.1.1 Segregação por Classificação Regulatória
 
-**Produtos Controlados:** Armazenamento em área específica com controles de acesso diferenciados e monitoramento contínuo das movimentações.
+**Área de Produtos Controlados:** Ambiente físico segregado com controles rigorosos de acesso mediante autorização específica, sistema de monitoramento eletrônico 24 horas, registro obrigatório de entrada e saída de pessoas, cofres ou armários blindados para substâncias das listas A e B, e documentação detalhada de todas as movimentações conforme exigências da ANVISA.
 
-**Produtos Temperatura Controlada:** Câmaras frias e ambientes climatizados com registros contínuos de temperatura e umidade.
+**Câmaras de Temperatura Controlada:** Ambientes climatizados especializados com sistemas redundantes de refrigeração, registros contínuos e ininterruptos de temperatura e umidade relativa, alarmes automáticos para desvios de parâmetros, backup de energia elétrica e protocolos específicos para produtos termolábeis conforme especificações técnicas de cada medicamento.
 
-**Produtos Vencimento Próximo:** Área específica para produtos com prazo de validade inferior a seis meses, com controles diferenciados.
+**Zona de Quarentena e Produtos Vencimento Próximo:** Área física delimitada e identificada para isolamento de produtos com prazo de validade inferior a seis meses, materiais em quarentena aguardando liberação pelo controle de qualidade, produtos reprovados e itens segregados para investigação, com controles diferenciados e restrições específicas de acesso.
 
-**Matérias-Primas:** Segregação por classe terapêutica e compatibilidade química, com identificação clara de lotes e fornecedores.
+**Setor de Matérias-Primas Especiais:** Segregação rigorosa por classe terapêutica, compatibilidade química, grau de toxicidade e requisitos específicos de armazenamento, com identificação clara e inequívoca de lotes, fornecedores qualificados, certificados de análise e condições ambientais específicas para cada categoria de insumo farmacêutico.
 
-#### 5.1.1.1 Controles de Acesso
+#### 5.1.1.1 Sistemas de Segurança e Monitoramento
 
-**Área de Produtos Controlados:** Acesso restrito mediante autorização específica, com registro de entrada e saída de pessoas.
+**Controle de Acesso Eletrônico:** Sistema integrado com cartões de proximidade, biometria digital, registro automático de horários de entrada e saída, relatórios de auditoria e restrições específicas por nível de autorização e categoria de produto controlado.
 
-**Sistema de Monitoramento:** Câmeras de segurança, sensores de movimento e alarmes para todas as áreas críticas.
+**Videomonitoramento Integrado:** Câmeras de alta definição com gravação contínua por período mínimo de 60 dias, cobertura integral das áreas críticas, sistema de detecção de movimento, alertas automáticos para situações anômalas e integração com central de monitoramento 24 horas.
 
-#### 5.1.1.2 Identificação e Rastreabilidade
+#### 5.1.1.2 Identificação e Rastreabilidade Completa
 
-**Etiquetagem Padronizada:** Código de barras ou QR Code em todas as unidades de estoque, incluindo informações de lote, validade e localização.
+**Sistema de Códigos Únicos:** Implementação obrigatória de código de barras bidimensional (QR Code) em todas as unidades de estoque, contendo informações completas de produto, lote de fabricação, data de validade, localização física específica, histórico de movimentações e status regulatório.
 
-**Sistema FIFO/FEFO:** Controle rigoroso de First Expired, First Out para produtos com prazo de validade.
+**Controle FIFO/FEFO Rigoroso:** Aplicação sistemática dos princípios First In First Out e First Expired First Out, com controles automatizados para prevenção de uso de produtos vencidos, alertas antecipados para produtos próximos ao vencimento e procedimentos específicos para rotação adequada de estoque.
 
-### 5.1.2 Sistemas de Controle
+### 5.1.2 Sistemas Tecnológicos Integrados
 
-**ERP Integrado:** Sistema de gestão empresarial com módulos específicos para controle de estoque farmacêutico.
+**Plataforma ERP Farmacêutica:** Sistema de gestão empresarial especializado com módulos específicos para controle de estoque farmacêutico, integração obrigatória com sistemas regulatórios (SNGPC, SNVS), controles de rastreabilidade, gestão de lotes e validades, e relatórios gerenciais especializados.
 
-**Interface SNGPC:** Integração automática com sistema da ANVISA para movimentação de produtos controlados.
+**Interface Automatizada SNGPC:** Integração em tempo real com o sistema da ANVISA para transmissão automática de movimentações de produtos controlados, validação de receituários, controle de estoque mínimo e máximo, e geração de relatórios regulatórios obrigatórios.
 
-## 5.2 Periodicidade dos Inventários
+## 5.2 Periodicidade e Cronograma de Inventários
 
-### 5.2.1 Inventário Geral
+### 5.2.1 Inventário Geral Anual
 
-**Frequência:** Anual, preferencialmente no encerramento do exercício fiscal (31 de dezembro).
+**Período Obrigatório:** Realização anual no encerramento do exercício fiscal (31 de dezembro) ou data próxima, com escopo integral abrangendo a totalidade do estoque incluindo produtos acabados, matérias-primas, materiais de embalagem, produtos intermediários e todos os insumos farmacêuticos.
 
-**Escopo:** Totalidade do estoque, incluindo todos os produtos, matérias-primas e materiais de embalagem.
+**Preparação Antecipada:** Planejamento iniciado 60 dias antes da data prevista, com definição de equipes especializadas, cronograma detalhado de atividades, treinamento específico de colaboradores e preparação de todos os recursos materiais e tecnológicos necessários.
 
-### 5.2.2 Inventários Parciais
+### 5.2.2 Inventários Parciais Especializados
 
-**Frequência:** Mensal para produtos controlados, trimestral para demais categorias.
+**Produtos Controlados:** Inventário mensal obrigatório para todos os medicamentos das listas A, B e C da Portaria 344/98, com procedimentos específicos de dupla contagem, validação pelo responsável técnico e transmissão obrigatória de dados para o SNGPC dentro dos prazos regulamentares.
 
-**Critérios de Seleção:** Rotatividade, valor, criticidade regulatória e histórico de divergências.
+**Produtos Críticos:** Inventário trimestral para medicamentos de alto valor agregado, produtos com histórico de discrepâncias, itens com baixa rotatividade, produtos próximos ao vencimento e materiais sujeitos a controles especiais de qualidade ou regulamentação específica.
 
-# 6. PROCEDIMENTOS DE INVENTÁRIO
+# 6. METODOLOGIA E PROCEDIMENTOS
 
-## 6.1 Fase Preparatória
+## 6.1 Procedimentos Preparatórios Sistemáticos
 
-### 6.1.1 Planejamento do Inventário
+### 6.1.1 Etapa de Planejamento Estratégico
 
-**Passo 1:** Definir data do inventário, preferencialmente em período de menor movimentação (final de semana ou feriado).
+**Passo 1:** Definição precisa da data de inventário priorizando períodos de menor movimentação operacional (finais de semana, feriados prolongados ou períodos de parada programada da produção) para minimização de interferências e maximização da precisão dos resultados.
 
-**Passo 2:** Comunicar formalmente todos os departamentos envolvidos com antecedência mínima de 15 dias.
+**Passo 2:** Comunicação formal e documentada a todos os departamentos envolvidos (produção, logística, qualidade, comercial, fiscal, contábil) com antecedência mínima obrigatória de 15 dias úteis, incluindo cronograma detalhado e responsabilidades específicas de cada área.
 
-**Passo 3:** Preparar equipes de contagem com treinamento específico sobre procedimentos e sistemas.
+**Passo 3:** Constituição e treinamento especializado de equipes de contagem com conhecimento técnico específico sobre produtos farmacêuticos, procedimentos regulatórios, sistemas de gestão utilizados e protocolos de segurança para manuseio de medicamentos controlados.
 
-**Passo 4:** Organizar materiais necessários: pranchetas, canetas, etiquetas de identificação, leitores de código de barras.
+**Passo 4:** Organização completa de materiais e recursos necessários incluindo pranchetas padronizadas, canetas específicas, etiquetas de identificação à prova d'água, leitores portáteis de código de barras, equipamentos de proteção individual e formulários pré-impressos de contagem.
 
-### 6.1.2 Preparação do Ambiente
+### 6.1.2 Preparação do Ambiente Operacional
 
-**Passo 1:** Interromper movimentações de estoque 2 horas antes do início da contagem.
+**Passo 1:** Interrupção programada e documentada de todas as movimentações de estoque (recebimentos, expedições, transferências internas, coletas para análise) com período mínimo de 2 horas antes do início efetivo da contagem física.
 
-**Passo 2:** Finalizar todos os lançamentos pendentes no sistema de gestão de estoque.
+**Passo 2:** Finalização obrigatória de todos os lançamentos pendentes nos sistemas de gestão de estoque, processamento de notas fiscais de entrada e saída, atualização de transferências entre depósitos e consolidação de dados para geração do relatório de posição contábil.
 
-**Passo 3:** Emitir relatório de posição de estoque (saldo contábil) imediatamente antes da contagem.
+**Passo 3:** Emissão do relatório oficial de posição de estoque (saldo contábil detalhado por produto, lote, localização e validade) imediatamente antes do início da contagem física, com timestamp específico e validação pelo responsável técnico.
 
-**Passo 4:** Organizar fisicamente o estoque, agrupando produtos por código e lote.
+**Passo 4:** Organização física sistemática do estoque com agrupamento de produtos por código de identificação, segregação por lote de fabricação, verificação de condições de armazenamento e identificação clara de produtos com restrições específicas ou status especial.
 
-### 6.1.3 Formação das Equipes
+### 6.1.3 Estruturação de Equipes Especializadas
 
-**Equipe de Contagem:** Mínimo 2 pessoas por área, sendo uma responsável pela contagem e outra pela conferência.
+**Equipe de Contagem Primária:** Composição mínima de 2 colaboradores treinados por área específica, sendo um responsável pela contagem efetiva e outro pela conferência independente, ambos com conhecimento técnico sobre os produtos e procedimentos regulatórios aplicáveis.
 
-**Equipe de Supervisão:** Responsável técnico e gerente de estoque para validação dos procedimentos.
+**Equipe de Supervisão Técnica:** Responsável técnico legalmente habilitado, gerente de estoque com experiência comprovada e supervisor de qualidade para validação dos procedimentos, aprovação de situações excepcionais e garantia de conformidade regulatória.
 
-**Equipe de Apoio:** Pessoal de TI para suporte aos sistemas e pessoal administrativo para documentação.
+**Equipe de Apoio Operacional:** Pessoal especializado de tecnologia da informação para suporte aos sistemas, colaboradores administrativos para documentação e registro, e equipe de segurança para controle de acesso às áreas críticas durante o inventário.
 
-## 6.2 Execução da Contagem
+## 6.2 Procedimentos de Execução Operacional
 
-### 6.2.1 Procedimento de Contagem Física
+### 6.2.1 Metodologia de Contagem Física Sistemática
 
-**Passo 1:** Realizar primeira contagem por equipe específica, registrando quantidade, lote, validade e localização.
+**Passo 1:** Execução da primeira contagem por equipe específica e treinada, com registro detalhado de quantidade física exata, identificação completa do lote, verificação da data de validade, confirmação da localização física e avaliação das condições gerais de conservação do produto.
 
-**Passo 2:** Executar segunda contagem independente por equipe distinta para validação.
+**Passo 2:** Realização de segunda contagem completamente independente por equipe distinta, sem acesso aos resultados da primeira contagem, utilizando os mesmos critérios de verificação e documentação para garantia da confiabilidade e precisão dos dados apurados.
 
-**Passo 3:** Identificar divergências entre primeira e segunda contagem e proceder reconciliação.
+**Passo 3:** Processo de reconciliação sistemática entre os resultados das duas contagens independentes, identificação precisa de divergências encontradas, análise imediata das possíveis causas e decisão sobre necessidade de terceira contagem para casos específicos.
 
-**Passo 4:** Registrar observações sobre condições dos produtos (vencidos, avariados, segregados).
+**Passo 4:** Registro obrigatório de observações detalhadas sobre condições especiais identificadas durante a contagem (produtos vencidos, embalagens danificadas, itens segregados para análise, materiais em quarentena, produtos com restrições específicas).
 
-### 6.2.2 Controle de Qualidade da Contagem
+### 6.2.2 Controles de Qualidade e Validação
 
-**Verificação Cruzada:** Comparação entre resultados das equipes de contagem independentes.
+**Verificação Cruzada Independente:** Implementação obrigatória de comparação entre resultados das equipes de contagem completamente independentes, com análise estatística de divergências e estabelecimento de critérios objetivos para aceitação ou rejeição dos resultados obtidos.
 
-**Amostragem:** Recontagem de amostra estatisticamente significativa para validação da precisão.
+**Amostragem Estatística de Validação:** Execução de recontagem de amostra estatisticamente significativa (mínimo 5% do total de itens ou conforme critério de materialidade estabelecido) para validação da precisão geral do inventário e identificação de possíveis tendências ou padrões de erro.
 
-**Documentação:** Registro fotográfico de situações excepcionais ou produtos com problemas identificados.
+**Documentação Fotográfica Comprobatória:** Registro visual obrigatório de situações excepcionais, produtos com problemas identificados, áreas com discrepâncias significativas, condições inadequadas de armazenamento e qualquer situação que possa impactar a confiabilidade dos resultados.
 
-### 6.2.3 Tratamento de Divergências
+### 6.2.3 Tratamento Sistematizado de Divergências
 
-**Primeira Divergência:** Recontagem imediata pela equipe de supervisão.
+**Protocolo de Primeira Divergência:** Procedimento automático de recontagem imediata pela equipe de supervisão técnica, com análise detalhada das possíveis causas, verificação de documentação de movimentações recentes e validação dos procedimentos utilizados pelas equipes de contagem.
 
-**Persistência da Divergência:** Investigação detalhada das causas e documentação formal.
+**Investigação de Divergências Persistentes:** Para casos em que a divergência permanece após recontagem supervisória, implementação de investigação aprofundada incluindo análise documental histórica, entrevistas com colaboradores envolvidos e revisão de controles internos aplicáveis.
 
-**Aprovação:** Validação final pelo responsável técnico antes da finalização.
+**Processo de Aprovação Final:** Validação obrigatória pelo responsável técnico legalmente habilitado de todas as divergências identificadas, com documentação formal das causas identificadas, medidas corretivas implementadas e aprovação específica antes da finalização do inventário.
 
-## 6.3 Análise das Diferenças
+## 6.3 Análise Especializada das Diferenças
 
-### 6.3.1 Investigação de Causas
+### 6.3.1 Investigação Técnica de Causas Raiz
 
-**Análise Documental:** Revisão de notas fiscais, requisições de material e registros de movimentação.
+**Análise Documental Abrangente:** Revisão sistemática e detalhada de notas fiscais de entrada e saída, requisições internas de material, ordens de produção, relatórios de análises laboratoriais, registros de transferências entre depósitos e toda a documentação de movimentação dos últimos seis meses.
 
-**Verificação Sistêmica:** Análise de lançamentos no ERP e identificação de possíveis falhas.
+**Verificação Sistêmica Integrada:** Análise técnica aprofundada de lançamentos no sistema ERP, verificação de interfaces com sistemas complementares, identificação de possíveis falhas de integração, análise de logs de sistema e verificação de procedimentos de backup e recuperação de dados.
 
-**Entrevistas:** Conversa com operadores responsáveis pelas movimentações para esclarecimento de discrepâncias.
+**Entrevistas Estruturadas:** Realização de entrevistas formais e documentadas com operadores responsáveis pelas movimentações de estoque, supervisores de área, analistas de sistemas e demais colaboradores envolvidos nos processos para esclarecimento detalhado de discrepâncias e identificação de oportunidades de melhoria.
 
-### 6.3.2 Classificação das Divergências
+### 6.3.2 Classificação Técnica das Divergências
 
-**Erros de Lançamento:** Divergências decorrentes de falhas na digitação ou processamento de movimentações.
+**Erros de Lançamento e Processamento:** Divergências decorrentes especificamente de falhas na digitação de dados, processamento inadequado de movimentações, problemas de comunicação entre sistemas integrados ou inconsistências nos procedimentos de lançamento de informações.
 
-**Perdas Operacionais:** Quebras, deterioração ou contaminação durante processos produtivos ou armazenamento.
+**Perdas Operacionais Identificáveis:** Quebras físicas durante manuseio e transporte, deterioração natural de produtos, contaminação por condições inadequadas de armazenamento, evaporação de solventes, sublimação de princípios ativos ou degradação química comprovada.
 
-**Perdas Administrativas:** Furtos, extravios ou falhas nos controles de segurança.
+**Perdas Administrativas Controláveis:** Furtos comprovados através de investigação, extravios por falhas nos controles de segurança, perdas por procedimentos inadequados de armazenamento, falhas na manutenção de equipamentos ou deficiências no treinamento de colaboradores.
 
-### 6.3.3 Documentação da Análise
+### 6.3.3 Documentação Formal da Análise
 
-**Relatório de Investigação:** Documento formal descrevendo causas identificadas e medidas corretivas propostas.
+**Relatório Técnico de Investigação:** Documento formal e detalhado descrevendo metodologia de investigação utilizada, causas específicas identificadas para cada divergência, análise de impacto regulatório e fiscal, medidas corretivas propostas e cronograma de implementação.
 
-**Evidências:** Anexação de documentos comprobatórios, fotografias e registros sistêmicos relevantes.
+**Anexação de Evidências Comprobatórias:** Inclusão obrigatória de documentos originais comprobatórios, fotografias técnicas, registros sistêmicos relevantes, laudos laboratoriais quando aplicável, boletins de ocorrência para casos de furto e qualquer evidência que suporte as conclusões apresentadas.
 
-**Aprovação:** Validação pelo responsável técnico e departamento de qualidade antes da finalização.
+**Validação Técnica e Aprovação:** Processo formal de validação pelo responsável técnico legalmente habilitado, aprovação pelo departamento de qualidade, revisão pela auditoria interna quando aplicável e aprovação final pela diretoria antes da implementação dos ajustes identificados como necessários.
 
-# 7. TRATAMENTO CONTÁBIL DOS AJUSTES
+# 7. CONTROLES E VALIDAÇÕES
 
-## 7.1 Fundamentos Normativos
+## 7.1 Controles Documentais Obrigatórios
 
-### 7.1.1 Aplicação da NBC TG 16
+### 7.1.1 Documentos de Suporte Mandatórios
 
-**Mensuração de Estoques:** Os estoques devem ser mensurados pelo valor de custo ou valor realizável líquido, dos dois o menor.
+**Planilhas de Contagem Oficial:** Registros físicos padronizados assinados obrigatoriamente pelas equipes responsáveis pela contagem, contendo identificação completa dos contadores, horário específico de execução, quantidade física apurada, identificação do lote, data de validade e observações técnicas relevantes.
 
-**Reconhecimento de Perdas:** Perdas identificadas devem ser reconhecidas no resultado do período em que ocorreram.
+**Relatório Consolidado Executivo:** Documento síntese contendo resumo executivo das principais diferenças identificadas, análise estatística de divergências por categoria de produto, causas identificadas através de investigação técnica, impacto financeiro total e recomendações para melhoria dos controles internos.
 
-**Critério de Avaliação:** Utilização do método FIFO (First In, First Out) ou custo médio ponderado conforme política contábil da empresa.
+**Documentação Fotográfica Técnica:** Registro visual sistemático de situações excepcionais identificadas durante o inventário, produtos com problemas de conservação, áreas com discrepâncias significativas, condições inadequadas de armazenamento e evidências que suportem as conclusões da investigação técnica.
 
-### 7.1.2 Princípios de Reconhecimento
+### 7.1.2 Validações Documentais Sistemáticas
 
-**Competência:** Ajustes devem ser reconhecidos no período em que as diferenças foram identificadas.
+**Conferência Integral de Dados:** Validação obrigatória de 100% dos dados de contagem através de verificação cruzada entre equipes independentes, confirmação de informações críticas (lote, validade, quantidade), comparação com registros contábeis e verificação de consistência matemática dos cálculos realizados.
 
-**Materialidade:** Diferenças imateriais podem ser tratadas diretamente no resultado sem investigação detalhada.
+**Verificação de Autenticidade:** Confirmação da autenticidade de todos os documentos utilizados como suporte para justificativa de diferenças, validação de assinaturas dos responsáveis, verificação de carimbos e identificações profissionais, e confirmação da veracidade das informações prestadas.
 
-**Conservadorismo:** Em caso de dúvida, adotar tratamento mais conservador para proteção dos stakeholders.
+**Checklist de Completude:** Verificação sistemática da completude de toda a documentação obrigatória conforme checklist pré-definido, confirmação do preenchimento adequado de todos os campos obrigatórios, validação da consistência entre documentos e verificação do cumprimento de todos os requisitos regulatórios aplicáveis.
 
-## 7.2 Ajustes a Maior (Sobras)
+**Controle de Prazos e Vencimentos:** Monitoramento rigoroso de todos os prazos regulamentares aplicáveis (transmissão SNGPC, emissão de documentos fiscais, registro em livros obrigatórios), controle de validades de produtos identificados no inventário e verificação de cumprimento de cronogramas estabelecidos.
 
-### 7.2.1 Tratamento Contábil Padrão
+## 7.2 Controles Operacionais Especializados
 
-**Lançamento Contábil:**
+### 7.2.1 Checklist de Validação Técnica
 
-- **Débito:** Estoques de Produtos Acabados/Matérias-Primas (Ativo Circulante)
-- **Crédito:** Reversão de Custo das Mercadorias Vendidas ou conta específica "Ajustes Positivos de Inventário"
+- ✅ **Segregação adequada de produtos controlados:** Verificação da manutenção de produtos das listas A, B e C em áreas específicas com controles de acesso apropriados
+- ✅ **Integridade das condições de armazenamento:** Confirmação de que produtos termolábeis mantiveram temperatura adequada e produtos sensíveis à umidade foram preservados adequadamente
+- ✅ **Rastreabilidade completa de lotes:** Verificação de que todos os produtos possuem identificação clara de lote de fabricação e origem comprovada
+- ✅ **Conformidade com prazos de validade:** Confirmação de que não há produtos vencidos em estoque regular e produtos próximos ao vencimento estão adequadamente segregados
+- ✅ **Documentação regulatória atualizada:** Verificação de que todos os medicamentos controlados possuem documentação adequada e registros atualizados no SNGPC
+- ✅ **Controles de segurança operacionais:** Confirmação de que sistemas de segurança, videomonitoramento e controles de acesso funcionaram adequadamente durante todo o inventário
 
-### 7.2.2 Análise de Natureza
+### 7.2.2 Controles de Qualidade Especializados
 
-**Correção de Erro:** Se a sobra decorrer de erro de lançamento anterior, tratar como ajuste de exercícios anteriores.
+**Revisão por Segunda Pessoa Qualificada:** Implementação obrigatória de procedimento de revisão dupla por profissional qualificado e independente da execução inicial, com verificação detalhada de todos os cálculos realizados, confirmação da adequação dos procedimentos utilizados e validação da consistência dos resultados obtidos.
 
-**Ganho Efetivo:** Se representa descoberta de estoque não registrado, reconhecer como receita não operacional.
+**Documentação Técnica de Evidências:** Manutenção de arquivo técnico contendo todas as evidências que suportam os ajustes realizados, incluindo laudos laboratoriais, relatórios de análise, registros fotográficos, boletins de ocorrência e qualquer documentação técnica relevante para justificativa das diferenças identificadas.
 
-## 7.3 Ajustes a Menor (Faltas)
+**Arquivo Organizado por Categorias:** Implementação de sistema de arquivo físico e eletrônico organizado por categorias específicas (produtos controlados, produtos termolábeis, matérias-primas, produtos acabados), com indexação adequada e facilidade de localização para auditorias internas e externas.
 
-### 7.3.1 Tratamento Contábil por Causa
+**Backup de Dados Críticos:** Manutenção obrigatória de cópias de segurança de todos os dados críticos do inventário, incluindo planilhas de contagem, relatórios sistêmicos, registros fotográficos e documentação de suporte, armazenadas em local seguro e distinto do arquivo principal.
 
-**Perdas Operacionais:**
+# 8. ASPECTOS OPERACIONAIS
 
-- **Débito:** Custo das Mercadorias Vendidas
-- **Crédito:** Estoques de Produtos/Matérias-Primas
+## 8.1 Matriz de Responsabilidades Detalhada
 
-**Perdas Extraordinárias:**
+### 8.1.1 Responsabilidades por Função Específica
 
-- **Débito:** Despesas Não Operacionais - Perdas Extraordinárias
-- **Crédito:** Estoques de Produtos/Matérias-Primas
+**Responsável Técnico (Farmacêutico):**
 
-### 7.3.2 Documentação de Suporte
+- Validação técnica de todos os procedimentos relacionados a medicamentos controlados e produtos farmacêuticos especiais
+- Aprovação final de ajustes que impactem produtos sujeitos à vigilância sanitária e controle especial da ANVISA
+- Assinatura obrigatória de relatórios técnicos e documentação regulatória específica do setor farmacêutico
+- Responsabilidade legal pela transmissão adequada de dados ao SNGPC e cumprimento de exigências da Portaria 344/98
 
-**Laudo Técnico:** Para perdas por deterioração ou contaminação, laudo do responsável técnico.
+**Gerente de Estoque e Logística:**
 
-**Boletim de Ocorrência:** Para casos de furto ou roubo, registro policial formal.
+- Coordenação geral do processo de inventário incluindo planejamento, execução, controle de qualidade e finalização
+- Supervisão direta das equipes de contagem e garantia da adequação dos procedimentos operacionais implementados
+- Análise técnica das causas de diferenças identificadas e proposição de medidas corretivas para melhoria contínua
+- Interface com departamentos correlatos (produção, qualidade, comercial) para garantia de informações precisas e atualizadas
 
-**Relatório de Investigação:** Documento interno detalhando causas e responsabilidades.
+**Controller/Gerente Contábil:**
 
-# 8. ASPECTOS FISCAIS E TRIBUTÁRIOS
+- Execução de todos os lançamentos contábeis decorrentes dos ajustes de inventário conforme normas contábeis brasileiras
+- Análise de impacto nas demonstrações financeiras e adequação aos princípios contábeis aplicáveis ao setor farmacêutico
+- Coordenação com auditoria externa para validação dos procedimentos contábeis e tratamento adequado dos ajustes realizados
+- Manutenção de controles internos contábeis adequados e documentação de suporte para justificativa dos lançamentos efetuados
 
-## 8.1 Diferenças Positivas (Sobras)
+**Coordenador Fiscal e Tributário:**
 
-### 8.1.1 Tratamento Fiscal
+- Emissão de todos os documentos fiscais obrigatórios (NF-e, livros fiscais, declarações) conforme legislação aplicável
+- Cálculo preciso de estornos de créditos de ICMS e demais obrigações tributárias decorrentes de ajustes de inventário
+- Registro adequado na Escrituração Fiscal Digital (EFD-ICMS/IPI) e demais obrigações acessórias federais e estaduais
+- Interface com consultoria tributária especializada para casos complexos e acompanhamento de alterações legislativas
 
-**Obrigações Documentais:** Não há exigência de emissão de documento fiscal específico.
+### 8.1.2 Matriz RACI de Responsabilidades
 
-**Registro Contábil:** Lançamento apenas nos livros contábeis e registro de inventário.
+| Atividade                          | RT  | Ger. Estoque | Controller | Fiscal |
+| ---------------------------------- | --- | ------------ | ---------- | ------ |
+| Planejamento Inventário            | C   | R            | I          | I      |
+| Contagem Física Produtos           | A   | R            | I          | I      |
+| Validação Medicamentos Controlados | R   | C            | I          | I      |
+| Análise Causas Diferenças          | C   | R            | A          | C      |
+| Lançamentos Contábeis              | I   | C            | R          | A      |
+| Emissão Documentos Fiscais         | I   | I            | C          | R      |
+| Transmissão SNGPC                  | R   | C            | I          | I      |
+| Aprovação Final Ajustes            | R   | A            | C          | C      |
 
-**EFD-ICMS/IPI:** Registro no Bloco K, utilizando K280 para correção de saldo de estoque.
+*R=Responsável pela execução, A=Aprovador final, C=Consultado, I=Informado*
 
-### 8.1.2 Aspectos Tributários
+## 8.2 Prazos Regulamentares e Cronograma
 
-**ICMS:** Não há incidência de ICMS sobre ajustes positivos de inventário.
+### 8.2.1 Prazos Regulamentares Obrigatórios
 
-**IPI:** Para indústrias, não há incidência de IPI sobre correções de estoque.
+**Transmissão SNGPC:** Prazo máximo de 7 dias úteis após identificação de diferenças em medicamentos controlados para transmissão obrigatória dos dados ao Sistema Nacional de Gerenciamento de Produtos Controlados da ANVISA, sob pena de sanções regulatórias específicas.
 
-**PIS/COFINS:** Não há impacto nas contribuições sociais para ajustes de inventário.
+**Emissão de Documentos Fiscais:** Prazo máximo de 5 dias úteis após aprovação final dos ajustes para emissão de notas fiscais eletrônicas (CFOP 5.927) e demais documentos fiscais obrigatórios, conforme determinações da legislação estadual do ICMS.
 
-## 8.2 Diferenças Negativas (Faltas)
+**Registro em EFD-ICMS/IPI:** Prazo alinhado com cronograma de transmissão da Escrituração Fiscal Digital, respeitando especificamente os prazos do Bloco K para movimentações de estoque e ajustes de inventário conforme Manual de Orientação vigente.
 
-### 8.2.1 Emissão de Documento Fiscal
+**Lançamentos Contábeis:** Prazo máximo de 3 dias úteis após aprovação final dos ajustes para execução de todos os lançamentos contábeis necessários, garantindo reflexo adequado nas demonstrações financeiras do período correspondente ao inventário realizado.
 
-**CFOP 5.927:** "Lançamento efetuado a título de baixa de estoque decorrente de perda, roubo ou deterioração"
+### 8.2.2 Cronograma Detalhado de Atividades
 
-**Natureza da Operação:** "Baixa de Estoque por Perda/Deterioração/Ajuste de Inventário"
+**Fase Preparatória (30 dias):** Planejamento estratégico incluindo definição de cronograma detalhado, constituição de equipes especializadas, preparação de materiais e recursos, treinamento de colaboradores e comunicação formal a todos os departamentos envolvidos no processo.
 
-**Campos Específicos:** Não destacar ICMS na nota fiscal, informar causa da baixa no campo observações.
+**Fase de Execução (3 dias):** Bloqueio de movimentações, contagem física sistemática, reconciliação de divergências, investigação técnica de causas, validação por equipe de supervisão e consolidação final de todos os resultados obtidos durante o inventário.
 
-### 8.2.2 Estorno de Créditos
+**Fase de Finalização (15 dias):** Análise aprofundada de causas, elaboração de relatórios técnicos, aprovação pela diretoria, execução de lançamentos contábeis e fiscais, transmissão de dados regulatórios e implementação de medidas corretivas identificadas como necessárias.
 
-**Base Legal:** Artigo 58 do RCTE-GO - estorno de crédito proporcional à quantidade baixada.
+# 9. FLUXOS E PROCESSOS
 
-**Cálculo:** (Quantidade baixada ÷ Quantidade total do lote) × Crédito original
-
-**Registro:** Lançamento no Livro de Apuração do ICMS e sistema de escrituração fiscal.
-
-### 8.2.3 Produtos sob Substituição Tributária
-
-**ICMS-ST:** Para produtos farmacêuticos sob ST, verificar necessidade de ajuste no recolhimento.
-
-**Documentação:** Emissão de nota fiscal complementar quando necessário ajuste de ICMS-ST.
-
-**CFOP Complementar:** Utilizar 5.929 para ajustes de ICMS-ST quando aplicável.
-
-## 8.3 Medicamentos Controlados
-
-### 8.3.1 Procedimentos no SNGPC
-
-**Registro de Entrada:** Para sobras identificadas, registrar como "Ajuste de Inventário - Entrada"
-
-**Registro de Saída:** Para faltas identificadas, registrar como "Ajuste de Inventário - Saída"
-
-**Justificativa:** Campo obrigatório detalhando a natureza e causa do ajuste realizado.
-
-### 8.3.2 Diferenciação Regulatória
-
-**Inventário Físico:** Contagem física de todos os produtos para fins contábeis e fiscais.
-
-**Inventário SNGPC:** Controle específico para medicamentos controlados conforme Portaria 344/98.
-
-**Antimicrobianos:** Inventário específico diferenciado do inventário geral da empresa.
-
-# 9. FLUXOS OPERACIONAIS
-
-## 9.1 Fluxo de Inventário Padrão
-
-### 9.1.1 Fase Preparatória
-
-**Etapa 1:** Planejamento e cronograma (15 dias antes)
-**Etapa 2:** Treinamento das equipes (7 dias antes)
-**Etapa 3:** Preparação do ambiente físico (1 dia antes)
-**Etapa 4:** Bloqueio de movimentações (2 horas antes)
-
-### 9.1.2 Fase de Execução
-
-**Etapa 1:** Primeira contagem por equipe designada
-**Etapa 2:** Segunda contagem independente para validação
-**Etapa 3:** Reconciliação de divergências identificadas
-**Etapa 4:** Contagem de supervisão para casos críticos
-
-### 9.1.3 Fase de Finalização
-
-**Etapa 1:** Consolidação dos resultados de contagem
-**Etapa 2:** Análise de causas das diferenças identificadas
-**Etapa 3:** Aprovação dos ajustes pela diretoria técnica
-**Etapa 4:** Processamento dos lançamentos contábeis e fiscais
-
-## 9.2 Fluxo de Tratamento de Exceções
-
-### 9.2.1 Identificação de Divergências Significativas
-
-**Trigger 1:** Diferenças superiores a 1% do valor do estoque por categoria
-**Trigger 2:** Faltas de medicamentos controlados em qualquer quantidade
-**Trigger 3:** Produtos vencidos não identificados anteriormente
-
-### 9.2.2 Processo de Investigação Aprofundada
-
-**Passo 1:** Formação de comitê de investigação com participação multidisciplinar
-**Passo 2:** Análise documental detalhada dos últimos 6 meses
-**Passo 3:** Entrevista com colaboradores envolvidos nas movimentações
-**Passo 4:** Revisão de controles internos e identificação de falhas sistêmicas
-**Passo 5:** Elaboração de relatório conclusivo com medidas corretivas
-
-# 10. ASPECTOS CONTÁBEIS DETALHADOS
-
-## 10.1 Tratamento Contábil por Categoria
-
-### 10.1.1 Produtos Acabados
-
-**Ajustes Positivos:** Reconhecimento no ativo circulante com contrapartida em conta de resultado específica
-
-**Ajustes Negativos:** Baixa do ativo com débito em conta de despesa operacional ou não operacional conforme causa
-
-**Critério de Avaliação:** Utilizar custo de produção completo incluindo materiais, mão de obra e custos indiretos
-
-### 10.1.2 Matérias-Primas e Insumos
-
-**Avaliação:** Custo de aquisição incluindo impostos não recuperáveis e gastos de transporte
-
-**Tratamento de Perdas:** Classificação entre perdas normais (custo do produto) e anormais (despesa do período)
-
-**Controle Analítico:** Manutenção de controle por lote para rastreabilidade e gestão de qualidade
-
-## 10.2 Aspectos Fiscais Específicos
-
-### 10.2.1 Impacto no Lucro Real
-
-**Base de Cálculo:** Ajustes de inventário afetam base de cálculo do IRPJ e CSLL
-
-**Limitações de Dedutibilidade:** Perdas extraordinárias dependem de comprovação adequada
-
-**Controle de Temporalidade:** Diferimento de efeitos tributários quando aplicável
-
-### 10.2.2 Escrituração Fiscal
-
-**EFD-ICMS/IPI:** Registros no Bloco K conforme Manual de Orientação
-
-**ECF:** Impacto na escrituração contábil fiscal para apuração do lucro real
-
-**DCTF:** Reflexos na Declaração de Débitos e Créditos Tributários Federais
-
-# 11. FLUXOGRAMAS DE PROCESSO
-
-## 11.1 Fluxograma Geral de Inventário
+## 9.1 Fluxo Geral de Inventário
 
 ```mermaid
 flowchart TD
-    A[Planejamento do Inventário] --> B[Preparação da Equipe]
-    B --> C[Bloqueio de Movimentações]
-    C --> D[Emissão Relatório Posição Estoque]
-    D --> E[Primeira Contagem Física]
-    E --> F[Segunda Contagem Independente]
-    F --> G{Divergência entre Contagens?}
-    G -->|Sim| H[Terceira Contagem Supervisão]
-    G -->|Não| I[Comparação com Saldo Contábil]
-    H --> I
-    I --> J{Diferenças Identificadas?}
-    J -->|Não| K[Inventário Finalizado]
-    J -->|Sim| L[Análise de Causas]
-    L --> M[Classificação da Diferença]
-    M --> N{Tipo de Diferença}
-    N -->|Sobra| O[Processo Ajuste Positivo]
-    N -->|Falta| P[Processo Ajuste Negativo]
-    O --> Q[Lançamento Contábil]
-    P --> R[Emissão NF-e CFOP 5.927]
-    R --> S[Estorno Crédito ICMS]
-    S --> T[Lançamento Contábil]
-    Q --> U[Atualização SNGPC]
+    A["🎯 Planejamento Estratégico\n30 dias antes"]
+    B["👥 Formação Equipes\nEspecializada"]
+    C["🚫 Bloqueio Movimentações\n2h antes"]
+    D["📊 Relatório Posição\nEstoque Contábil"]
+    E["🔍 Primeira Contagem\nEquipe A"]
+    F["🔍 Segunda Contagem\nEquipe B Independente"]
+    G{"❓ Divergência\nentre Contagens?"}
+    H["📈 Comparação com\nSaldo Contábil"]
+    I["👨‍💼 Terceira Contagem\nSupervisão"]
+    J{"📋 Diferenças\nIdentificadas?"}
+    K["✅ Inventário\nFinalizado"]
+    L["🔬 Investigação\nCausas Técnicas"]
+    M["📝 Classificação\nTipo Diferença"]
+    N{"⚖️ Natureza da\nDiferença"}
+    O["💰 Processo Ajuste\nPositivo"]
+    P["❌ Processo Ajuste\nNegativo"]
+    Q["📖 Lançamento\nContábil"]
+    R["📄 NF-e CFOP\n5.927"]
+    S["💳 Estorno Crédito\nICMS"]
+    T["📖 Lançamento\nContábil"]
+    U["💊 Atualização\nSNGPC"]
+    V["📁 Documentação\nFinal Completa"]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    E --> F
+    F --> G
+    G -->|"✅ Não"| H
+    G -->|"❌ Sim"| I
+    I --> H
+    H --> J
+    J -->|"✅ Não"| K
+    J -->|"❌ Sim"| L
+    L --> M
+    M --> N
+    N -->|"📈 Sobra"| O
+    N -->|"📉 Falta"| P
+    O --> Q
+    P --> R
+    R --> S
+    S --> T
+    Q --> U
     T --> U
-    U --> V[Documentação Final]
+    U --> V
     V --> K
+
+    classDef startEnd fill:#4CAF50,stroke:#2E7D32,stroke-width:3px,color:white
+    classDef process fill:#2196F3,stroke:#1565C0,stroke-width:2px,color:white
+    classDef decision fill:#FF9800,stroke:#E65100,stroke-width:2px,color:white
+    classDef critical fill:#F44336,stroke:#C62828,stroke-width:2px,color:white
+    classDef regulatory fill:#9C27B0,stroke:#6A1B9A,stroke-width:2px,color:white
+
+    class A,K startEnd
+    class B,C,D,E,F,I,L,M,O,P,Q,R,S,T,V process
+    class G,J,N decision
+    class H critical
+    class U regulatory
 ```
 
-## 11.2 Fluxograma de Tratamento de Diferenças
+## 9.2 Fluxo de Tratamento de Diferenças Críticas
 
 ```mermaid
 flowchart TD
-    A[Diferença Identificada] --> B{Valor > 1% Categoria?}
-    B -->|Sim| C[Comitê Investigação]
-    B -->|Não| D[Análise Padrão]
-    C --> E[Investigação Aprofundada]
-    E --> F[Relatório Detalhado]
-    D --> G[Identificação Causa]
+    A["🚨 Diferença Identificada"]
+    B{"📊 Valor > 1%\nCategoria?"}
+    C["👥 Comitê Investigação\nMultidisciplinar"]
+    D["🔍 Análise Padrão\nOperacional"]
+    E["🔬 Investigação\nAprofundada"]
+    F["📋 Relatório Técnico\nDetalhado"]
+    G["🎯 Identificação\nCausa Raiz"]
+    H{"🏷️ Classificação\nda Causa"}
+    I["⚙️ Correção\nSistema"]
+    J["⚖️ Análise\nNatureza"]
+    K["📖 Ajuste\nContábil"]
+    L["📄 Documentação\nCorreção"]
+    M{"🎯 Perda Normal\nou Anormal?"}
+    N["💰 Custo do\nProduto"]
+    O["💸 Despesa\nPeríodo"]
+    P["🔄 Retificação\nLançamentos"]
+    Q["👨‍⚕️ Aprovação\nRT"]
+    R["✅ Finalização\nProcesso"]
+
+    A --> B
+    B -->|"✅ Sim"| C
+    B -->|"❌ Não"| D
+    C --> E
+    E --> F
+    D --> G
     F --> G
-    G --> H{Tipo de Causa}
-    H -->|Erro Operacional| I[Correção Sistema]
-    H -->|Perda Física| J[Análise Natureza]
-    H -->|Erro Escrituração| K[Ajuste Contábil]
-    I --> L[Documentação Correção]
-    J --> M{Perda Normal ou Anormal?}
-    M -->|Normal| N[Custo Produto]
-    M -->|Anormal| O[Despesa Período]
-    K --> P[Retificação Lançamentos]
-    L --> Q[Aprovação RT]
+    G --> H
+    H -->|"💻 Erro Operacional"| I
+    H -->|"💔 Perda Física"| J
+    H -->|"📝 Erro Escrituração"| K
+    I --> L
+    J --> M
+    M -->|"✅ Normal"| N
+    M -->|"❌ Anormal"| O
+    K --> P
+    L --> Q
     N --> Q
     O --> Q
     P --> Q
-    Q --> R[Finalização Processo]
+    Q --> R
+
+    classDef startEnd fill:#4CAF50,stroke:#2E7D32,stroke-width:3px,color:white
+    classDef process fill:#2196F3,stroke:#1565C0,stroke-width:2px,color:white
+    classDef decision fill:#FF9800,stroke:#E65100,stroke-width:2px,color:white
+    classDef critical fill:#F44336,stroke:#C62828,stroke-width:2px,color:white
+    classDef financial fill:#607D8B,stroke:#37474F,stroke-width:2px,color:white
+
+    class A,R startEnd
+    class C,D,E,F,I,L,P process
+    class B,H,M decision
+    class G,Q critical
+    class N,O,K financial
 ```
 
-## 11.3 Fluxograma Aspectos Fiscais
+## 9.3 Fluxo de Aspectos Fiscais e Tributários
 
 ```mermaid
 flowchart TD
-    A["Ajuste de Inventário"] --> B{"Tipo Ajuste"}
-    B -->|"Positivo Sobra"| C["Sem Documento Fiscal"]
-    B -->|"Negativo Falta"| D["Emissão NF-e Obrigatória"]
-    C --> E["Registro Bloco K - K280"]
-    D --> F["CFOP 5.927"]
-    F --> G["Sem Destaque ICMS"]
-    G --> H{"Produto com ST?"}
-    H -->|Sim| I["Verificar Ajuste ICMS-ST"]
-    H -->|Não| J["Calcular Estorno Crédito"]
-    I --> K{"Necessário Ajuste ST?"}
-    K -->|Sim| L["NF-e Complementar CFOP 5.929"]
-    K -->|Não| J
+    A["⚖️ Ajuste Inventário\nAprovado"]
+    B{"📋 Tipo de\nAjuste"}
+    C["📊 Sem Documento\nFiscal Obrigatório"]
+    D["📄 Emissão NF-e\nObrigatória"]
+    E["💾 Registro Bloco K\nK280 - EFD"]
+    F["🏷️ CFOP 5.927\nBaixa Estoque"]
+    G["🚫 Sem Destaque\nICMS"]
+    H{"💊 Produto com\nSubstituição Tributária?"}
+    I["🔍 Verificar Ajuste\nICMS-ST"]
+    J["🧮 Calcular Estorno\nCrédito ICMS"]
+    K{"⚖️ Necessário\nAjuste ST?"}
+    L["📄 NF-e Complementar\nCFOP 5.929"]
+    M["📐 Fórmula Estorno:\nQtd Baixada/Total × Crédito"]
+    N["📖 Livro Apuração\nICMS"]
+    O["💾 Registro\nEFD-ICMS/IPI"]
+    P["✅ Documentação Fiscal\nCompleta"]
+
+    A --> B
+    B -->|"📈 Positivo/Sobra"| C
+    B -->|"📉 Negativo/Falta"| D
+    C --> E
+    D --> F
+    F --> G
+    G --> H
+    H -->|"✅ Sim"| I
+    H -->|"❌ Não"| J
+    I --> K
+    K -->|"✅ Sim"| L
+    K -->|"❌ Não"| J
     L --> J
-    J --> M["Fórmula: Qtd Baixada/Qtd Total × Crédito Original"]
-    M --> N["Registro Livro Apuração ICMS"]
-    E --> O["Registro EFD-ICMS/IPI"]
-    N --> O
-    O --> P["Documentação Fiscal Completa"]
-```
-
-## 11.4 Fluxograma Medicamentos Controlados
-
-```mermaid
-flowchart TD
-    A[Inventário Produto Controlado] --> B[Contagem Física Especial]
-    B --> C[Acesso Área Restrita]
-    C --> D[Dupla Conferência Obrigatória]
-    D --> E[Comparação Saldo SNGPC]
-    E --> F{Divergência?}
-    F -->|Não| G[Inventário Aprovado]
-    F -->|Sim| H[Investigação Obrigatória RT]
-    H --> I{Tipo Diferença}
-    I -->|Sobra| J[Registro Entrada SNGPC]
-    I -->|Falta| K[Registro Saída SNGPC]
-    J --> L[Justificativa: Ajuste Inventário Entrada]
-    K --> M[Justificativa: Ajuste Inventário Saída]
-    L --> N[Aprovação Responsável Técnico]
+    J --> M
     M --> N
-    N --> O{Antimicrobiano?}
-    O -->|Sim| P[Inventário Específico Portaria 344/98]
-    O -->|Não| Q[Processo Fiscal Padrão]
-    P --> R[Controle Diferenciado]
-    R --> Q
-    Q --> S[Emissão NF-e se Falta]
-    S --> T[Registro Livro Controle Especial]
-    T --> U[Arquivo Documentação 10 anos]
-    G --> V[Finalização Processo]
-    U --> V
+    E --> O
+    N --> O
+    O --> P
+
+    classDef startEnd fill:#4CAF50,stroke:#2E7D32,stroke-width:3px,color:white
+    classDef process fill:#2196F3,stroke:#1565C0,stroke-width:2px,color:white
+    classDef decision fill:#FF9800,stroke:#E65100,stroke-width:2px,color:white
+    classDef fiscal fill:#673AB7,stroke:#4527A0,stroke-width:2px,color:white
+    classDef calculation fill:#009688,stroke:#00695C,stroke-width:2px,color:white
+
+    class A,P startEnd
+    class C,E,F,G,L,N,O process
+    class B,H,K decision
+    class D,I,J fiscal
+    class M calculation
 ```
 
-## 11.5 Fluxograma Decisório Tratamento Contábil
+## 9.4 Fluxo Especializado para Medicamentos Controlados
 
 ```mermaid
 flowchart TD
-    A[Diferença Inventário] --> B{Sobra ou Falta?}
-    B -->|Sobra| C[Análise Natureza Sobra]
-    B -->|Falta| D[Análise Causa Falta]
-    C --> E{Erro Anterior?}
-    E -->|Sim| F[Ajuste Exercícios Anteriores]
-    E -->|Não| G[Receita Não Operacional]
-    D --> H{Causa da Falta}
-    H -->|Operacional| I[CMV - Custo Mercadoria Vendida]
-    H -->|Extraordinária| J[Despesa Não Operacional]
-    H -->|Erro Sistema| K[Correção Sem Resultado]
-    F --> L[Débito: Estoque / Crédito: Resultado Exercícios Anteriores]
-    G --> M[Débito: Estoque / Crédito: Outras Receitas]
-    I --> N[Débito: CMV / Crédito: Estoque]
-    J --> O[Débito: Despesas Extraordinárias / Crédito: Estoque]
-    K --> P[Débito: Estoque / Crédito: Estoque - Conta Retificação]
-    L --> Q[Documentação Suporte]
+    A["💊 Inventário Produto\nControlado"]
+    B["🔒 Contagem Área\nRestrita"]
+    C["🗝️ Acesso com\nAutorização Específica"]
+    D["👥 Dupla Conferência\nObrigatória"]
+    E["💻 Comparação Saldo\nSNGPC"]
+    F{"❓ Divergência\nIdentificada?"}
+    G["✅ Inventário\nAprovado"]
+    H["👨‍⚕️ Investigação\nObrigatória RT"]
+    I{"📋 Tipo de\nDiferença"}
+    J["📥 Registro Entrada\nSNGPC"]
+    K["📤 Registro Saída\nSNGPC"]
+    L["📝 Justificativa:\nAjuste Inventário Entrada"]
+    M["📝 Justificativa:\nAjuste Inventário Saída"]
+    N["👨‍⚕️ Aprovação\nResponsável Técnico"]
+    O{"💊 Antimicrobiano\nEspecífico?"}
+    P["📋 Inventário Específico\nPortaria 344/98"]
+    Q["💰 Processo Fiscal\nPadrão"]
+    R["🎯 Controle\nDiferenciado"]
+    S["📄 Emissão NF-e\nse Falta"]
+    T["📖 Livro Controle\nEspecial"]
+    U["📁 Arquivo 10 anos\nDocumentação"]
+    V["✅ Finalização\nProcesso"]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    E --> F
+    F -->|"❌ Não"| G
+    F -->|"✅ Sim"| H
+    H --> I
+    I -->|"📈 Sobra"| J
+    I -->|"📉 Falta"| K
+    J --> L
+    K --> M
+    L --> N
+    M --> N
+    N --> O
+    O -->|"✅ Sim"| P
+    O -->|"❌ Não"| Q
+    P --> R
+    R --> Q
+    Q --> S
+    S --> T
+    T --> U
+    G --> V
+    U --> V
+
+    classDef startEnd fill:#4CAF50,stroke:#2E7D32,stroke-width:3px,color:white
+    classDef process fill:#2196F3,stroke:#1565C0,stroke-width:2px,color:white
+    classDef decision fill:#FF9800,stroke:#E65100,stroke-width:2px,color:white
+    classDef controlled fill:#E91E63,stroke:#AD1457,stroke-width:2px,color:white
+    classDef regulatory fill:#9C27B0,stroke:#6A1B9A,stroke-width:2px,color:white
+    classDef documentation fill:#795548,stroke:#5D4037,stroke-width:2px,color:white
+
+    class A,V startEnd
+    class B,C,D,G,P,R,S process
+    class F,I,O decision
+    class E,H,J,K,L,M,N controlled
+    class Q regulatory
+    class T,U documentation
+```
+
+## 9.5 Fluxo Decisório para Tratamento Contábil
+
+```mermaid
+flowchart TD
+    A["⚖️ Diferença Inventário\nIdentificada"]
+    B{"📊 Sobra ou\nFalta?"}
+    C["🔍 Análise Natureza\nda Sobra"]
+    D["🎯 Análise Causa\nda Falta"]
+    E{"❓ Erro\nAnterior?"}
+    F["🔄 Ajuste Exercícios\nAnteriores"]
+    G["💰 Receita Não\nOperacional"]
+    H{"🏷️ Classificação\nda Causa"}
+    I["💼 CMV - Custo\nMercadoria Vendida"]
+    J["💸 Despesa Não\nOperacional"]
+    K["🔄 Correção Sem\nImpacto Resultado"]
+    L["📖 D: Estoque\nC: Result. Ex. Anteriores"]
+    M["📖 D: Estoque\nC: Outras Receitas"]
+    N["📖 D: CMV\nC: Estoque"]
+    O["📖 D: Desp. Extraordinárias\nC: Estoque"]
+    P["📖 D: Estoque\nC: Estoque Retificação"]
+    Q["📋 Documentação\nde Suporte"]
+    R["📄 Laudo Técnico/\nBO Obrigatório"]
+    S["✅ Aprovação Contador\ne Diretoria"]
+    T["📁 Arquivo\n10 Anos"]
+
+    A --> B
+    B -->|"📈 Sobra"| C
+    B -->|"📉 Falta"| D
+    C --> E
+    E -->|"✅ Sim"| F
+    E -->|"❌ Não"| G
+    D --> H
+    H -->|"⚙️ Operacional"| I
+    H -->|"🚨 Extraordinária"| J
+    H -->|"💻 Erro Sistema"| K
+    F --> L
+    G --> M
+    I --> N
+    J --> O
+    K --> P
+    L --> Q
     M --> Q
     N --> Q
-    O --> R[Laudo Técnico/BO Obrigatório]
+    O --> R
     P --> Q
     R --> Q
-    Q --> S[Aprovação Contador e Diretoria]
-    S --> T[Arquivo 10 Anos]
+    Q --> S
+    S --> T
+
+    classDef startEnd fill:#4CAF50,stroke:#2E7D32,stroke-width:3px,color:white
+    classDef process fill:#2196F3,stroke:#1565C0,stroke-width:2px,color:white
+    classDef decision fill:#FF9800,stroke:#E65100,stroke-width:2px,color:white
+    classDef accounting fill:#3F51B5,stroke:#283593,stroke-width:2px,color:white
+    classDef documentation fill:#795548,stroke:#5D4037,stroke-width:2px,color:white
+    classDef approval fill:#4CAF50,stroke:#2E7D32,stroke-width:2px,color:white
+
+    class A,T startEnd
+    class C,D,G,I,J,K,R process
+    class B,E,H decision
+    class F,L,M,N,O,P accounting
+    class Q documentation
+    class S approval
 ```
 
-# 12. DOCUMENTAÇÃO E CONTROLES
+# 10. ASPECTOS CONTÁBEIS E FISCAIS
 
-## 12.1 Documentos Obrigatórios
+## 10.1 Tratamento Contábil Especializado
 
-### 11.1.1 Documentação de Inventário
+### 10.1.1 Fundamentos Normativos NBC TG 16
 
-**Planilhas de Contagem:** Registros físicos assinados pelas equipes responsáveis
+**Mensuração de Estoques Farmacêuticos:** Os estoques de produtos farmacêuticos devem ser mensurados rigorosamente pelo valor de custo histórico ou valor realizável líquido, prevalecendo sempre o menor dos dois valores, considerando especificidades como prazo de validade reduzido, obsolescência tecnológica e alterações regulatórias que possam impactar a comercialização.
 
-**Relatório Consolidado:** Resumo executivo com principais diferenças e causas identificadas
+**Reconhecimento de Perdas Específicas:** Perdas identificadas em inventários farmacêuticos devem ser reconhecidas obrigatoriamente no resultado do período em que foram identificadas, classificando adequadamente entre perdas operacionais normais (incluídas no custo dos produtos) e perdas anormais (reconhecidas como despesa do período).
 
-**Fotografias:** Registro visual de situações excepcionais ou produtos com problemas
+**Métodos de Avaliação Aplicáveis:** Utilização obrigatória do método FIFO (First In, First Out) ou custo médio ponderado móvel conforme política contábil estabelecida pela empresa, considerando características específicas de produtos farmacêuticos como lotes, validades e rastreabilidade regulatória exigida pela ANVISA.
 
-### 11.1.2 Documentação Contábil-Fiscal
+### 10.1.2 Tratamento de Ajustes Positivos (Sobras)
 
-**Lançamentos Contábeis:** Registro detalhado de todos os ajustes efetuados
+**Lançamento Contábil Padrão:**
 
-**Notas Fiscais:** Emissão de NF-e para baixas de estoque quando obrigatória
+- **Débito:** Estoques de Produtos Acabados/Matérias-Primas (Ativo Circulante) pelo valor de custo unitário
+- **Crédito:** Reversão do Custo das Mercadorias Vendidas ou conta específica "Ajustes Positivos de Inventário"
 
-**Comprovantes de Estorno:** Documentação de estornos de créditos de ICMS realizados
+**Análise de Natureza Específica:** Se a sobra decorrer de erro de lançamento em períodos anteriores, o tratamento deve ser como ajuste de exercícios anteriores conforme CPC 23. Se representar descoberta efetiva de estoque não registrado, deve ser reconhecido como receita não operacional com análise de impacto tributário.
 
-## 11.2 Controles Internos
+### 10.1.3 Tratamento de Ajustes Negativos (Faltas)
 
-### 11.2.1 Segregação de Funções
+**Perdas Operacionais Normais:**
 
-**Contagem:** Executada por equipes distintas da custodia do estoque
+- **Débito:** Custo das Mercadorias Vendidas (conta de resultado)
+- **Crédito:** Estoques de Produtos/Matérias-Primas (ativo circulante)
 
-**Supervisão:** Validação por profissionais não envolvidos na gestão operacional
+**Perdas Extraordinárias ou Anormais:**
 
-**Aprovação:** Autorização final pela diretoria técnica ou conselho administrativo
+- **Débito:** Despesas Não Operacionais - Perdas Extraordinárias
+- **Crédito:** Estoques de Produtos/Matérias-Primas (ativo circulante)
 
-### 11.2.2 Arquivo e Retenção
+## 10.2 Aspectos Fiscais Diferenciados
 
-**Prazo de Guarda:** Mínimo 5 anos para documentação fiscal, 10 anos para documentação contábil
+### 10.2.1 Tratamento de Diferenças Positivas
 
-**Organização:** Arquivo físico e digital com indexação por período e categoria
+**Ausência de Obrigações Fiscais:** Diferenças positivas (sobras) não geram obrigatoriedade de emissão de documento fiscal específico, sendo tratadas exclusivamente através de lançamentos nos livros contábeis obrigatórios e registro no Livro de Inventário conforme Instrução Normativa RFB nº 1.700/17.
 
-**Backup:** Cópias de segurança em locais distintos para preservação
+**Registro na EFD-ICMS/IPI:** Utilização obrigatória do registro K280 no Bloco K da Escrituração Fiscal Digital para correção de saldo de estoque, informando adequadamente a natureza do ajuste e mantendo rastreabilidade para futuras auditorias fiscais.
 
-# 12. PERGUNTAS FREQUENTES
+**Impacto Tributário Nulo:** Ajustes positivos de inventário não geram incidência de ICMS, IPI, PIS/COFINS ou qualquer outro tributo, sendo considerados como correções de registros contábeis sem caracterização de operação tributável.
 
-## 12.1 Questões Técnicas
+### 10.2.2 Tratamento de Diferenças Negativas
 
-**Q: Como tratar diferenças de inventário em produtos com prazo de validade vencido?**
+**Emissão Obrigatória de NF-e:** Todas as diferenças negativas (faltas) exigem emissão de Nota Fiscal Eletrônica utilizando obrigatoriamente CFOP 5.927 "Lançamento efetuado a título de baixa de estoque decorrente de perda, roubo ou deterioração", com natureza da operação detalhando especificamente a causa identificada.
 
-R: Produtos vencidos devem ser baixados integralmente do estoque com débito em conta de perdas, emitindo NF-e com CFOP 5.927 e estornando créditos de ICMS correspondentes. Para medicamentos controlados, registrar no SNGPC como "saída por vencimento".
+**Estorno de Créditos de ICMS:** Aplicação obrigatória do artigo 67 do RICMS com estorno proporcional do crédito de ICMS correspondente à quantidade baixada, utilizando a fórmula: (Quantidade baixada ÷ Quantidade total do lote original) × Crédito de ICMS original do lote.
 
-**Q: É obrigatório emitir nota fiscal para todas as diferenças negativas de inventário?**
+**Documentação Fiscal Específica:** Registro obrigatório no Livro de Apuração do ICMS, informação adequada na EFD-ICMS/IPI utilizando registros K270/K275 para movimentações de estoque, e manutenção de documentação de suporte para justificativa das perdas em eventual fiscalização.
 
-R: Sim, conforme legislação estadual do ICMS, diferenças negativas (faltas) exigem emissão de NF-e com CFOP 5.927, exceto para ajustes decorrentes de erro de escrituração devidamente comprovado.
+### 10.2.3 Produtos sob Substituição Tributária
 
-## 12.2 Questões Operacionais
+**ICMS-ST Diferenciado:** Para produtos farmacêuticos enquadrados no Convênio ICMS 100/97, verificar necessidade de ajuste no recolhimento de ICMS-ST quando houver alteração na base de cálculo ou quantidade de produtos sujeitos ao regime.
 
-**Q: Qual a frequência mínima recomendada para inventários em indústrias farmacêuticas?**
+**Emissão de NF-e Complementar:** Quando necessário ajuste de ICMS-ST, emitir nota fiscal complementar utilizando CFOP 5.929 "Lançamento efetuado em decorrência de emissão de documento fiscal relativo a operação ou prestação também registrada em equipamento Emissor de Cupom Fiscal - ECF".
 
-R: Inventário geral anual obrigatório, inventários parciais mensais para medicamentos controlados e trimestrais para demais produtos. Produtos críticos ou alto valor podem exigir frequência maior.
+**Cálculo Específico de ST:** Aplicar alíquota de ICMS-ST vigente sobre a base de cálculo ajustada, considerando margem de valor agregado (MVA) específica para produtos farmacêuticos conforme regulamentação estadual aplicável.
 
-**Q: Como proceder quando há divergência entre primeira e segunda contagem?**
+## 10.3 Aspectos Regulatórios Específicos
 
-R: Realizar terceira contagem pela equipe de supervisão, investigar causas da divergência e documentar adequadamente. Persistindo divergência, escalar para comitê de inventário para análise final.
+### 10.3.1 Medicamentos Controlados no SNGPC
 
-## 12.3 Questões Regulamentares
+**Registro de Entrada para Sobras:** Produtos controlados identificados em sobra devem ser registrados no SNGPC como "Ajuste de Inventário - Entrada" com justificativa detalhada da causa identificada, data específica do inventário e aprovação obrigatória do responsável técnico.
 
-**Q: Quais as obrigações específicas para medicamentos controlados no inventário?**
+**Registro de Saída para Faltas:** Faltas de medicamentos controlados exigem registro no SNGPC como "Ajuste de Inventário - Saída" com justificativa técnica detalhada, análise de causas, medidas corretivas implementadas e documentação de suporte conforme exigências regulatórias.
 
-R: Além dos procedimentos padrão, medicamentos controlados exigem registro no SNGPC com justificativa detalhada, aprovação do responsável técnico e controle diferenciado para antimicrobianos conforme Portaria 344/98.
+**Prazo Regulamentar Obrigatório:** Transmissão dos dados ao SNGPC deve ocorrer em prazo máximo de 7 dias úteis após identificação das diferenças, sob pena de aplicação de sanções administrativas pela ANVISA conforme Auto de Infração específico.
 
-**Q: Como calcular o estorno de crédito de ICMS em ajustes de inventário?**
+### 10.3.2 Diferenciação por Categoria Regulatória
 
-R: Aplicar fórmula: (Quantidade baixada ÷ Quantidade total do lote original) × Crédito de ICMS original. Registrar no Livro de Apuração do ICMS e sistema de escrituração fiscal digital.
+**Inventário Físico Geral:** Contagem física sistemática de todos os produtos para fins exclusivamente contábeis e fiscais, independente da classificação regulatória específica dos medicamentos envolvidos.
+
+**Inventário SNGPC Específico:** Controle regulatório obrigatório e diferenciado para medicamentos controlados das listas A, B e C conforme Portaria 344/98, com procedimentos específicos de validação e transmissão obrigatória para sistema da ANVISA.
+
+**Inventário de Antimicrobianos:** Procedimento específico e diferenciado do inventário geral da empresa, exigido pela regulamentação sanitária para controle específico de medicamentos antimicrobianos conforme determinações da ANVISA.
+
+# 11. DOCUMENTAÇÃO E ANEXOS
+
+## 11.1 Modelos e Formulários Padronizados
+
+### 11.1.1 Planilha de Contagem Física
+
+**Cabeçalho Obrigatório:**
+
+- Data e horário específico da contagem
+- Identificação completa da equipe responsável
+- Área ou setor específico do inventário
+- Assinatura do supervisor responsável
+
+**Campos de Preenchimento:**
+
+- Código do produto e descrição completa
+- Lote de fabricação e data de validade
+- Localização física específica (endereço)
+- Quantidade física apurada
+- Condições observadas do produto
+- Observações técnicas relevantes
+
+### 11.1.2 Relatório de Análise de Diferenças
+
+**Estrutura Padronizada:**
+
+- Identificação da diferença (produto, quantidade, valor)
+- Investigação de causas realizada
+- Evidências coletadas e documentação de suporte
+- Conclusões técnicas e recomendações
+- Aprovação do responsável técnico
+- Medidas corretivas propostas
+
+## 11.2 Tabelas de Referência Regulatória
+
+### 11.2.1 Códigos CFOP Aplicáveis
+
+| CFOP  | Descrição                          | Aplicação Específica             | Destaque ICMS |
+| ----- | ---------------------------------- | -------------------------------- | ------------- |
+| 5.927 | Baixa estoque - perda/deterioração | Diferenças negativas obrigatório | Não           |
+| 5.929 | Complementar ICMS-ST               | Ajuste substituição tributária   | Sim           |
+
+### 11.2.2 Prazos Regulamentares por Categoria
+
+| Obrigação         | Prazo               | Base Legal      | Penalidade       |
+| ----------------- | ------------------- | --------------- | ---------------- |
+| Transmissão SNGPC | 7 dias úteis        | Portaria 344/98 | Auto de Infração |
+| Emissão NF-e      | 5 dias úteis        | RICMS Estadual  | Multa fiscal     |
+| EFD-ICMS/IPI      | Conforme cronograma | IN RFB 1.774/17 | Multa federal    |
+| Registro Livros   | 3 dias úteis        | CTN Art. 195    | Multa estadual   |
+
+# 12. PERGUNTAS FREQUENTES E TROUBLESHOOTING
+
+## 12.1 Questões Técnicas Especializadas
+
+**Q: Como proceder com diferenças de inventário em produtos farmacêuticos com prazo de validade vencido identificados durante a contagem?**
+
+R: Produtos vencidos identificados durante inventário devem ser obrigatoriamente baixados integralmente do estoque com débito em conta específica de perdas por vencimento, emissão de NF-e utilizando CFOP 5.927 com natureza "Baixa por Vencimento", estorno total dos créditos de ICMS correspondentes e, para medicamentos controlados, registro no SNGPC como "saída por vencimento" com justificativa detalhada e aprovação do responsável técnico conforme exigências da Portaria 344/98.
+
+**Q: É obrigatório emitir nota fiscal para todas as diferenças negativas identificadas em inventário farmacêutico?**
+
+R: Sim, conforme legislação estadual do ICMS e princípios de escrituração fiscal, todas as diferenças negativas (faltas) identificadas em inventário exigem obrigatoriamente emissão de NF-e com CFOP 5.927, exceto exclusivamente para ajustes decorrentes de erro de escrituração devidamente comprovado através de documentação técnica específica, situação em que o tratamento pode ser realizado através de lançamento de correção sem emissão de documento fiscal.
+
+## 12.2 Questões Operacionais Práticas
+
+**Q: Qual a frequência mínima recomendada para inventários em indústrias farmacêuticas considerando exigências regulatórias específicas?**
+
+R: Inventário geral anual obrigatório conforme legislação fiscal brasileira, inventários parciais mensais obrigatórios para medicamentos controlados das listas A, B e C conforme Portaria 344/98, inventários trimestrais recomendados para produtos de alto valor agregado e inventários específicos para antimicrobianos conforme determinação da ANVISA. Produtos críticos ou com histórico de discrepâncias podem exigir frequência superior conforme análise de risco específica.
+
+**Q: Como proceder quando persistem divergências após múltiplas contagens e investigação técnica das causas?**
+
+R: Formar comitê multidisciplinar incluindo responsável técnico, gerente de estoque, controller e auditoria interna para análise aprofundada, realizar investigação técnica com metodologia estruturada incluindo análise documental dos últimos 12 meses, implementar contagem por amostragem estatística para validação, documentar formalmente todas as evidências coletadas e submeter à aprovação da diretoria com parecer técnico conclusivo sobre as causas identificadas e medidas corretivas implementadas.
+
+## 12.3 Questões Regulamentares Complexas
+
+**Q: Quais são as obrigações específicas para medicamentos controlados durante processo de inventário considerando interface com SNGPC?**
+
+R: Medicamentos controlados exigem procedimentos específicos incluindo contagem em área restrita com acesso autorizado, dupla conferência obrigatória por profissionais habilitados, comparação imediata com saldo do SNGPC, investigação obrigatória pelo responsável técnico para qualquer divergência identificada, registro no SNGPC com justificativa técnica detalhada em prazo máximo de 7 dias úteis, aprovação específica do farmacêutico responsável, controle diferenciado para antimicrobianos conforme Portaria 344/98 e manutenção de arquivo específico por período mínimo de 10 anos.
+
+**Q: Como calcular corretamente o estorno de crédito de ICMS em ajustes de inventário considerando produtos sob substituição tributária?**
+
+R: Para produtos sob regime normal, aplicar fórmula específica: (Quantidade baixada ÷ Quantidade total do lote original que gerou o crédito) × Valor do crédito de ICMS original do lote, registrando o estorno no Livro de Apuração do ICMS. Para produtos sob substituição tributária, verificar se o ajuste impacta a base de cálculo do ICMS-ST, calculando eventual complemento devido utilizando MVA específica do produto farmacêutico, emitindo NF-e complementar com CFOP 5.929 quando necessário e mantendo documentação técnica de suporte para justificativa dos cálculos realizados.
 
 ---
 
-**EXEMPLO PRÁTICO:**
+**EXEMPLO PRÁTICO DETALHADO:**
 
-**Situação-Exemplo:**
-Durante inventário mensal, identificada falta de 100 unidades de determinado medicamento com valor unitário de R$ 15,00, original de lote com 1.000 unidades que geraram crédito de ICMS de R\$ 2.700,00.
+**Situação-Exemplo Complexa:**
+Durante inventário mensal obrigatório, identificada falta de 150 unidades de medicamento controlado (Lista B1) com valor unitário de custo de R$ 22,50, originário de lote com 2.000 unidades que geraram crédito de ICMS de R\$ 4.050,00, sujeito à substituição tributária com MVA de 65%.
 
-**Dados da Operação:**
+**Dados da Operação Específica:**
 
-- **Quantidade baixada:** 100 unidades
-- **Valor unitário:** R$ 15,00
-- **Valor total da baixa:** R$ 1.500,00
-- **Crédito ICMS original do lote:** R$ 2.700,00
+- **Produto:** Medicamento controlado Lista B1
+- **Quantidade baixada:** 150 unidades
+- **Valor unitário de custo:** R$ 22,50
+- **Valor total da baixa:** R$ 3.375,00
+- **Lote original:** 2.000 unidades
+- **Crédito ICMS original:** R$ 4.050,00
+- **Regime:** Substituição tributária (MVA 65%)
 
-**Aplicação do Procedimento:**
+**Aplicação Detalhada do Procedimento:**
 
-1. **Lançamento contábil:** Débito "Perdas de Estoque" R$ 1.500,00 / Crédito "Estoque Produtos Acabados" R\$ 1.500,00
-2. **Emissão NF-e:** CFOP 5.927, valor R$ 1.500,00, sem destaque de ICMS
-3. **Cálculo estorno:** (100 ÷ 1.000) × R$ 2.700,00 = R\$ 270,00
-4. **Registro SNGPC:** Saída por "Ajuste de Inventário" com justificativa detalhada
+1. **Investigação obrigatória RT:** Análise técnica das causas com relatório formal
+2. **Registro SNGPC:** Saída por "Ajuste de Inventário" com justificativa específica
+3. **Lançamento contábil:** Débito "Perdas de Estoque Controlado" R$ 3.375,00 / Crédito "Estoque Produtos Controlados" R\$ 3.375,00
+4. **Emissão NF-e:** CFOP 5.927, valor R$ 3.375,00, sem destaque ICMS
+5. **Cálculo estorno:** (150 ÷ 2.000) × R$ 4.050,00 = R\$ 303,75
+6. **Verificação ICMS-ST:** Não há ajuste adicional pois não afeta base ST
 
-**Resultado Final:**
+**Resultado Final Consolidado:**
 
-- **Redução do Estoque:** R$ 1.500,00 (100%)
-- **Estorno de Crédito ICMS:** R$ 270,00 (10%)
-- **Impacto no Resultado:** Despesa de R$ 1.500,00
+- **Redução Estoque:** R$ 3.375,00 (100% do valor)
+- **Estorno Crédito ICMS:** R$ 303,75 (7,5% proporcional)
+- **Registro SNGPC:** Obrigatório em 7 dias úteis
+- **Impacto Resultado:** Despesa operacional R$ 3.375,00
 
 ---
 
 **HISTÓRICO DE REVISÕES:**
 
-| Versão | Data        | Responsável   | Alterações           |
-| ------ | ----------- | ------------- | -------------------- |
-| 1.0    | Agosto/2025 | Depto. Fiscal | Criação do documento |
+| Versão | Data        | Responsável      | Alterações                                  |
+| ------ | ----------- | ---------------- | ------------------------------------------- |
+| 1.0    | Agosto/2025 | Depto. Fiscal/RT | Criação do documento conforme modelo padrão |
 
 ---
 
@@ -666,4 +842,4 @@ Durante inventário mensal, identificada falta de 100 unidades de determinado me
 
 ---
 
-*Este documento deve ser revisado anualmente ou sempre que houver alteração na legislação tributária, contábil ou regulamentação sanitária aplicável.*
+*Este documento deve ser revisado anualmente ou sempre que houver alteração na legislação tributária, contábil, regulamentação sanitária da ANVISA ou modificações nos sistemas SNGPC aplicáveis.*

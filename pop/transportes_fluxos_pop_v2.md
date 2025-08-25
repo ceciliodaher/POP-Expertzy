@@ -1,701 +1,1317 @@
 # PROCEDIMENTO OPERACIONAL PADRÃO
-## FLUXOS TRANSPORTADORA - VERSÃO 2.0
+
+## FLUXOS TRANSPORTADORA - MEDICAMENTOS - VERSÃO 2.0
 
 ### SUMÁRIO
 
 1. **OBJETIVO** ........................................................................... 3
 2. **ALCANCE** ........................................................................... 3
-3. **DEFINIÇÕES E CONCEITOS FISCAIS** ................................................. 3
-4. **BASE LEGAL** ........................................................................ 4
-5. **RESPONSABILIDADES E ESTRUTURA TRIBUTÁRIA** ................................... 5
-6. **CRÉDITO PRESUMIDO DO ICMS NO TRANSPORTE** ..................................... 9
-7. **TIPOS DE MERCADORIAS E TRATAMENTO FISCAL** ................................... 10
-8. **CONTROLES INTERNOS** .............................................................. 10
-9. **FLUXOS DE OPERAÇÃO** ............................................................. 12
-10. **TRANSPORTE E ARMAZENAMENTO DE MEDICAMENTOS** ............................ 15
-11. **FLUXOGRAMAS OPERACIONAIS** ..................................................... 25
+3. **DEFINIÇÕES E CONCEITOS** .......................................................... 4
+4. **BASE LEGAL** ........................................................................ 6
+5. **OPERAÇÕES DE TRANSPORTE E ARMAZENAGEM** ........................................ 7
+6. **METODOLOGIA E PROCEDIMENTOS** ................................................... 12
+7. **CONTROLES E VALIDAÇÕES** ......................................................... 17
+8. **ASPECTOS OPERACIONAIS** .......................................................... 20
+9. **FLUXOS E PROCESSOS** ............................................................. 23
+10. **ASPECTOS CONTÁBEIS E FISCAIS** ................................................. 31
+11. **DOCUMENTAÇÃO E ANEXOS** ......................................................... 36
+12. **PERGUNTAS FREQUENTES E TROUBLESHOOTING** ..................................... 38
 
 ---
 
-## 1. OBJETIVO
+# 1. OBJETIVO
 
-Este Procedimento Operacional Padrão tem por objetivo estabelecer diretrizes operacionais, fiscais e sanitárias detalhadas para todas as atividades de transporte e armazenamento realizadas pela empresa, com ênfase especial nos procedimentos específicos para medicamentos e produtos farmacêuticos. O documento visa assegurar o cumprimento integral das obrigações tributárias federais e estaduais, bem como das exigências sanitárias estabelecidas pela ANVISA, promovendo a padronização de processos e a mitigação de riscos operacionais e de compliance.
+Este Procedimento Operacional Padrão tem por objetivo estabelecer diretrizes operacionais, fiscais e sanitárias detalhadas para todas as atividades de transporte e armazenamento realizadas pela empresa, com ênfase especial nos procedimentos específicos para medicamentos e produtos farmacêuticos. O documento visa assegurar o cumprimento integral das obrigações tributárias federais e estaduais estabelecidas pela legislação fiscal brasileira, bem como das exigências sanitárias determinadas pela ANVISA através das Resoluções de Diretoria Colegiada aplicáveis, promovendo a padronização de processos, a mitigação de riscos operacionais e de compliance, e a garantia da qualidade e segurança dos medicamentos durante toda a cadeia logística.
 
-## 2. ALCANCE
+# 2. ALCANCE
 
-Este POP aplica-se a todas as operações de transporte rodoviário de cargas realizadas pela empresa, incluindo operações interestaduais e internas, com abrangência nacional e foco específico na região Nordeste e Estado de Sergipe. O escopo contempla desde o recebimento da solicitação de transporte até a entrega final, incluindo procedimentos de armazenagem temporária, controle de qualidade, documentação fiscal e sanitária, e todos os controles especiais exigidos para produtos farmacêuticos e medicamentos.
+Este POP aplica-se a todas as operações de transporte rodoviário de cargas e armazenagem realizadas pela empresa em território nacional, incluindo operações interestaduais e internas, com abrangência específica na região Nordeste e Estado de Sergipe onde a empresa mantém operações diretas. O escopo contempla desde o recebimento da solicitação de transporte até a entrega final ao destinatário, incluindo procedimentos de armazenagem temporária e permanente, controle de qualidade farmacêutica, documentação fiscal e sanitária, rastreabilidade de lotes, controle de temperatura para medicamentos termolábeis, procedimentos especiais para medicamentos controlados, e todos os controles exigidos pela legislação sanitária e tributária aplicável.
 
-## 3. DEFINIÇÕES E CONCEITOS FISCAIS
+O procedimento abrange especificamente as seguintes modalidades operacionais: transporte direto de medicamentos com coleta e entrega imediata, armazenagem com posterior distribuição incluindo consolidação de cargas, transferências entre filiais da empresa, operações de devolução e recall de produtos farmacêuticos, e todos os controles fiscais relacionados ao regime de substituição tributária aplicável a medicamentos, bem como procedimentos específicos para atendimento às particularidades da legislação estadual de Sergipe e demais estados nordestinos.
 
-### 3.1 Definições Operacionais
+# 3. DEFINIÇÕES E CONCEITOS
 
-**Transporte de Carga:** Constitui prestação de serviço de transporte rodoviário de bens e mercadorias entre estabelecimentos, sujeita à incidência de ICMS conforme legislação estadual de origem do prestador do serviço. Esta atividade engloba desde o carregamento da mercadoria no estabelecimento remetente até sua entrega no destinatário final, incluindo eventuais paradas técnicas e procedimentos de armazenagem temporária.
+## 3.1 Definições Operacionais
 
-**Armazenagem Geral:** Atividade de guarda e conservação de mercadorias em depósito ou armazém, prestada mediante remuneração, caracterizando-se como serviço logístico complementar ao transporte. Para produtos farmacêuticos, esta atividade exige condições especiais de temperatura, umidade e controle sanitário, além de responsável técnico legalmente habilitado.
+**Transporte Farmacêutico:** Constitui prestação de serviço de transporte rodoviário especializado de medicamentos, produtos farmacêuticos e correlatos entre estabelecimentos da cadeia de distribuição, sujeita à incidência de ICMS conforme legislação estadual de origem do prestador e às exigências sanitárias específicas da RDC 430/2020 da ANVISA. Esta atividade engloba desde o carregamento da mercadoria no estabelecimento remetente até sua entrega no destinatário final, incluindo eventuais paradas técnicas, procedimentos de armazenagem temporária, controle contínuo de temperatura para produtos termolábeis, e manutenção da rastreabilidade completa de todos os lotes transportados.
 
-**Substituto Tributário:** Estabelecimento responsável pelo recolhimento do ICMS devido nas operações subsequentes da cadeia produtiva, especialmente relevante no segmento farmacêutico onde o regime de substituição tributária é amplamente aplicado através dos Convênios ICMS específicos.
+**Armazenagem Farmacêutica:** Atividade de guarda e conservação de medicamentos e produtos correlatos em depósito ou armazém especializado, prestada mediante remuneração e caracterizando-se como serviço logístico complementar ao transporte. Esta atividade exige condições especiais de temperatura controlada, umidade relativa adequada, controle sanitário rigoroso, segregação por tipos de produtos e lotes, sistema de rastreabilidade eletrônica, responsável técnico farmacêutico legalmente habilitado, e cumprimento integral das Boas Práticas de Armazenagem estabelecidas pela ANVISA.
 
-### 3.2 Conceitos Fiscais
+**Substituto Tributário:** Estabelecimento responsável pelo recolhimento antecipado do ICMS devido nas operações subsequentes da cadeia produtiva, regime amplamente aplicado no segmento farmacêutico através dos Convênios ICMS específicos, especialmente o Convênio ICMS 234/2017 que estabelece metodologia nacional baseada no Preço Médio Ponderado ao Consumidor Final (PMPF) para cálculo do ICMS-ST sobre medicamentos.
 
-**ICMS - Imposto sobre Circulação de Mercadorias e Serviços:** Tributo estadual incidente sobre prestações de serviços de transporte interestadual, intermunicipal e de comunicação, bem como sobre operações relativas à circulação de mercadorias. No contexto do transporte de medicamentos, aplica-se tanto sobre o valor do frete quanto sobre o valor das mercadorias em regime de substituição tributária.
+**Cadeia Fria Farmacêutica:** Sistema logístico especializado que mantém medicamentos termolábeis em condições controladas de temperatura entre 2°C e 8°C durante toda cadeia de distribuição, desde a saída do fabricante até a dispensação ao consumidor final, utilizando equipamentos de refrigeração validados, monitoramento contínuo através de data loggers calibrados, procedimentos específicos de carregamento e descarregamento, e protocolos de emergência para situações de quebra da cadeia fria.
 
-**CT-e - Conhecimento de Transporte Eletrônico:** Documento fiscal eletrônico que deve ser emitido previamente à prestação do serviço de transporte, contendo informações detalhadas sobre o prestador, tomador, carga transportada, valores envolvidos e tributos incidentes. Para medicamentos, deve especificar informações de lote, validade, temperatura de transporte e responsável técnico.
+## 3.2 Conceitos Técnicos
 
-**GNRE - Guia Nacional de Recolhimento de Tributos Estaduais:** Documento padronizado para recolhimento de tributos estaduais em operações interestaduais, especialmente utilizado para pagamento de ICMS-ST e diferencial de alíquota (DIFAL).
+### 3.2.1 Conceitos Tributários Específicos
 
-## 4. BASE LEGAL
+**ICMS sobre Transporte:** Imposto estadual incidente sobre prestações de serviços de transporte interestadual e intermunicipal, calculado sobre o valor total do frete incluindo despesas acessórias como seguro, pedágio e taxas administrativas. Para medicamentos, aplica-se simultaneamente sobre o valor do frete e sobre o valor das mercadorias em regime de substituição tributária, exigindo controles específicos para correta apuração e recolhimento.
 
-### 4.1 Legislação Federal
+**PMPF - Preço Médio Ponderado ao Consumidor Final:** Base de cálculo fundamental para determinação do ICMS-ST em medicamentos, estabelecida mensalmente por cada estado através de levantamento dos preços praticados no mercado varejista farmacêutico. O PMPF considera diferentes canais de distribuição, variações regionais de preços, e eventual sazonalidade na comercialização, constituindo referência nacional harmonizada para aplicação do regime de substituição tributária.
 
-O transporte rodoviário de cargas e a armazenagem de medicamentos estão fundamentados em extensa base legal federal que estabelece princípios gerais, diretrizes sanitárias e normas tributárias aplicáveis em todo território nacional:
+**DIFAL - Diferencial de Alíquota:** Tributo devido ao estado de destino em operações interestaduais destinadas a consumidor final não contribuinte do ICMS, calculado pela diferença entre a alíquota interna do estado de destino e a alíquota interestadual aplicada na operação, recolhido através de GNRE específica antes do início do transporte.
 
-**Lei Complementar 87/1996 (Lei Kandir):** Define as normas gerais do ICMS, estabelecendo competências estaduais e princípios de não cumulatividade. Esta lei fundamental determina que o ICMS sobre serviços de transporte é devido ao estado de origem da prestação, princípio essencial para compreensão da tributação no setor.
+### 3.2.2 Conceitos Sanitários Fundamentais
 
-**Lei 11.903/2009 (Lei de Controle e Rastreabilidade):** Institui o controle e a rastreabilidade na cadeia dos produtos farmacêuticos, estabelecendo obrigações de monitoramento desde a fabricação até a dispensação ao consumidor final. Esta norma fundamental impacta diretamente as operações de transporte e armazenagem farmacêutica.
+**Boas Práticas de Distribuição:** Conjunto de normas técnicas estabelecidas pela RDC 430/2020 que definem padrões mínimos de qualidade para todas as operações de distribuição, armazenagem e transporte de medicamentos, incluindo qualificação de fornecedores, validação de equipamentos, treinamento de pessoal, controle de documentação, sistema de qualidade, e procedimentos de recall.
 
-**Decreto 7.508/2011:** Regulamenta a Lei 8.080/1990, estabelecendo requisitos sanitários específicos para cadeia fria farmacêutica e boas práticas de distribuição, definindo protocolos de temperatura, rastreabilidade e controle de qualidade que devem ser observados em todas as operações logísticas.
+**Rastreabilidade Farmacêutica:** Sistema que permite identificação e localização de qualquer lote específico de medicamento em toda cadeia de distribuição, desde a fabricação até a dispensação ao consumidor final, utilizando códigos únicos de identificação, registro eletrônico de todas as movimentações, e integração com o Sistema Nacional de Controle de Medicamentos (SNCM) quando aplicável.
 
-**Convênio ICMS 234/2017:** Institui o regime de substituição tributária para medicamentos em âmbito nacional, determinando metodologia de cálculo baseada no Preço Médio Ponderado ao Consumidor Final (PMPF), com atualizações periódicas por cada unidade federativa. Este convênio harmoniza o tratamento tributário em todo território nacional.
+**Validação de Sistemas Críticos:** Processo documentado que demonstra que equipamentos, sistemas e procedimentos utilizados no transporte e armazenagem de medicamentos operam consistentemente conforme especificações estabelecidas, incluindo qualificação de equipamentos de refrigeração, calibração de instrumentos de medição, mapeamento térmico de veículos e armazéns, e teste de integridade de sistemas de monitoramento.
 
-### 4.2 Legislações Estaduais Aplicáveis
+# 4. BASE LEGAL
 
-Cada estado da federação possui legislação específica que regulamenta a aplicação do ICMS sobre serviços de transporte e operações com medicamentos, sendo fundamentais para operações interestaduais:
+## 4.1 Legislação Federal
 
-**RICMS dos Estados Nordestinos:** Os regulamentos estaduais do ICMS de Alagoas, Bahia, Ceará, Maranhão, Paraíba, Pernambuco, Piauí, Rio Grande do Norte e Sergipe estabelecem alíquotas específicas, procedimentos de substituição tributária e exigências documentais que impactam diretamente as operações interestaduais da empresa.
+**Lei Complementar 87/1996 (Lei Kandir):** Estabelece normas gerais do ICMS definindo competências estaduais, princípios de não cumulatividade, e determinando que o ICMS sobre serviços de transporte é devido ao estado de origem da prestação. Esta lei fundamental estabelece também os critérios para aplicação de regimes especiais como substituição tributária e diferimento, essenciais para compreensão da tributação no setor logístico farmacêutico.
 
-**Decreto 21.400/2002 (RICMS-SE):** Especificamente para Sergipe, estabelece alíquota interna de 19% para serviços de transporte, procedimentos de recolhimento antecipado para operações interestaduais e metodologia de aplicação do PMPF para medicamentos em operações de substituição tributária.
+**Lei 11.903/2009 (Lei de Controle e Rastreabilidade):** Institui sistema nacional de controle e rastreabilidade na cadeia dos produtos farmacêuticos, estabelecendo obrigações de monitoramento desde a fabricação até a dispensação ao consumidor final através de códigos únicos de identificação, registro eletrônico de movimentações, e integração com sistemas de farmacovigilância. Esta norma impacta diretamente as operações logísticas exigindo controles específicos de lote e rastreabilidade.
 
-## 5. RESPONSABILIDADES E ESTRUTURA TRIBUTÁRIA
+**Decreto 7.508/2011:** Regulamenta a Lei 8.080/1990 estabelecendo requisitos sanitários específicos para cadeia fria farmacêutica e boas práticas de distribuição, definindo protocolos de temperatura, procedimentos de validação, sistema de qualidade, controle de fornecedores, e critérios de qualificação profissional que devem ser observados por todos os agentes da cadeia logística farmacêutica.
 
-### 5.1 Responsabilidade e Incidência Tributária
+**Convênio ICMS 234/2017:** Institui regime nacional de substituição tributária para medicamentos determinando metodologia de cálculo baseada no Preço Médio Ponderado ao Consumidor Final (PMPF), com atualizações periódicas por cada unidade federativa, margens de valor agregado específicas por categoria terapêutica, e procedimentos harmonizados para apuração e recolhimento do ICMS-ST em todo território nacional.
 
-A estrutura de responsabilidades tributárias no transporte de medicamentos é complexa e demanda compreensão aprofundada dos diferentes regimes aplicáveis:
+## 4.2 Legislação Estadual
 
-#### 5.1.1 Operações de Armazenagem
+**RICMS dos Estados Nordestinos:** Os regulamentos estaduais do ICMS de Alagoas (Lei 5.900/1996), Bahia (Decreto 13.780/2012), Ceará (Decreto 24.569/1997), Maranhão (Decreto 17.674/2001), Paraíba (Decreto 18.930/1997), Pernambuco (Decreto 14.876/1991), Piauí (Decreto 13.500/2008), Rio Grande do Norte (Decreto 13.640/1997) e Sergipe (Decreto 21.400/2002) estabelecem alíquotas específicas, procedimentos de substituição tributária, exigências documentais, benefícios fiscais regionais, e obrigações acessórias que impactam diretamente as operações interestaduais da empresa na região Nordeste.
 
-Nas operações de armazenagem de medicamentos, a empresa atua como depositário legal das mercadorias, assumindo responsabilidades sanitárias e fiscais específicas. O recebimento de produtos farmacêuticos para armazenagem caracteriza entrada simbólica que deve ser documentada através de nota fiscal de entrada (CFOP 1.901 para operações internas ou 2.901 para interestaduais), sem incidência de ICMS por tratar-se de operação sem transferência de propriedade. Contudo, a responsabilidade pela integridade, conservação e rastreabilidade dos produtos permanece com o armazém durante todo período de guarda.
+**Decreto 21.400/2002 (RICMS-SE):** Regulamento específico de Sergipe estabelece alíquota interna de 19% para serviços de transporte podendo haver adicional para Fundo Especial de Combate à Pobreza (FECP), procedimentos específicos de recolhimento antecipado para operações interestaduais através de GNRE-SE, metodologia estadual de aplicação do PMPF para medicamentos considerando particularidades do mercado sergipano, e regime especial de tributação para operações com órgãos públicos de saúde.
 
-A saída das mercadorias do armazém para entrega ao destinatário final caracteriza operação de retorno simbólico (CFOP 5.901 ou 6.901), igualmente sem incidência de ICMS, mas com obrigatoriedade de manutenção de todos os controles de lote, validade e cadeia fria estabelecidos pela ANVISA. Durante todo período de armazenagem, deve ser mantido controle rigoroso de temperatura através de data loggers calibrados, com relatórios periódicos enviados ao depositante e disponibilizados para fiscalização sanitária quando solicitado.
+## 4.3 Normas e Regulamentações Específicas
 
-#### 5.1.2 Operações com Mercadorias
+**RDC 430/2020 da ANVISA:** Estabelece Boas Práticas de Distribuição, Armazenagem e Transporte de Medicamentos definindo padrões técnicos de infraestrutura, procedimentos operacionais, sistema de qualidade, controle de fornecedores, qualificação de equipamentos, treinamento de pessoal, documentação obrigatória, e critérios de responsabilidade técnica que devem ser atendidos por todas as empresas que operam na cadeia de distribuição farmacêutica.
 
-O transporte de mercadorias sujeitas ao regime de substituição tributária, especialmente medicamentos, exige atenção especial quanto à correta aplicação das alíquotas e bases de cálculo. O transportador deve verificar na documentação fiscal de origem se o ICMS-ST foi corretamente calculado e recolhido pelo remetente substituto tributário, validando o valor através de consulta às tabelas PMPF atualizadas pelos órgãos fazendários estaduais.
+**Portaria 344/1998 da ANVISA:** Regulamenta substâncias e medicamentos sujeitos a controle especial estabelecendo procedimentos específicos para transporte, armazenagem, dispensação e controle de medicamentos controlados, incluindo exigências de documentação especial, livros de registro, balanços periódicos, sistema de dupla conferência, área de armazenagem com acesso restrito, e responsabilidade técnica específica para farmacêutico habilitado.
 
-Em operações interestaduais destinadas ao Nordeste, deve ser observado se o estabelecimento destinatário é contribuinte substituído (não recolhe ICMS-ST adicional) ou consumidor final (pode haver incidência de DIFAL). Esta verificação é fundamental para evitar autuações por falta de recolhimento de tributos devidos.
+**Resolução ANTT 5.232/2016:** Estabelece requisitos técnicos para transporte rodoviário de produtos perigosos incluindo alguns medicamentos específicos, definindo procedimentos de classificação, acondicionamento, sinalização, documentação de emergência, treinamento de condutores, e equipamentos de segurança que devem ser observados quando aplicáveis a determinadas categorias de produtos farmacêuticos.
 
-#### 5.1.3 Situações de Não Incidência
+# 5. OPERAÇÕES DE TRANSPORTE E ARMAZENAGEM
 
-Algumas situações específicas caracterizam não incidência de ICMS sobre o transporte, devendo ser adequadamente documentadas para evitar questionamentos fiscais. O transporte de medicamentos destinados a órgãos públicos de saúde, quando expressamente beneficiado por imunidade tributária, deve ser acompanhado de declaração específica do destinatário confirmando a destinação e natureza da operação.
+## 5.1 Classificação das Operações
 
-Remessas para fins de demonstração científica, amostras grátis e produtos destinados a pesquisa clínica também podem gozar de benefícios fiscais específicos, desde que adequadamente documentados e acompanhados dos termos de responsabilidade exigidos pela ANVISA para estas modalidades de operação.
+### 5.1.1 Transporte Direto de Medicamentos
 
-#### 5.1.4 Situações de Suspensão
+O transporte direto constitui modalidade operacional caracterizada pela coleta de medicamentos diretamente no estabelecimento remetente com entrega imediata ao destinatário final, sem armazenagem intermediária prolongada. Esta modalidade é especialmente adequada para medicamentos termolábeis que exigem manutenção rigorosa da cadeia fria, produtos de alto valor agregado que demandam minimização do tempo de trânsito, e medicamentos com prazo de validade reduzido que necessitam comercialização urgente.
 
-O regime de suspensão do ICMS pode ser aplicado em situações específicas previstas na legislação, como remessas para industrialização por encomenda ou operações entre estabelecimentos do mesmo titular. Em medicamentos, este regime é menos comum, mas pode ocorrer em operações entre indústrias farmacêuticas e seus centros de distribuição, desde que devidamente fundamentado em convênio específico ou legislação estadual.
+O procedimento inicia-se com análise prévia da viabilidade operacional considerando compatibilidade entre origem e destino, disponibilidade de veículo adequado às características específicas da carga, condições climáticas previstas para o trajeto, e eventual necessidade de equipamentos especiais como sistemas de refrigeração ou monitoramento em tempo real. Para medicamentos controlados, deve ser verificada previamente a disponibilidade de documentação especial e eventual necessidade de escolta ou procedimentos adicionais de segurança.
 
-### 5.2 Estrutura Tributária e Particularidades por Estado no Transporte de Medicamentos
+A qualificação do veículo para transporte direto deve considerar capacidade de carga compatível com volume a transportar, sistema de refrigeração validado para medicamentos termolábeis, equipamentos de monitoramento de temperatura com data logger calibrado, sistema de rastreamento em tempo real, e isolamento térmico adequado para proteção contra variações climáticas externas. O motorista designado deve possuir treinamento específico em procedimentos farmacêuticos e certificação para transporte de cargas especiais.
 
-#### 5.2.1 Goiás
+### 5.1.2 Armazenagem com Distribuição Posterior
 
-O Estado de Goiás apresenta estrutura tributária robusta para operações com medicamentos, sendo origem de significativa parcela das remessas para a região Nordeste. A legislação goiana estabelece alíquota padrão de 17% para transporte interno e 12% ou 7% para transporte interestadual, dependendo do estado de destino, conforme regras constitucionais de partilha de receitas.
+A armazenagem farmacêutica caracteriza-se pela guarda temporária ou prolongada de medicamentos em instalações especializadas, seguida de distribuição conforme demanda dos clientes. Esta modalidade permite consolidação de cargas de diferentes origens, otimização de rotas de distribuição, manutenção de estoque de segurança para atendimento de demanda urgente, e prestação de serviços logísticos complementares como fracionamento de lotes e reembalagem quando autorizada.
 
-Para medicamentos, aplica-se integralmente o regime de substituição tributária com base no PMPF estabelecido pela SEFAZ-GO, atualizado mensalmente através de atos normativos específicos. O cálculo do ICMS-ST considera não apenas o PMPF, mas também a Margem de Valor Agregado (MVA) estabelecida para cada categoria terapêutica, podendo variar entre 30% a 60% dependendo do tipo de medicamento.
+As instalações de armazenagem devem atender rigorosamente às especificações da RDC 430/2020 incluindo controle ambiental com temperatura e umidade monitoradas continuamente, segregação física entre diferentes tipos de produtos, área específica para quarentena de produtos em análise ou desacordo sanitário, sistema de endereçamento que facilite localização e rastreabilidade, e área restrita para medicamentos controlados com acesso limitado a pessoas autorizadas.
 
-A documentação fiscal em Goiás exige detalhamento específico do lote, data de validade, princípio ativo e classificação terapêutica em campo próprio da nota fiscal. O CT-e correspondente deve informar temperatura de transporte, identificação do responsável técnico pela carga e eventual necessidade de segregação especial para medicamentos controlados.
+O sistema de gestão de estoque deve operar em tempo real permitindo controle preciso de lotes e validades, aplicação automática do princípio FEFO (First Expired, First Out), alertas preventivos para produtos próximos ao vencimento, rastreabilidade completa desde recebimento até expedição, e integração com sistema fiscal para correlação adequada entre movimentação física e documentação tributária correspondente.
 
-#### 5.2.2 Tocantins
+### 5.1.3 Operações Interestaduais Especializadas
 
-Tocantins aplica estrutura tributária simplificada para operações de transporte, com alíquota interna de 20% para operações dentro do estado e alíquotas interestaduais de 12% para operações entre estados. O estado aderiu integralmente ao Convênio ICMS 234/2017 para medicamentos, aplicando PMPF harmonizado nacionalmente.
+As operações interestaduais para a região Nordeste exigem procedimentos específicos que consideram particularidades da legislação tributária de cada estado, condições climáticas regionais que podem impactar a conservação de medicamentos, infraestrutura logística variável entre diferentes localidades, e eventual necessidade de atendimento a regiões de difícil acesso com recursos limitados.
 
-O diferencial em Tocantins está nos benefícios fiscais específicos para transporte rodoviário intermunicipal de cargas, incluindo isenção para transporte rodoviarário intermunicipal de cargas e operações com bens destinados a ferrovias. Estas isenções podem ser aplicadas a medicamentos quando o transporte atender aos requisitos específicos estabelecidos na legislação estadual.
+A documentação fiscal para operações interestaduais deve incluir nota fiscal de remessa emitida conforme legislação do estado de origem, CT-e com todas as informações obrigatórias incluindo identificação de lotes e condições de transporte, GNRE para recolhimento de ICMS-ST e eventual DIFAL calculados conforme alíquotas vigentes no estado de destino, e documentação sanitária específica quando exigida pela vigilância sanitária estadual do destino.
 
-Para operações beneficiadas, o procedimento exige emissão de CT-e com destaque da isenção e código específico, além de controles específicos para operações beneficiadas. A documentação deve ser mantida pelo prazo de cinco anos para eventuais fiscalizações.
+## 5.2 Procedimentos por Estado de Destino
 
-#### 5.2.3 Mato Grosso
+### 5.2.1 Sergipe - Operações Especializadas
 
-O Estado de Mato Grosso possui particularidades específicas para operações logísticas, especialmente relacionadas ao agronegócio, mas que impactam também o transporte farmacêutico. A alíquota padrão de 17% para transporte interno pode ser reduzida através de benefícios fiscais específicos, especialmente para operações que promovam o desenvolvimento da infraestrutura logística estadual.
+Sergipe apresenta particularidades operacionais específicas decorrentes da instalação de unidade da empresa no estado, exigindo procedimentos diferenciados para operações internas, recebimento de mercadorias de outras unidades, e distribuição para clientes locais e demais estados nordestinos. A unidade sergipana deve manter licenciamento sanitário completo junto à VISA-SE, responsável técnico farmacêutico inscrito no CRF-SE, e autorização especial para medicamentos controlados quando aplicável.
 
-Para transporte interestadual, aplica-se recolhimento antecipado por operação através de GNRE específica, com procedimento que deve ser concluído antes do início da prestação do serviço. O sistema GNRE-MT exige cadastramento prévio do contribuinte e validação eletrônica dos dados da operação.
+**Estrutura Tributária Sergipana:** O RICMS-SE estabelece alíquota de 19% para transporte interno podendo haver adicional de FECP, procedimento específico para recolhimento antecipado em operações de saída para outros estados através de GNRE-SE gerada no portal da SEFAZ, e metodologia própria de aplicação do PMPF considerando preços praticados no mercado sergipano com atualização mensal através de Portaria específica.
 
-O diferimento do ICMS sobre frete pode ser aplicado quando o transporte destina-se a estabelecimentos do mesmo titular ou em operações específicas entre estabelecimentos agropecuários. Para medicamentos, esta regra aplica-se principalmente em operações entre indústrias farmacêuticas e seus centros de distribuição regionais.
+**Controles Operacionais em Sergipe:** Toda operação deve ser precedida de análise fiscal específica identificando regime tributário aplicável, eventual incidência de benefícios fiscais estaduais, e necessidade de recolhimento antecipado. A documentação deve ser emitida sequencialmente sem emendas ou rasuras, com backup automático em sistema certificado digitalmente pela SEFAZ-SE, e arquivamento organizado para facilitar eventual fiscalização estadual.
 
-#### 5.2.4 Pará
+### 5.2.2 Demais Estados Nordestinos
 
-No Estado do Pará, as operações de transporte de medicamentos seguem legislação específica que privilegia o desenvolvimento da logística regional amazônica. A alíquota interna de 17% para transporte pode ser beneficiada por redução em operações que contribuam para melhoria da infraestrutura de saúde regional.
+**Bahia:** Aplicação de alíquota interna de 18% para transporte, regime de ST conforme Convênio ICMS 234/17 com PMPF atualizado pela SEFAZ-BA, procedimento específico para operações com Salvador que podem ter tratamento diferenciado, e exigência de GNRE-BA para operações interestaduais com recolhimento antecipado.
 
-O estado possui protocolo específico para medicamentos destinados a regiões de difícil acesso, incluindo comunidades ribeirinhas e indígenas, com procedimentos simplificados de documentação fiscal, mas com controles sanitários reforçados devido às condições especiais de transporte e armazenagem temporária.
+**Pernambuco:** Utilização de alíquota de 18% para operações internas, aplicação integral do regime de ST para medicamentos com base no PMPF pernambucano, procedimento especial para operações destinadas à região metropolitana do Recife, e eventual benefício para medicamentos destinados a programas estaduais de saúde.
 
-A substituição tributária para medicamentos em operações com origem no Pará segue PMPF específico estabelecido pela SEFAZ-PA, com atualizações que consideram as particularidades logísticas regionais e eventual impacto dos custos de transporte fluvial complementar ao rodoviário.
+**Ceará:** Incidência de alíquota de 18% para transporte interno, regime de ST harmonizado com demais estados através do Convênio nacional, procedimento específico para operações destinadas a municípios do interior com eventual diferimento, e controle especial para medicamentos destinados à rede pública estadual.
 
-#### 5.2.5 Sergipe – Particularidades Fiscais e Operacionais
+# 6. METODOLOGIA E PROCEDIMENTOS
 
-O Estado de Sergipe, inserido no escopo operacional através da abertura de unidade específica, apresenta complexidade tributária particular que demanda atenção especial às exigências fiscais, sanitárias e documentais pertinentes ao transporte e armazenamento de medicamentos.
+## 6.1 Procedimentos Padrão
 
-**Estrutura Legal Sergipana**
+### 6.1.1 Etapa Preparatória
 
-A legislação tributária sergipana está fundamentada no Decreto 21.400/2002 (RICMS-SE), complementado por portarias e instruções normativas que normatizam operações específicas de transporte, armazenagem e comercialização de produtos sujeitos à substituição tributária. O estado aderiu integralmente aos acordos nacionais do CONFAZ, especialmente o Convênio ICMS 234/17 para medicamentos, e mantém protocolos interestaduais específicos para operações com outros estados nordestinos.
+**Passo 1 - Análise da Solicitação:** Recebida solicitação de transporte através dos canais oficiais da empresa, deve ser realizada análise completa identificando tipo de medicamento a transportar, origem e destino da operação, condições especiais exigidas como refrigeração ou controle especial, prazo de entrega solicitado, e eventual compatibilidade com outras cargas para otimização logística. Para medicamentos controlados deve ser verificada previamente a documentação de autorização específica.
 
-**Operações Internas em Sergipe**
+**Passo 2 - Qualificação Fiscal:** Identificação do regime tributário aplicável considerando classificação fiscal NCM dos produtos, enquadramento em substituição tributária ou regime especial, alíquotas incidentes conforme origem e destino, eventual aplicação de benefícios fiscais, e necessidade de recolhimento antecipado através de GNRE. Para operações interestaduais deve ser calculado eventual DIFAL quando aplicável.
 
-Toda prestação de serviço de transporte realizada por estabelecimento sergipano destinada a contribuinte situado no mesmo estado observa alíquota interna de 19% sobre o valor integral da prestação, incluindo custos acessórios como seguro, pedágio e despesas de carregamento/descarregamento. Para medicamentos sujeitos à substituição tributária, deve ser acrescido eventual adicional para Fundo Especial de Combate à Pobreza (FECP), com consulta mensal às tabelas oficiais da SEFAZ-SE.
+**Passo 3 - Seleção de Recursos:** Designação de veículo adequado às características da carga considerando capacidade, sistema de refrigeração quando necessário, equipamentos de monitoramento, e qualificação para transporte farmacêutico. Seleção de motorista com treinamento específico em procedimentos farmacêuticos e eventual certificação para transporte de produtos controlados.
 
-A base de cálculo para ICMS-ST em medicamentos utiliza o PMPF definido pela SEFAZ-SE, atualizado através de Portaria mensal que considera preços praticados no mercado sergipano e eventual variação regional. O cálculo deve considerar não apenas o PMPF, mas também despesas acessórias e margens específicas estabelecidas para cada categoria terapêutica.
+**Passo 4 - Preparação Documental:** Emissão de toda documentação fiscal obrigatória incluindo nota fiscal de remessa ou prestação de serviço, CT-e com informações completas de lote e condições de transporte, guias de recolhimento tributário quando necessárias, e documentação sanitária específica. Verificação da numeração sequencial e integridade de todos os documentos.
 
-Antes do início do transporte, deve ser emitido CT-e com vinculação obrigatória à nota fiscal da mercadoria, destacando claramente ICMS próprio e ICMS-ST quando aplicável. A documentação fiscal deve ser arquivada por cinco anos, com backup digital em sistema auditável e acesso facilitado para fiscalizações.
+### 6.1.2 Etapa de Execução
 
-**Operações Interestaduais – Saída de Sergipe para o Nordeste**
+**Passo 1 - Coleta Especializada:** Chegada ao local de origem com verificação das condições de temperatura do compartimento de carga, conferência detalhada da documentação fiscal e sanitária, inspeção visual das embalagens verificando integridade e identificação correta, medição e registro da temperatura dos produtos termolábeis, e carregamento seguindo procedimentos específicos para cada tipo de medicamento.
 
-As operações de saída interestadual com destino aos demais estados nordestinos seguem regras específicas que consideram acordos regionais e protocolos de cooperação fiscal. A alíquota interestadual é de 7% quando o destinatário está localizado em estado das regiões Norte, Nordeste, Centro-Oeste ou Espírito Santo, e de 12% para demais destinações.
+**Passo 2 - Monitoramento Durante Transporte:** Ativação de sistema de monitoramento em tempo real incluindo rastreamento GPS, monitoramento contínuo de temperatura com alertas automáticos para desvios, comunicação periódica com central de operações, e registro de eventuais paradas técnicas ou ocorrências durante trajeto. Para medicamentos controlados deve ser mantido controle adicional de segurança.
 
-Para vendas destinadas a consumidor final não contribuinte, aplica-se obrigatoriamente o diferencial de alíquota (DIFAL), recolhido ao estado de destino através de GNRE específica. O cálculo considera a diferença entre a alíquota interna do estado de destino e a alíquota interestadual aplicada, sobre a base de cálculo da operação.
+**Passo 3 - Gestão de Ocorrências:** Em caso de qualquer anormalidade durante transporte como variação de temperatura fora dos parâmetros, avaria mecânica, acidente, ou qualquer situação que possa comprometer a integridade dos medicamentos, deve ser imediatamente acionado protocolo de emergência incluindo comunicação com responsável técnico, avaliação da necessidade de medidas corretivas, e eventual transferência da carga para veículo backup.
 
-**Procedimento Operacional Detalhado para Sergipe**
+**Passo 4 - Entrega Controlada:** Chegada ao destino com verificação das condições de recebimento, conferência completa da documentação e identificação dos lotes, inspeção visual final das embalagens, medição da temperatura de chegada para produtos termolábeis, e obtenção de comprovante de entrega assinado pelo destinatário ou pessoa autorizada incluindo eventual ressalva identificada.
 
-O procedimento operacional em Sergipe inicia-se com análise fiscal prévia da operação, identificando regime tributário aplicável, alíquotas incidentes e eventual necessidade de recolhimento antecipado. Para medicamentos, deve ser verificada a adequação do PMPF utilizado pelo remetente com os valores vigentes em Sergipe, validando eventual diferença a recolher.
+### 6.1.3 Etapa de Finalização
 
-A emissão de documentos fiscais segue sequência específica: primeiro a nota fiscal de remessa ou venda (conforme a natureza da operação), depois o CT-e vinculado, e por fim as guias de recolhimento quando aplicáveis. Todos os documentos devem ser emitidos antes do início do transporte, com numeração sequencial e sem emendas ou rasuras.
+**Passo 1 - Documentação de Encerramento:** Download e análise dos dados de monitoramento de temperatura, elaboração de relatório de transporte incluindo todas as condições mantidas durante trajeto, arquivo organizado de toda documentação da operação, e eventual comunicação de ocorrências identificadas durante transporte que possam impactar a qualidade dos medicamentos.
 
-Para medicamentos termolábeis ou controlados, deve ser anexada à documentação fiscal a declaração de temperatura de transporte, identificação do responsável técnico pela carga e eventual autorização especial da ANVISA para produtos sujeitos a controle especial. Esta documentação adicional deve acompanhar a carga durante todo trajeto.
+**Passo 2 - Controle de Qualidade:** Análise dos dados coletados durante transporte verificando conformidade com padrões estabelecidos, identificação de eventual desvio ou não conformidade, comunicação ao responsável técnico sobre condições mantidas, e eventual necessidade de segregação de produtos que possam ter sido comprometidos durante transporte.
 
-O controle de lotes é obrigatório para todos os medicamentos, com registro individual de cada lote na documentação fiscal. Em caso de divergência no destino por vencimento ou dano, deve ser emitida nota fiscal de devolução (CFOP 6.906) com CT-e de retorno (CFOP 6.909), informando a reversão do ICMS-ST retido e registrando crédito correspondente no livro de apuração.
+**Passo 3 - Registro Contábil-Fiscal:** Lançamento da operação no sistema fiscal da empresa, conciliação entre documentação emitida e valores recolhidos, arquivo da documentação conforme exigências legais, e eventual ajuste ou complementação de tributos quando identificadas divergências no cálculo original.
 
-## 6. CRÉDITO PRESUMIDO DO ICMS NO TRANSPORTE
+## 6.2 Procedimentos Especiais
 
-### 6.1 Fundamentação Legal
+### 6.2.1 Medicamentos Termolábeis
 
-O crédito presumido do ICMS no transporte rodoviário de cargas constitui benefício fiscal estabelecido por diversos estados para redução da carga tributária efetiva e estímulo ao desenvolvimento do setor logístico. Este mecanismo permite que o transportador aproprie crédito fiscal em percentual superior ao ICMS efetivamente recolhido na aquisição de combustíveis e outros insumos, reduzindo a carga tributária líquida da operação.
+Medicamentos termolábeis exigem procedimentos específicos que garantam manutenção da temperatura entre 2°C e 8°C durante todo período de transporte. O veículo deve ser pré-condicionado à temperatura adequada antes do carregamento, com verificação do funcionamento de todos os sistemas de refrigeração, calibração dos equipamentos de medição, e teste da autonomia do sistema em caso de falha da alimentação principal.
 
-A fundamentação legal varia conforme cada estado, mas geralmente está baseada na Lei Complementar 24/1975 e em convênios específicos do CONFAZ que autorizam a concessão destes benefícios. Para medicamentos, alguns estados concedem créditos presumidos adicionais, considerando a importância social do transporte farmacêutico e eventual necessidade de investimentos especiais em equipamentos de refrigeração e controle de qualidade.
+O carregamento deve ser realizado rapidamente para minimizar exposição à temperatura ambiente, com disposição adequada dos produtos para permitir circulação uniforme do ar refrigerado, utilização de isolamento térmico complementar quando necessário, e posicionamento de sensores de temperatura em pontos críticos da carga. Durante transporte deve ser evitada abertura desnecessária do compartimento refrigerado.
 
-### 6.2 Procedimentos Operacionais para Adoção do Crédito Presumido
+### 6.2.2 Medicamentos Controlados
 
-A adoção do crédito presumido exige procedimentos específicos que devem ser rigorosamente seguidos para evitar questionamentos fiscais posteriores. Inicialmente, deve ser verificada a legislação estadual aplicável, identificando percentuais de crédito permitidos, condições para fruição e eventuais limitações por tipo de operação ou mercadoria transportada.
+O transporte de medicamentos controlados deve seguir rigorosamente a Portaria 344/1998 da ANVISA incluindo documentação especial de autorização, sistema de dupla conferência no carregamento e descarregamento, identificação clara da natureza controlada da carga, procedimentos adicionais de segurança durante transporte, e controle específico de acesso restrito às pessoas autorizadas para manuseio.
 
-Para medicamentos, alguns estados estabelecem percentuais diferenciados de crédito presumido, reconhecendo os custos adicionais com equipamentos de refrigeração, sistemas de monitoramento de temperatura e pessoal técnico especializado. Estes percentuais devem ser aplicados mensalmente através de lançamento no livro de apuração do ICMS, com detalhamento específico das operações beneficiadas.
+A documentação deve incluir autorização específica da ANVISA para transporte, identificação completa do responsável técnico, relação detalhada de todos os lotes transportados, comprovante de origem lícita dos produtos, e eventual autorização especial para transporte interestadual quando exigida pela legislação estadual do destino.
 
-O controle interno deve segregar as operações por tipo de mercadoria transportada, permitindo aplicação correta dos percentuais de crédito presumido conforme estabelecido na legislação. Para transporte de medicamentos, deve ser mantido controle adicional dos custos com equipamentos especiais, permitindo eventual comprovação da destinação adequada do benefício fiscal.
+# 7. CONTROLES E VALIDAÇÕES
 
-A documentação comprobatória deve incluir relatórios mensais de operações realizadas, discriminando valores de frete por tipo de mercadoria, ICMS recolhido e crédito presumido apropriado. Esta documentação deve ser mantida pelo prazo legal de cinco anos, organizada de forma a facilitar eventual fiscalização.
+## 7.1 Controles Documentais
 
-## 7. TIPOS DE MERCADORIAS E TRATAMENTO FISCAL
+### 7.1.1 Documentos Obrigatórios
 
-### 7.1 Mercadorias do Convênio ICMS 100/97
+**Documentação Fiscal Básica:** Nota fiscal eletrônica de remessa ou prestação de serviço emitida conforme legislação do estado de origem, com classificação fiscal correta NCM, código de situação tributária (CST) apropriado, destaque adequado de ICMS próprio e ICMS-ST quando aplicável, e informações complementares sobre lotes e condições especiais de transporte quando exigidas pela natureza dos medicamentos.
 
-As mercadorias enquadradas no Convênio ICMS 100/97 recebem tratamento fiscal específico que reduz significativamente a incidência tributária sobre operações de transporte. Este convênio estabelece que determinados produtos essenciais, incluindo alguns medicamentos e insumos farmacêuticos, podem ser beneficiados por alíquotas reduzidas ou isenção total do ICMS em operações interestaduais.
+**Conhecimento de Transporte Eletrônico (CT-e):** Documento fiscal específico para prestação de serviço de transporte contendo identificação completa do prestador e tomador, descrição detalhada da carga incluindo lotes e validades, condições especiais de transporte como temperatura controlada, valor do frete discriminando ICMS incidente, e eventual destaque de recolhimento antecipado quando exigido pela legislação estadual.
 
-Para identificação correta das mercadorias beneficiadas, deve ser consultada regularmente a lista atualizada do convênio, verificando se os produtos transportados enquadram-se nas especificações técnicas estabelecidas. Medicamentos genéricos, fitoterápicos e alguns produtos de higiene pessoal podem estar incluídos, dependendo da formulação e destinação específica.
+**Documentação Tributária Complementar:** GNRE para recolhimento de ICMS-ST calculado conforme PMPF vigente no estado de destino, eventual GNRE para DIFAL em operações destinadas a consumidor final não contribuinte, comprovante de pagamento das guias emitidas, e eventual documentação específica para operações beneficiadas por incentivos fiscais estaduais ou federais.
 
-O transporte de mercadorias beneficiadas pelo Convênio 100/97 exige documentação fiscal específica, com destaque da isenção ou redução aplicada e código de benefício correspondente. A nota fiscal de origem deve conter CST (Código de Situação Tributária) apropriado, e o CT-e deve referenciar expressamente o fundamento legal da desoneração.
+**Documentação Sanitária Específica:** Autorização de Funcionamento da empresa emitida pela ANVISA, Licença de Funcionamento da unidade expedida pela vigilância sanitária estadual, Certificado de Responsabilidade Técnica do farmacêutico responsável, autorização especial para medicamentos controlados quando aplicável, e eventual documentação complementar exigida por estados específicos.
 
-### 7.2 Mercadorias em Geral
+### 7.1.2 Validações Documentais
 
-As demais mercadorias transportadas seguem regime tributário padrão, com aplicação das alíquotas internas ou interestaduais conforme origem e destino da operação. Para medicamentos não beneficiados por convênios específicos, aplica-se integralmente o regime de substituição tributária, com cálculo baseado no PMPF vigente no estado de origem.
+**Conferência de Autenticidade:** Verificação da validade e autenticidade de todas as licenças sanitárias dos estabelecimentos envolvidos na operação, confirmação da regularidade do responsável técnico junto ao conselho profissional competente, validação dos números de registro dos medicamentos junto à ANVISA, e eventual verificação de autorizações especiais para produtos sujeitos a controle especial.
 
-O controle adequado exige classificação fiscal correta de cada produto transportado, verificando NCM (Nomenclatura Comum do Mercosul), CST aplicável e eventual enquadramento em regimes especiais. Para produtos farmacêuticos, deve ser verificada também a classificação sanitária junto à ANVISA, identificando eventual sujeição a controles especiais.
+**Verificação de Completude:** Checklist completo de toda documentação exigida para o tipo específico de operação, verificação da presença de todas as informações obrigatórias em cada documento, confirmação da correlação adequada entre documentação fiscal e sanitária, e validação da sequência numérica dos documentos emitidos.
 
-A documentação fiscal deve refletir adequadamente a classificação de cada produto, permitindo rastreabilidade completa desde a origem até o destino final. Para medicamentos, informações adicionais como lote, validade, temperatura de conservação e responsável técnico devem estar claramente identificadas na documentação de transporte.
+**Controle de Vencimentos:** Monitoramento sistemático dos prazos de validade de todas as licenças e autorizações utilizadas, alerta preventivo para documentos próximos ao vencimento, renovação antecipada de documentação essencial, e manutenção de arquivo organizado com controle de validades para facilitar gestão proativa.
 
-## 8. CONTROLES INTERNOS
+**Validação de Cálculos Fiscais:** Conferência detalhada dos cálculos de ICMS próprio e ICMS-ST utilizando tabelas oficiais vigentes, validação das alíquotas aplicadas conforme origem e destino da operação, verificação da aplicação correta de benefícios fiscais quando applicable, e eventual recálculo quando identificadas divergências nos valores originais.
 
-### 8.1 Controle de Documentos
+## 7.2 Controles Operacionais
 
-O controle documental constitui elemento fundamental para garantia da conformidade fiscal e sanitária das operações de transporte de medicamentos. Este controle deve abranger desde a documentação de origem até os comprovantes de entrega, passando por todas as guias de recolhimento tributário e certificados sanitários aplicáveis.
+### 7.2.1 Checklist de Validação Operacional
 
-Para medicamentos, o controle documental deve incluir verificação sistemática da validade das licenças sanitárias dos estabelecimentos envolvidos, confirmação da regularidade do responsável técnico indicado na documentação e validação dos certificados de análise quando exigidos para produtos específicos. Toda documentação deve ser arquivada em ordem cronológica, com indexação que permita localização rápida por número de lote, cliente ou produto.
+- ✅ **Qualificação de Veículo:** Certificado de qualificação válido, sistema de refrigeração testado e funcionando adequadamente, equipamentos de monitoramento calibrados, isolamento térmico íntegro, sistema de rastreamento ativo
+- ✅ **Qualificação de Motorista:** Treinamento em procedimentos farmacêuticos concluído, certificação para transporte de cargas especiais válida, conhecimento dos procedimentos de emergência, documentação pessoal regular
+- ✅ **Condições de Carregamento:** Temperatura do compartimento adequada antes do carregamento, produtos organizados para circulação adequada do ar, sensores posicionados corretamente, isolamento complementar quando necessário
+- ✅ **Documentação de Transporte:** CT-e emitido corretamente, documentação fiscal completa e regular, autorizações especiais quando necessárias, comprovantes de recolhimento tributário
+- ✅ **Sistema de Monitoramento:** Data logger ativado e funcionando, sistema GPS operacional, comunicação com central estabelecida, alarmes configurados adequadamente
 
-O sistema de controle deve prever backup automático de toda documentação eletrônica, com armazenamento em nuvem segura e acesso restrito a pessoas autorizadas. Para documentos físicos essenciais, deve ser mantida cópia digitalizada, garantindo preservação das informações mesmo em caso de sinistro ou deterioração natural.
+### 7.2.2 Controles de Qualidade Farmacêutica
 
-### 8.2 Controle de Estoques
+**Controle de Temperatura:** Monitoramento contínuo através de sistema eletrônico validado, registro automático de dados em intervalos regulares, alarmes configurados para temperatura fora da faixa especificada, procedimento de emergência definido para situações de desvio, e relatório detalhado de todas as condições mantidas durante transporte.
 
-O controle de estoques para medicamentos armazenados temporariamente exige rigor específico devido às implicações sanitárias e fiscais envolvidas. Este controle deve considerar não apenas quantidades, mas também lotes, datas de validade, condições de conservação e rastreabilidade completa desde o recebimento até a expedição.
+**Controle de Rastreabilidade:** Sistema eletrônico integrado que permite localização imediata de qualquer lote específico, registro de todas as movimentações com identificação de responsáveis, correlação entre documentação física e registros eletrônicos, e capacidade de rastreabilidade reversa para atendimento de eventual recall ou investigação sanitária.
 
-O sistema de controle deve operar em tempo real, com alertas automáticos para medicamentos próximos ao vencimento, variações de temperatura fora dos parâmetros estabelecidos e eventual necessidade de segregação de produtos em desacordo sanitário. Cada movimentação deve ser documentada com identificação do responsável, horário exato e motivo da operação.
+**Controle de Integridade:** Inspeção visual sistemática das embalagens antes do carregamento e após chegada ao destino, registro fotográfico de eventual dano identificado, procedimento específico para produtos danificados incluindo segregação e comunicação ao responsável técnico, e documentação detalhada de todas as ocorrências identificadas.
 
-Para medicamentos controlados, o controle de estoque deve seguir rigorosamente as exigências da Portaria 344/98 da ANVISA, com livro específico para registro de movimentações, balanços periódicos e relatórios mensais aos órgãos competentes. O acesso físico a estes produtos deve ser restrito a pessoas autorizadas, com sistema de dupla conferência em todas as operações.
+**Verificação de Lotes e Validades:** Conferência detalhada de todos os lotes transportados contra documentação de origem, verificação de datas de validade com alerta para produtos próximos ao vencimento, aplicação do princípio FEFO em operações de armazenagem, e comunicação proativa sobre produtos com prazo reduzido.
 
-### 8.3 Controle Fiscal
+# 8. ASPECTOS OPERACIONAIS
 
-O controle fiscal abrange todas as obrigações tributárias principais e acessórias relacionadas às operações de transporte e armazenagem. Para medicamentos, este controle deve considerar particularidades do regime de substituição tributária, eventual aplicação de benefícios fiscais específicos e cumprimento de obrigações acessórias especiais.
+## 8.1 Responsabilidades
 
-O controle deve incluir verificação sistemática da correção dos cálculos de ICMS e ICMS-ST, validação dos códigos fiscais utilizados na documentação e conferência da aplicação correta de alíquotas conforme origem e destino das operações. Divergências identificadas devem ser imediatamente corrigidas, com comunicação aos clientes quando necessário.
+### 8.1.1 Responsabilidades por Função
 
-#### 8.3.1 Controles específicos para MT e PA
+**Responsável Técnico Farmacêutico:**
 
-Para operações com origem ou destino em Mato Grosso e Pará, devem ser observadas particularidades específicas relacionadas à logística da região Centro-Norte. Em Mato Grosso, o controle deve considerar eventual aplicação do diferimento em operações agropecuárias e procedimentos específicos para recolhimento antecipado em operações interestaduais.
+- Supervisão técnica de todas as operações farmacêuticas garantindo cumprimento das Boas Práticas de Distribuição
+- Aprovação de procedimentos operacionais específicos para cada tipo de medicamento transportado ou armazenado
+- Análise técnica de desvios de temperatura ou outras não conformidades identificadas durante operações
+- Comunicação com autoridades sanitárias em situações que exijam notificação compulsória
+- Supervisão de treinamento específico para pessoal envolvido em operações farmacêuticas
 
-No Pará, deve ser observado o protocolo específico para medicamentos destinados a regiões de difícil acesso, que pode exigir documentação adicional e procedimentos simplificados para comunidades especiais. O controle deve incluir verificação da destinação declarada e eventual necessidade de autorizações específicas para transporte em áreas de proteção ambiental.
+**Coordenador de Operações:**
 
-## 9. FLUXOS DE OPERAÇÃO
+- Planejamento e programação de todas as operações de transporte e armazenagem
+- Alocação de recursos humanos e materiais conforme demanda operacional
+- Monitoramento de indicadores de desempenho operacional e qualidade de serviço
+- Coordenação com equipe comercial para atendimento adequado das necessidades dos clientes
+- Gestão de situações de emergência e acionamento de protocolos específicos
 
-Os fluxos operacionais da empresa estão estruturados para atender diferentes modalidades de transporte e armazenagem, cada uma com particularidades fiscais e operacionais específicas. A padronização destes fluxos é essencial para garantia da qualidade do serviço prestado e cumprimento integral das obrigações legais aplicáveis.
+**Analista Fiscal:**
 
-Para medicamentos, todos os fluxos operacionais devem considerar as exigências de Boas Práticas de Distribuição estabelecidas pela RDC 430/2020 da ANVISA, incluindo controles de temperatura, rastreabilidade de lotes, qualificação de fornecedores e procedimentos de recall quando necessários.
+- Análise prévia de viabilidade fiscal para todas as operações solicitadas
+- Cálculo correto de todos os tributos incidentes conforme legislação aplicável
+- Emissão de documentação fiscal em conformidade com exigências legais
+- Acompanhamento de alterações na legislação tributária federal e estadual
+- Suporte técnico para resolução de questões fiscais complexas
 
-### 9.1 Fluxo de Coleta Direta
+**Motorista Especializado:**
 
-O fluxo de coleta direta caracteriza-se pela retirada da mercadoria diretamente no estabelecimento do cliente, sem armazenagem intermediária. Este fluxo é amplamente utilizado para medicamentos que exigem entrega rápida ou produtos termolábeis que não podem sofrer quebra da cadeia fria.
+- Transporte seguro mantendo todas as condições especiais exigidas para medicamentos
+- Monitoramento contínuo das condições da carga durante todo trajeto
+- Comunicação imediata de qualquer anormalidade identificada durante transporte
+- Aplicação de procedimentos de emergência quando necessário
+- Manutenção de registro detalhado de todas as atividades realizadas
 
-**Etapa 1 - Recebimento da Solicitação:** A solicitação de transporte é recebida através dos canais oficiais da empresa, com identificação completa do cliente, origem, destino, tipo de mercadoria e condições especiais exigidas. Para medicamentos, deve ser verificada a necessidade de equipamentos especiais de refrigeração, identificação de produtos controlados e eventual exigência de acompanhamento de responsável técnico.
+### 8.1.2 Matriz de Responsabilidades - RACI
 
-**Etapa 2 - Análise Fiscal Prévia:** Antes do aceite da operação, deve ser realizada análise fiscal completa, identificando regime tributário aplicável, alíquotas incidentes, eventual necessidade de recolhimento antecipado e adequação da documentação fiscal de origem. Para medicamentos sujeitos à substituição tributária, deve ser validado o PMPF utilizado e eventual necessidade de complemento de ICMS-ST.
+| Atividade               | Resp. Técnico | Coord. Operações | Analista Fiscal | Motorista |
+| ----------------------- | ------------- | ---------------- | --------------- | --------- |
+| Análise de Solicitação  | C             | R                | A               | I         |
+| Qualificação Fiscal     | I             | C                | R               | I         |
+| Seleção de Veículo      | A             | R                | I               | C         |
+| Emissão de Documentação | C             | I                | R               | I         |
+| Carregamento            | R             | A                | I               | R         |
+| Transporte              | R             | C                | I               | R         |
+| Monitoramento           | A             | R                | I               | R         |
+| Tratamento de Desvios   | R             | A                | C               | R         |
+| Entrega                 | A             | C                | I               | R         |
 
-**Etapa 3 - Programação e Coleta:** Após confirmação fiscal, é programada a coleta com veículo adequado às características da carga. Para medicamentos, deve ser verificada a calibração dos equipamentos de refrigeração, funcionamento dos data loggers e disponibilidade de documentação técnica exigida. A coleta deve ser realizada por motorista treinado em procedimentos farmacêuticos.
+*R=Responsável, A=Aprovador, C=Consultado, I=Informado*
 
-**Etapa 4 - Transporte e Entrega:** Durante o transporte, devem ser seguidos rigorosamente os protocolos de temperatura, com monitoramento contínuo e registro de eventuais ocorrências. A entrega deve ser realizada diretamente ao destinatário ou pessoa autorizada, com conferência da documentação e assinatura de comprovante de recebimento.
+## 8.2 Prazos e Cronogramas
 
-### 9.2 Fluxo de Armazenagem com Posterior Distribuição
+### 8.2.1 Prazos Regulamentares
 
-Este fluxo é utilizado quando há necessidade de consolidação de cargas, atendimento de múltiplos destinos ou armazenagem por período determinado. Para medicamentos, exige estrutura física adequada com controle rígido de temperatura, umidade e acesso restrito.
+**Prazo de Emissão de CT-e:** 24 horas antes do início da prestação do serviço conforme estabelecido pela legislação federal, sendo recomendada emissão com antecedência superior para permitir validação e eventual correção de inconsistências identificadas antes do início efetivo do transporte.
 
-**Etapa 1 - Recebimento no Armazém:** O recebimento de medicamentos deve seguir protocolo específico de conferência que inclui verificação de integridade das embalagens, conferência de lotes e validades, medição de temperatura de chegada e registro fotográfico quando necessário. Produtos em desacordo devem ser imediatamente segregados e comunicados ao remetente.
+**Prazo de Recolhimento de ICMS-ST:** Até o 10º dia do mês subsequente ao da operação para operações internas, ou antes do início do transporte para operações interestaduais que exijam recolhimento antecipado conforme legislação específica de cada estado de destino.
 
-**Etapa 2 - Armazenagem Controlada:** A armazenagem deve ser realizada em áreas específicas conforme tipo de produto, com segregação por lote e controle FEFO (First Expired, First Out). Medicamentos termolábeis devem ser armazenados em câmaras frias com temperatura controlada, sistema de alarme e gerador de emergência.
+**Prazo de Entrega de Medicamentos:** Conforme acordado comercialmente com cada cliente, considerando condições especiais como medicamentos termolábeis que exigem entrega prioritária, produtos próximos ao vencimento, ou situações de emergência que demandem tratamento urgente.
 
-**Etapa 3 - Controle de Qualidade:** Durante todo período de armazenagem, deve ser mantido controle rigoroso das condições ambientais, com registros automáticos de temperatura e umidade, inspeções visuais periódicas e relatórios de não conformidade quando identificadas situações inadequadas.
+**Prazo de Arquivo de Documentação:** Mínimo de 5 anos conforme exigência legal, sendo recomendado prazo superior para documentação crítica relacionada a medicamentos controlados ou produtos sujeitos a investigações sanitárias prolongadas.
 
-**Etapa 4 - Expedição Programada:** A expedição deve ser programada considerando rotas otimizadas, compatibilidade entre produtos transportados e condições especiais exigidas. Para medicamentos controlados, deve ser seguido protocolo específico com dupla conferência e assinatura do responsável técnico.
+### 8.2.2 Cronograma de Atividades Tipo
 
-### 9.3 Fluxo de Transferência Interfilial
+**Fase 1 - Planejamento (D-2 a D-1):** Recebimento e análise de solicitações, qualificação fiscal das operações, seleção e preparação de recursos, emissão de documentação fiscal e sanitária, programação de coletas e entregas.
 
-As transferências entre filiais da empresa seguem procedimento específico que considera aspectos fiscais de operações interestaduais e necessidades operacionais de cada unidade. Para medicamentos, deve ser mantida rastreabilidade completa e controle de temperatura durante todo trajeto.
+**Fase 2 - Execução (D0):** Coleta especializada na origem, carregamento controlado, início do transporte com monitoramento contínuo, gestão proativa de eventuais ocorrências, entrega controlada no destino.
 
-**Etapa 1 - Planejamento da Transferência:** O planejamento considera necessidades de estoque de cada filial, condições fiscais da operação e disponibilidade de veículos adequados. Para medicamentos próximos ao vencimento, deve ser priorizada transferência para unidades com maior rotatividade.
+**Fase 3 - Finalização (D+1 a D+2):** Análise de dados de monitoramento, elaboração de relatórios operacionais, arquivo organizado de documentação, lançamentos contábeis e fiscais, comunicação de resultados aos stakeholders.
 
-**Etapa 2 - Documentação Interestadual:** A documentação deve incluir nota fiscal de transferência entre estabelecimentos do mesmo titular, CT-e específico para transferência e eventual GNRE para recolhimento de diferencial de alíquota. Para medicamentos, deve ser anexada planilha de controle de lotes e temperaturas.
+## 8.3 Indicadores de Desempenho
 
-**Etapa 3 - Transporte Monitorado:** Durante o transporte, deve ser mantido monitoramento em tempo real da localização do veículo e condições da carga. Para medicamentos, deve ser disponibilizado canal de comunicação 24 horas para atendimento de emergências relacionadas à quebra da cadeia fria.
+### 8.3.1 Indicadores de Qualidade
 
-**Etapa 4 - Recebimento na Filial Destino:** O recebimento deve seguir o mesmo protocolo rigoroso aplicado a mercadorias de terceiros, com conferência completa da documentação, verificação das condições da carga e registro de eventuais ocorrências identificadas durante o transporte.
+**Taxa de Manutenção da Cadeia Fria:** Percentual de operações com medicamentos termolábeis que mantiveram temperatura dentro da faixa especificada durante 100% do tempo de transporte, com meta mínima de 99,5% para demonstração de excelência operacional.
 
-### 9.4 Fluxo de Devolução e Recall
+**Índice de Conformidade Documental:** Percentual de operações com documentação fiscal e sanitária 100% conforme exigências legais na primeira verificação, sem necessidade de correções posteriores, com meta mínima de 98%.
 
-O fluxo de devolução é essencial para medicamentos, considerando eventual necessidade de recall por determinação sanitária ou comercial. Este fluxo deve ser rápido e eficiente, permitindo rastreabilidade reversa completa.
+**Taxa de Entregas no Prazo:** Percentual de entregas realizadas dentro do prazo acordado com cliente, considerando eventual tolerância para situações excepcionais como condições climáticas adversas ou emergências de trânsito, com meta mínima de 95%.
 
-**Etapa 1 - Comunicação do Recall:** Recebida comunicação de recall, deve ser imediatamente identificado o lote afetado em todos os pontos da cadeia logística, com bloqueio automático no sistema e comunicação urgente aos clientes que possam estar em posse dos produtos.
+### 8.3.2 Indicadores de Eficiência
 
-**Etapa 2 - Coleta dos Produtos:** A coleta deve ser realizada com urgência, utilizando veículos adequados e seguindo protocolos específicos para produtos sujeitos a recall. Deve ser mantido controle rigoroso da documentação de coleta, com identificação precisa dos lotes recolhidos.
+**Tempo Médio de Carregamento:** Tempo decorrido desde chegada do veículo até conclusão do carregamento, medido separadamente para medicamentos convencionais (meta: máximo 30 minutos) e termolábeis (meta: máximo 15 minutos).
 
-**Etapa 3 - Segregação e Controle:** Os produtos recolhidos devem ser segregados em área específica, com acesso restrito e identificação clara de sua condição. Deve ser mantido controle individual de cada lote recolhido, com rastreabilidade completa desde a origem até o recolhimento final.
+**Taxa de Utilização de Veículos:** Percentual de aproveitamento da capacidade de carga dos veículos, considerando limitações específicas para medicamentos que podem exigir segregação ou condições especiais, com meta mínima de 80%.
 
-**Etapa 4 - Destinação Final:** A destinação final deve seguir orientações do fabricante e eventual determinação da ANVISA, podendo incluir devolução ao fabricante, destruição controlada ou outras medidas específicas conforme a natureza do problema identificado.
+**Índice de Ocorrências Zero:** Percentual de operações concluídas sem qualquer tipo de ocorrência (desvio de temperatura, avaria, atraso, documentação), demonstrando excelência operacional com meta mínima de 92%.
 
-## 10. TRANSPORTE E ARMAZENAMENTO DE MEDICAMENTOS
+# 9. FLUXOS E PROCESSOS
 
-O transporte e armazenamento de produtos farmacêuticos constituem atividades de alta complexidade regulatória que combinam exigências sanitárias rigorosas da ANVISA com obrigações tributárias específicas do sistema fiscal brasileiro. Esta seção detalha todos os procedimentos necessários para garantir conformidade integral com as normas aplicáveis, preservando a qualidade, eficácia e segurança dos medicamentos durante toda cadeia logística.
+## 9.1 Fluxo Padrão
 
-### 10.1 Enquadramento Normativo e Responsabilidades
-
-O transporte e armazenagem de medicamentos são regulamentados por um complexo sistema normativo que integra legislação federal, estadual e regulamentações técnicas específicas. A ANVISA, através da RDC 430/2020 e suas atualizações posteriores, estabelece as diretrizes gerais de Boas Práticas de Distribuição, Armazenagem e Transporte de Medicamentos, definindo padrões mínimos de qualidade, rastreabilidade e controle sanitário que devem ser observados por todos os agentes da cadeia logística farmacêutica.
-
-**Responsabilidades Sanitárias**
-
-A responsabilidade sanitária no transporte de medicamentos é compartilhada entre todos os agentes da cadeia, desde o fabricante até o distribuidor final. O transportador assume responsabilidade específica pela manutenção das condições adequadas de conservação durante o trajeto, incluindo controle de temperatura, proteção contra luz, umidade e contaminação, além de garantir a integridade física das embalagens e a rastreabilidade completa dos lotes transportados.
-
-Para medicamentos termolábeis, a responsabilidade inclui utilização de equipamentos de refrigeração validados, monitoramento contínuo de temperatura através de data loggers calibrados, procedimentos de emergência para situações de quebra da cadeia fria e relatórios detalhados de todas as condições de transporte. O responsável técnico designado deve supervisionar todas estas atividades, assumindo responsabilidade profissional perante o Conselho Regional de Farmácia.
-
-**Responsabilidades Tributárias**
-
-No âmbito tributário, as operações com medicamentos estão sujeitas ao regime de substituição tributária estabelecido pelo Convênio ICMS 234/17, que determina metodologia específica de cálculo baseada no Preço Médio Ponderado ao Consumidor Final (PMPF). Este regime transfere a responsabilidade pelo recolhimento do ICMS devido nas operações subsequentes para o primeiro estabelecimento da cadeia, geralmente o fabricante ou importador.
-
-O transportador deve verificar a correta aplicação do regime de substituição tributária na documentação fiscal de origem, validando se os valores de ICMS-ST foram adequadamente calculados e recolhidos. Em operações interestaduais, deve ser observada a eventual incidência do diferencial de alíquota (DIFAL) em vendas para consumidores finais não contribuintes, com recolhimento específico ao estado de destino através de GNRE.
-
-**Obrigações Acessórias**
-
-As obrigações acessórias incluem manutenção de registros detalhados de todas as operações, envio de relatórios periódicos aos órgãos sanitários e fazendários, manutenção de documentação comprobatória das condições de transporte e armazenagem, e disponibilização de informações para eventual rastreabilidade em situações de recall ou investigação sanitária.
-
-O sistema de controle deve permitir rastreabilidade completa desde a origem até o destino final, incluindo informações sobre lotes, condições de transporte, responsáveis pelas operações e eventual ocorrência de situações anômalas durante o processo logístico. Esta documentação deve ser mantida pelo prazo mínimo de cinco anos, em formato que permita consulta rápida e auditoria pelos órgãos competentes.
-
-### 10.2 Estrutura Tributária Específica para Medicamentos
-
-A estrutura tributária aplicável ao transporte de medicamentos é significativamente mais complexa que outras mercadorias devido à aplicação generalizada do regime de substituição tributária e às especificidades regulatórias do setor farmacêutico. Esta complexidade exige compreensão aprofundada dos mecanismos de cálculo, procedimentos de recolhimento e controles específicos exigidos pela legislação.
-
-**Base de Cálculo e PMPF**
-
-O Preço Médio Ponderado ao Consumidor Final (PMPF) constitui a base fundamental para cálculo do ICMS-ST em medicamentos. Este preço é estabelecido mensalmente por cada estado através de levantamento específico dos preços praticados no mercado varejista, considerando diferentes canais de distribuição e eventual variação regional nos custos de comercialização.
-
-Para operações interestaduais, deve ser utilizado o PMPF vigente no estado de destino da mercadoria, o que pode exigir consulta a múltiplas fontes de informação quando a operação envolve diferentes unidades federativas. O cálculo do ICMS-ST considera não apenas o PMPF, mas também a Margem de Valor Agregado (MVA) específica de cada categoria terapêutica, podendo variar entre 30% a 80% dependendo do tipo de medicamento e estado de destino.
-
-**Procedimentos de Recolhimento**
-
-O recolhimento do ICMS-ST deve ser realizado através de GNRE específica, emitida antes do início do transporte e quitada através dos canais bancários autorizados. Para operações complexas envolvendo múltiplos estados de destino, pode ser necessária emissão de múltiplas guias, cada uma correspondente às especificidades tributárias de cada unidade federativa.
-
-A documentação de recolhimento deve ser arquivada junto com a documentação fiscal da operação, permitindo comprovação imediata em eventual fiscalização. O sistema de controle deve alertar automaticamente para eventual pendência de recolhimento, evitando início de transporte sem a devida quitação das obrigações tributárias.
-
-**Regimes Especiais e Benefícios**
-
-Alguns medicamentos podem ser beneficiados por regimes tributários especiais, incluindo isenções para produtos destinados a programas governamentais de saúde, redução de alíquotas para medicamentos genéricos ou benefícios específicos para produtos de alto custo utilizados em tratamentos excepcionais.
-
-A identificação correta destes benefícios exige consulta constante às legislações estaduais e federais, verificando se os produtos transportados enquadram-se nas condições estabelecidas para fruição dos incentivos. A documentação fiscal deve refletir adequadamente a aplicação destes benefícios, com código específico e fundamentação legal clara.
-
-### 10.3 Boas Práticas de Armazenamento
-
-As Boas Práticas de Armazenamento para medicamentos são estabelecidas pela RDC 430/2020 da ANVISA e complementadas por normas técnicas específicas que detalham procedimentos operacionais, controles de qualidade e sistemas de gestão que devem ser implementados em todas as instalações de armazenagem farmacêutica.
-
-**Infraestrutura e Instalações**
-
-As instalações de armazenagem de medicamentos devem atender requisitos específicos de construção e layout que garantam condições adequadas de conservação e controle sanitário. O projeto deve considerar segregação de diferentes tipos de produtos, controle de acesso, sistemas de ventilação e climatização adequados, e áreas específicas para quarentena de produtos em análise ou desacordo sanitário.
-
-Para medicamentos termolábeis, devem ser disponibilizadas câmaras frias com controle rigoroso de temperatura, sistemas redundantes de refrigeração, alarmes de temperatura com monitoramento 24 horas, e gerador de emergência para garantir continuidade da cadeia fria mesmo em situações de falta de energia elétrica. O sistema de monitoramento deve registrar automaticamente todas as variações de temperatura, com relatórios que permitam comprovação da manutenção das condições adequadas.
-
-As áreas de armazenagem devem ser dimensionadas adequadamente para permitir circulação segura de pessoas e equipamentos, com sistema de endereçamento que facilite localização rápida de produtos específicos e inventários periódicos. O sistema de ventilação deve garantir renovação adequada do ar, evitando formação de pontos de umidade que possam comprometer a qualidade dos medicamentos armazenados.
-
-**Sistemas de Controle de Qualidade**
-
-O controle de qualidade durante armazenagem envolve monitoramento contínuo das condições ambientais, inspeção visual periódica dos produtos armazenados, controle rigoroso de lotes e validades, e procedimentos específicos para identificação e segregação de produtos em desacordo sanitário.
-
-O sistema de monitoramento ambiental deve incluir medição automática de temperatura e umidade em múltiplos pontos das áreas de armazenagem, com registro eletrônico que permita rastreabilidade completa das condições mantidas. Para medicamentos que exigem proteção contra luz, devem ser utilizadas embalagens opacas ou áreas com iluminação controlada.
-
-O controle de lotes deve seguir rigorosamente o princípio FEFO (First Expired, First Out), priorizando a expedição de produtos com menor prazo de validade. O sistema de gestão deve alertar automaticamente para medicamentos próximos ao vencimento, permitindo adoção de medidas preventivas como transferência para unidades com maior rotatividade ou comunicação proativa aos clientes.
-
-**Procedimentos de Recebimento**
-
-O recebimento de medicamentos deve seguir protocolo rigoroso que inclui conferência completa da documentação fiscal e sanitária, inspeção visual das condições das embalagens, verificação de lotes e prazos de validade, medição de temperatura de chegada para produtos termolábeis, e registro fotográfico quando identificadas situações anômalas.
-
-Para medicamentos controlados, o recebimento deve incluir conferência específica das autorizações sanitárias, verificação da documentação de transporte e registro em livro específico conforme exigências da Portaria 344/98 da ANVISA. O acesso a estes produtos deve ser restrito a pessoas devidamente autorizadas, com sistema de dupla conferência em todas as operações.
-
-Produtos que chegarem em desacordo com as especificações devem ser imediatamente segregados em área de quarentena, com identificação clara de sua condição e comunicação imediata ao remetente. Deve ser elaborado relatório de não conformidade detalhado, incluindo fotografias das situações identificadas e proposta de solução para regularização.
-
-### 10.4 Protocolos de Transporte
-
-Os protocolos de transporte para medicamentos são estabelecidos considerando as características específicas de cada tipo de produto, condições exigidas para manutenção da qualidade e eficácia, e requisitos regulamentares aplicáveis. Estes protocolos devem ser seguidos rigorosamente para garantir que os medicamentos cheguem ao destino final em condições adequadas para consumo.
-
-**Qualificação de Veículos**
-
-Todos os veículos utilizados para transporte de medicamentos devem ser qualificados através de processo específico que inclui validação dos sistemas de refrigeração (quando aplicável), verificação da integridade das carrocerias, calibração dos instrumentos de medição e treinamento específico dos motoristas em procedimentos farmacêuticos.
-
-Para medicamentos termolábeis, a qualificação deve incluir mapeamento térmico completo do compartimento de carga, teste de uniformidade de temperatura em diferentes condições de carga, validação do tempo de recuperação após abertura das portas, e verificação da autonomia do sistema de refrigeração. Deve ser emitido certificado de qualificação com validade definida, exigindo requalificação periódica para manutenção da habilitação.
-
-Os equipamentos de monitoramento de temperatura (data loggers) devem ser calibrados periodicamente por laboratório acreditado, com certificados que comprovem a precisão das medições realizadas. O sistema deve permitir monitoramento em tempo real, com alarmes automáticos para situações fora dos parâmetros estabelecidos.
-
-**Procedimentos de Carregamento**
-
-O carregamento de medicamentos deve seguir sequência específica que garanta adequada distribuição da carga, facilitando acesso para conferências intermediárias e otimizando as condições de conservação durante transporte. Para medicamentos termolábeis, deve ser verificada a temperatura do compartimento de carga antes do carregamento, garantindo que as condições adequadas sejam mantidas desde o início.
-
-A distribuição da carga deve considerar compatibilidade entre diferentes produtos, evitando contaminação cruzada ou interferência entre medicamentos incompatíveis. Produtos controlados devem ser acondicionados em compartimentos específicos, com acesso restrito e identificação clara de sua natureza especial.
-
-Deve ser elaborada planilha de carregamento detalhada, informando localização de cada lote na carga, condições específicas exigidas para conservação, e eventual ordem de entrega quando a operação envolve múltiplos destinatários. Esta planilha deve acompanhar a carga durante todo trajeto, permitindo localização rápida de produtos específicos quando necessário.
-
-**Monitoramento Durante Transporte**
-
-Durante todo período de transporte, deve ser mantido monitoramento contínuo das condições da carga, incluindo temperatura, localização do veículo, e eventual ocorrência de situações que possam comprometer a qualidade dos medicamentos transportados. Para medicamentos termolábeis, qualquer variação de temperatura fora dos parâmetros estabelecidos deve gerar alerta imediato.
-
-O sistema de rastreamento deve permitir localização precisa do veículo em tempo real, com histórico completo de trajeto percorrido e eventuais paradas realizadas. Para medicamentos de alto valor ou controlados, pode ser exigido sistema adicional de segurança, incluindo câmeras de monitoramento e comunicação direta com central de emergência.
-
-Situações anômalas identificadas durante transporte devem gerar protocolo específico de atendimento, incluindo comunicação imediata com o responsável técnico, avaliação da necessidade de medidas corretivas, e eventual necessidade de interrupção do transporte para proteção da integridade dos produtos.
-
-### 10.5 Controle de Lotes e Rastreabilidade
-
-O controle de lotes constitui elemento fundamental do sistema de qualidade farmacêutica, permitindo rastreabilidade completa desde a fabricação até o consumo final, facilitando eventual recall de produtos e garantindo conformidade com exigências regulamentares de farmacovigilância.
-
-**Sistema de Identificação de Lotes**
-
-Cada lote de medicamento deve ser inequivocamente identificado através de sistema padronizado que inclui código alfanumérico único, data de fabricação, data de validade, e identificação do fabricante. Para produtos sujeitos ao Sistema Nacional de Controle de Medicamentos (SNCM), deve ser incluído também código bidimensional (DataMatrix) que permite rastreabilidade eletrônica.
-
-O sistema de gestão deve registrar automaticamente todas as informações de lote durante recebimento, armazenagem e expedição, criando histórico completo que permita rastreabilidade reversa em caso de necessidade. Esta informação deve ser integrada com a documentação fiscal, permitindo correlação precisa entre aspectos comerciais e sanitários de cada operação.
-
-Para medicamentos com controle especial, o registro de lotes deve incluir informações adicionais exigidas pela legislação específica, incluindo identificação dos responsáveis pelas operações, motivo de cada movimentação, e balanço periódico conforme periodicidade estabelecida pela ANVISA.
-
-**Procedimentos de Rastreabilidade**
-
-A rastreabilidade deve permitir localização imediata de qualquer lote específico em toda cadeia logística, identificando sua localização atual, histórico de movimentações, condições de conservação mantidas durante transporte e armazenagem, e eventual destinação final. Este sistema é fundamental para atendimento eficaz de determinações de recall ou investigações sanitárias.
-
-O tempo de resposta para localização de lotes específicos deve ser compatível com urgência típica de situações de recall, preferencialmente permitindo resposta imediata através de consulta eletrônica ao sistema de gestão. Para isto, todas as informações devem ser registradas em tempo real, sem defasagem que possa comprometer a eficácia do sistema de rastreabilidade.
-
-O sistema deve incluir também rastreabilidade reversa, permitindo identificação de todos os lotes que passaram por determinado veículo, armazém ou responsável técnico em período específico. Esta funcionalidade é essencial para investigação de eventual contaminação cruzada ou identificação de falhas sistemáticas em procedimentos operacionais.
-
-**Gestão de Validades**
-
-O controle de validades deve ser automatizado através de sistema que identifique medicamentos próximos ao vencimento, alertando para necessidade de medidas preventivas como transferência entre unidades, comunicação proativa aos clientes, ou eventual segregação para devolução ao fabricante.
-
-O prazo de antecedência para emissão de alertas deve ser estabelecido considerando o tempo médio de rotatividade de cada produto e eventual complexidade logística para transferência entre diferentes pontos da rede. Para medicamentos de baixa rotatividade, o alerta deve ser emitido com maior antecedência, permitindo adoção de medidas comerciais para acelerar a comercialização.
-
-Medicamentos vencidos devem ser imediatamente segregados em área específica, com acesso restrito e identificação clara de sua condição. A destinação final deve seguir procedimentos estabelecidos pela legislação ambiental e sanitária, preferencialmente através de empresas especializadas em destruição de resíduos farmacêuticos.
-
-### 10.6 Procedimentos Específicos para Sergipe
-
-A operação da unidade em Sergipe exige procedimentos específicos que considerem as particularidades da legislação estadual, características do mercado regional nordestino, e eventual necessidade de atendimento a localidades de difícil acesso com infraestrutura logística limitada.
-
-**Licenciamento Sanitário em Sergipe**
-
-A unidade de Sergipe deve manter licenciamento sanitário específico junto à Vigilância Sanitária Estadual (VISA-SE), renovado periodicamente conforme prazos estabelecidos na legislação estadual. Este licenciamento deve abranger todas as atividades desenvolvidas, incluindo armazenagem de diferentes categorias de medicamentos, transporte com controle de temperatura, e eventual manipulação de produtos controlados.
-
-O responsável técnico designado deve ser farmacêutico devidamente inscrito no Conselho Regional de Farmácia de Sergipe (CRF-SE), com anotação específica de responsabilidade técnica pela unidade. Deve ser mantido registro atualizado de sua presença nas instalações, conforme periodicidade mínima estabelecida pela ANVISA para cada tipo de atividade desenvolvida.
-
-A documentação de licenciamento deve ser mantida sempre atualizada e disponível para fiscalização, incluindo licenças da unidade, certificado de responsabilidade técnica, autorizações especiais para medicamentos controlados (quando aplicável), e comprovantes de pagamento das taxas regulamentares exigidas.
-
-**Procedimentos Fiscais Específicos**
-
-Em Sergipe, todas as operações de transporte de medicamentos devem observar as particularidades do RICMS-SE, especialmente quanto à aplicação de alíquotas específicas, cálculo de ICMS-ST baseado no PMPF sergipano, e eventual incidência de adicional para Fundo Especial de Combate à Pobreza (FECP).
-
-Para operações interestaduais com destino aos demais estados nordestinos, deve ser aplicado o diferencial de alíquota (DIFAL) através de GNRE específica quando a operação destinar-se a consumidor final não contribuinte. O cálculo deve considerar as alíquotas internas vigentes em cada estado de destino, que podem ser diferentes das aplicadas em Sergipe.
-
-A documentação fiscal deve ser emitida através de sistema certificado digitalmente, com backup automático em servidor autorizado pela Secretaria da Fazenda de Sergipe. Para medicamentos controlados, deve ser anexada à documentação fiscal a autorização específica exigida pela ANVISA, com via acompanhando a carga durante transporte.
-
-**Controles Específicos para o Nordeste**
-
-As operações destinadas aos demais estados nordestinos devem considerar particularidades logísticas da região, incluindo eventual necessidade de transporte em condições climáticas adversas, atendimento a localidades de difícil acesso, e coordenação com diferentes órgãos regulamentares estaduais.
-
-Para medicamentos destinados a programas governamentais de saúde, deve ser verificada a existência de procedimentos específicos estabelecidos pelos órgãos de saúde estaduais, incluindo eventual necessidade de documentação adicional, prazos diferenciados de entrega, ou protocolos especiais de segurança.
-
-O controle de temperatura durante transporte em clima tropical exige atenção especial, com utilização de equipamentos dimensionados adequadamente para as condições ambientais da região e procedimentos de emergência para situações de falha dos sistemas de refrigeração em localidades distantes de centros de assistência técnica.
-
-### 10.7 Procedimentos de Emergência e Recall
-
-Os procedimentos de emergência e recall constituem elemento crítico do sistema de qualidade farmacêutica, devendo ser rapidamente ativados em situações que possam comprometer a segurança dos medicamentos ou a saúde dos pacientes usuários.
-
-**Comunicação de Recall**
-
-Recebida comunicação oficial de recall emitida pelo fabricante, importador ou ANVISA, deve ser imediatamente ativado protocolo de emergência que inclui bloqueio automático de todos os lotes afetados no sistema de gestão, comunicação urgente a todos os pontos da rede de distribuição, e início imediato dos procedimentos de recolhimento.
-
-A comunicação deve utilizar todos os canais disponíveis, incluindo telefone, email, sistema eletrônico de gestão, e eventual comunicação presencial em situações de extrema urgência. Deve ser mantido registro de todas as comunicações realizadas, incluindo horário, responsável pelo contato, e confirmação de recebimento por parte dos destinatários.
-
-Para medicamentos que já foram expedidos, deve ser imediatamente comunicado aos clientes destinatários, solicitando suspensão imediata da comercialização ou uso, segregação dos produtos afetados, e disponibilização para recolhimento urgente. Esta comunicação deve incluir orientações específicas sobre procedimentos de identificação dos lotes afetados e medidas de segurança a serem adotadas.
-
-**Procedimentos de Recolhimento**
-
-O recolhimento deve ser realizado com máxima urgência, utilizando recursos prioritários da empresa e eventual contratação de serviços especializados para atendimento em localidades de difícil acesso. Todos os custos de recolhimento devem ser documentados adequadamente para eventual ressarcimento pelo responsável pela determinação do recall.
-
-Durante recolhimento, deve ser mantido controle rigoroso de cada lote coletado, com documentação específica que inclua identificação precisa do produto, quantidade recolhida, localização de origem, responsável pela entrega, e condições de conservação verificadas no momento da coleta. Esta documentação é essencial para comprovação da eficácia do recall perante os órgãos regulamentadores.
-
-Os produtos recolhidos devem ser segregados em área específica com acesso altamente restrito, identificação clara de sua condição especial, e controles adicionais de segurança para evitar eventual retorno acidental à comercialização. A destinação final deve seguir orientações específicas do fabricante e eventual determinação da ANVISA.
-
-**Relatórios de Eficácia**
-
-Concluído o processo de recolhimento, deve ser elaborado relatório detalhado da eficácia do recall, incluindo quantidade total de produtos afetados na rede de distribuição, percentual efetivamente recolhido, tempo médio de recolhimento por região, identificação de eventual produto não localizado, e medidas adotadas para localização dos produtos remanescentes.
-
-Este relatório deve ser enviado ao fabricante responsável pelo recall e eventualmente à ANVISA quando solicitado, demonstrando a eficácia do sistema de rastreabilidade e a capacidade de resposta da empresa em situações de emergência sanitária.
-
-As lições aprendidas durante o processo de recall devem ser incorporadas aos procedimentos operacionais, incluindo eventual necessidade de aprimoramento nos sistemas de rastreabilidade, treinamento adicional de equipes, ou ajustes nos protocolos de comunicação de emergência.
-
-### 10.8 Documentação e Registros Obrigatórios
-
-A documentação relacionada ao transporte e armazenamento de medicamentos deve atender simultaneamente às exigências sanitárias da ANVISA e às obrigações fiscais estabelecidas pelas legislações tributárias federal e estaduais. Esta documentação constitui evidência fundamental para comprovação da conformidade operacional e deve ser mantida de forma organizada e acessível.
-
-**Documentação Sanitária**
-
-A documentação sanitária deve incluir licenças de funcionamento atualizadas, certificados de responsabilidade técnica, autorizações especiais para medicamentos controlados, relatórios de qualificação de equipamentos, certificados de calibração de instrumentos de medição, e registros de treinamento de pessoal envolvido nas operações.
-
-Para cada lote de medicamento processado, deve ser mantida documentação específica que inclua certificado de análise do fabricante, registro das condições de recebimento, relatório de inspeção visual, dados de monitoramento de temperatura durante armazenagem, e comprovante das condições de expedição. Esta documentação deve permitir rastreabilidade completa de todo histórico do produto na empresa.
-
-Os registros de monitoramento ambiental devem ser mantidos permanentemente, incluindo dados de temperatura e umidade de todas as áreas de armazenagem, registros de manutenção preventiva e corretiva de equipamentos, relatórios de validação de sistemas críticos, e comprovantes de eventual medida corretiva adotada em situações de desvio.
-
-**Documentação Fiscal**
-
-A documentação fiscal deve incluir todas as notas fiscais de entrada e saída, conhecimentos de transporte eletrônico, guias de recolhimento tributário, comprovantes de pagamento, e eventual documentação específica exigida para operações beneficiadas por incentivos fiscais.
-
-Para medicamentos sujeitos à substituição tributária, deve ser mantida documentação comprobatória dos cálculos realizados, incluindo consulta às tabelas PMPF utilizadas, aplicação das margens de valor agregado, e eventual ajuste decorrente de diferenças entre estados de origem e destino. Esta documentação é fundamental para defesa em eventual questionamento fiscal.
-
-A correspondência entre documentação sanitária e fiscal deve ser rigorosamente mantida, permitindo correlação precisa entre lotes de medicamentos e respectiva documentação tributária. Esta correlação é essencial para atendimento de eventual auditoria integrada entre órgãos sanitários e fazendários.
-
-**Sistema de Arquivo e Controle**
-
-O sistema de arquivo deve garantir preservação adequada de toda documentação pelo prazo legal mínimo de cinco anos, com organização que permita localização rápida de documentos específicos. Para documentação crítica relacionada à segurança de medicamentos, recomenda-se prazo de guarda superior ao mínimo legal.
-
-A documentação eletrônica deve ser armazenada em sistema com backup automático, preferencialmente com cópia em localização física diferente da matriz, garantindo preservação mesmo em situações de sinistro. O acesso à documentação deve ser controlado através de sistema de permissões que garanta confidencialidade e integridade das informações.
-
-Para facilitar eventual fiscalização, deve ser mantido índice geral de toda documentação arquivada, permitindo localização rápida por diferentes critérios de busca, incluindo data, cliente, produto, lote, ou tipo de documento. Este índice deve ser atualizado permanentemente, refletindo todas as inclusões e exclusões realizadas no arquivo.
-
-## 11. FLUXOGRAMAS OPERACIONAIS
-
-Os fluxogramas a seguir representam graficamente os principais processos operacionais da empresa, facilitando compreensão das etapas, responsabilidades e pontos de controle críticos em cada modalidade de operação.
-
-### 11.1 Fluxograma de Transporte de Medicamentos - Operação Padrão
+### 9.1.1 Representação Gráfica - Transporte de Medicamentos
 
 ```mermaid
-graph TD
-    A[Solicitação de Transporte] --> B{Análise de Viabilidade}
-    B -->|Aprovado| C[Verificação Fiscal]
-    B -->|Rejeitado| D[Comunicação de Rejeição]
-    
-    C --> E{Medicamento Termolábil?}
-    E -->|Sim| F[Qualificação de Veículo Refrigerado]
-    E -->|Não| G[Designação de Veículo Padrão]
-    
-    F --> H[Verificação de Temperatura de Câmara]
-    G --> I[Preparação de Documentação]
+flowchart TD
+    A["🚀 Solicitação de Transporte"]
+    B["📋 Análise de Viabilidade"]
+    C{"💰 Viável Fiscalmente?"}
+    D["📧 Comunicação de Rejeição"]
+    E{"🌡️ Medicamento Termolábil?"}
+    F["🚛 Qualificação de Veículo\nRefrigerado"]
+    G["🚐 Designação de Veículo\nPadrão"]
+    H["🌡️ Verificação de Temperatura"]
+    I["📄 Preparação de Documentação"]
+    J["📋 Emissão de CT-e"]
+    K["💳 Cálculo e Recolhimento\nICMS-ST"]
+    L["📅 Programação de Coleta"]
+    M["🏪 Coleta na Origem"]
+    N["✅ Conferência Completa"]
+    O{"📦 Conferência OK?"}
+    P["⚠️ Comunicação de Divergência"]
+    Q["🚛 Início do Transporte"]
+    R["📡 Monitoramento Tempo Real"]
+    S{"🚨 Ocorrência Durante\nTransporte?"}
+    T["🚨 Protocolo de Emergência"]
+    U["🏁 Entrega no Destino"]
+    V["🔍 Avaliação de Impacto"]
+    W{"💊 Produto Comprometido?"}
+    X["🚫 Segregação e Recall"]
+    Y["✅ Conferência na Entrega"]
+    Z["📝 Assinatura de Recebimento"]
+    AA["📁 Arquivo de Documentação"]
+    BB["⏳ Aguardo de Solução"]
+    CC["📊 Relatório de Rejeições"]
+    DD["📋 Relatório de Recall"]
+
+    A --> B
+    B --> C
+    C -->|"❌ Não"| D
+    C -->|"✅ Sim"| E
+    E -->|"❄️ Sim"| F
+    E -->|"🔄 Não"| G
+    F --> H
+    G --> I
     H --> I
-    
-    I --> J[Emissão de CT-e]
-    J --> K[Cálculo e Recolhimento de ICMS-ST]
-    K --> L[Programação de Coleta]
-    
-    L --> M[Coleta na Origem]
-    M --> N[Conferência de Carga e Documentação]
-    N --> O{Conferência OK?}
-    
-    O -->|Não| P[Comunicação de Divergência]
-    O -->|Sim| Q[Início do Transporte]
-    
-    Q --> R[Monitoramento em Tempo Real]
-    R --> S{Ocorrência Durante Transporte?}
-    S -->|Sim| T[Protocolo de Emergência]
-    S -->|Não| U[Entrega no Destino]
-    
-    T --> V[Avaliação de Impacto]
-    V --> W{Produto Comprometido?}
-    W -->|Sim| X[Segregação e Recall]
-    W -->|Não| U
-    
-    U --> Y[Conferência na Entrega]
-    Y --> Z[Assinatura de Recebimento]
-    Z --> AA[Arquivo de Documentação]
-```
-
-### 11.2 Fluxograma de Armazenagem de Medicamentos
-
-```mermaid
-graph TD
-    A[Chegada de Medicamentos] --> B[Conferência de Documentação]
-    B --> C[Inspeção Visual das Embalagens]
-    C --> D{Medicamento em Conformidade?}
-    
-    D -->|Não| E[Segregação para Quarentena]
-    D -->|Sim| F[Medição de Temperatura]
-    
-    E --> G[Comunicação ao Remetente]
-    F --> H[Registro no Sistema WMS]
-    
-    G --> I[Aguardo de Instruções]
-    H --> J{Medicamento Controlado?}
-    
-    J -->|Sim| K[Registro em Livro Especial]
-    J -->|Não| L[Endereçamento no Estoque]
-    
-    K --> M[Armazenagem em Área Restrita]
-    L --> N[Armazenagem por Lote e Validade]
-    
-    M --> O[Controle FEFO]
-    N --> O
-    
-    O --> P[Monitoramento Contínuo]
-    P --> Q{Produto Próximo ao Vencimento?}
-    
-    Q -->|Sim| R[Alerta Automático]
-    Q -->|Não| S[Solicitação de Expedição]
-    
-    R --> T[Comunicação ao Cliente]
-    S --> U[Preparação para Expedição]
-    
-    T --> V{Cliente Aceita Produto?}
-    V -->|Não| W[Devolução ao Fabricante]
-    V -->|Sim| U
-    
-    U --> X[Conferência de Lotes]
-    X --> Y[Emissão de Documentação]
-    Y --> Z[Expedição]
-```
-
-### 11.3 Fluxograma de Recall de Medicamentos
-
-```mermaid
-graph TD
-    A[Comunicação de Recall] --> B[Verificação de Lotes Afetados]
-    B --> C[Bloqueio Imediato no Sistema]
-    C --> D[Comunicação Urgente aos Clientes]
-    
-    D --> E{Produtos em Estoque?}
-    E -->|Sim| F[Segregação Imediata]
-    E -->|Não| G[Rastreamento de Produtos Expedidos]
-    
-    F --> H[Identificação de Área de Quarentena]
-    G --> I[Programação de Coleta Urgente]
-    
-    H --> J[Controle de Acesso Restrito]
-    I --> K[Coleta nos Clientes]
-    
-    J --> L[Aguardo de Instruções]
-    K --> M[Transporte para Segregação]
-    
-    L --> N{Instrução do Fabricante?}
+    I --> J
+    J --> K
+    K --> L
+    L --> M
     M --> N
-    
-    N -->|Destruição| O[Destinação para Incineração]
-    N -->|Devolução| P[Retorno ao Fabricante]
-    N -->|Análise| Q[Envio para Laboratório]
-    
-    O --> R[Certificado de Destruição]
-    P --> S[Comprovante de Devolução]
-    Q --> T[Laudo de Análise]
-    
-    R --> U[Relatório Final de Recall]
-    S --> U
-    T --> V{Produto Aprovado?}
-    
-    V -->|Sim| W[Retorno à Comercialização]
-    V -->|Não| O
-    
-    W --> X[Liberação no Sistema]
-    U --> Y[Arquivo de Documentação]
-    X --> Y
+    N --> O
+    O -->|"❌ Não"| P
+    O -->|"✅ Sim"| Q
+    Q --> R
+    R --> S
+    S -->|"⚡ Sim"| T
+    S -->|"✅ Não"| U
+    T --> V
+    V --> W
+    W -->|"☢️ Sim"| X
+    W -->|"✅ Não"| U
+    U --> Y
+    Y --> Z
+    Z --> AA
+    P --> BB
+    D --> CC
+    X --> DD
+
+    classDef startEnd fill:#4CAF50,stroke:#2E7D32,stroke-width:3px,color:#fff
+    classDef process fill:#2196F3,stroke:#1565C0,stroke-width:2px,color:#fff
+    classDef decision fill:#FF9800,stroke:#EF6C00,stroke-width:2px,color:#fff
+    classDef emergency fill:#F44336,stroke:#C62828,stroke-width:2px,color:#fff
+    classDef success fill:#8BC34A,stroke:#558B2F,stroke-width:2px,color:#fff
+    classDef warning fill:#FFC107,stroke:#F57F17,stroke-width:2px,color:#000
+
+    class A,AA startEnd
+    class B,F,G,H,I,J,K,L,M,N,Q,R,U,Y,Z process
+    class C,E,O,S,W decision
+    class T,V,X emergency
+    class BB,CC,DD warning
+    class P success
+
 ```
 
-### 11.4 Fluxograma de Controle de Temperatura
+### 9.1.2 Fluxograma de Armazenagem Controlada
 
 ```mermaid
-graph TD
-    A[Início do Transporte] --> B[Verificação de Temperatura Inicial]
-    B --> C[Ativação de Data Logger]
-    C --> D[Monitoramento Contínuo]
-    
-    D --> E{Temperatura Fora dos Parâmetros?}
-    E -->|Não| F[Continuação do Transporte]
-    E -->|Sim| G[Alerta Imediato]
-    
-    F --> H{Chegada ao Destino?}
-    H -->|Não| D
-    H -->|Sim| I[Download de Dados]
-    
-    G --> J[Comunicação com Responsável Técnico]
-    J --> K[Avaliação da Situação]
-    K --> L{Temperatura Recuperada?}
-    
-    L -->|Sim| M[Registro da Ocorrência]
-    L -->|Não| N[Parada para Manutenção]
-    
-    M --> F
-    N --> O[Verificação do Sistema]
-    O --> P{Sistema Reparado?}
-    
-    P -->|Sim| Q[Retorno às Condições Normais]
-    P -->|Não| R[Solicitação de Veículo Backup]
-    
-    Q --> F
-    R --> S[Transferência de Carga]
-    S --> T[Verificação de Integridade]
-    T --> U{Produto Comprometido?}
-    
-    U -->|Não| F
-    U -->|Sim| V[Segregação e Recall]
-    
-    I --> W[Análise dos Dados]
-    W --> X{Temperatura Mantida?}
-    X -->|Sim| Y[Liberação da Carga]
-    X -->|Não| Z[Quarentena para Análise]
-    
-    V --> AA[Relatório de Não Conformidade]
-    Y --> BB[Entrega Normal]
-    Z --> CC[Aguardo de Análise Técnica]
-    
-    AA --> DD[Arquivo de Documentação]
-    BB --> DD
-    CC --> EE{Análise Favorável?}
-    EE -->|Sim| Y
-    EE -->|Não| V
+flowchart TD
+    A["📦 Chegada de Medicamentos"]
+    B["📋 Conferência de Documentação"]
+    C["👀 Inspeção Visual Completa"]
+    D{"✅ Medicamento Conforme?"}
+    E["🚫 Segregação para Quarentena"]
+    F["🌡️ Medição de Temperatura"]
+    G["📞 Comunicação ao Remetente"]
+    H["💻 Registro no Sistema WMS"]
+    I["⏳ Aguardo de Instruções"]
+    J{"🔒 Medicamento Controlado?"}
+    K["📚 Registro em Livro Especial"]
+    L["📍 Endereçamento no Estoque"]
+    M["🏠 Armazenagem Área Restrita"]
+    N["📦 Armazenagem por\nLote/Validade"]
+    O["🔄 Controle FEFO"]
+    P["📊 Monitoramento Contínuo"]
+    Q{"⏰ Produto Próximo\nVencimento?"}
+    R["🔔 Alerta Automático"]
+    S["📤 Solicitação de Expedição"]
+    T["📧 Comunicação ao Cliente"]
+    U["📋 Preparação para Expedição"]
+    V{"🤝 Cliente Aceita Produto?"}
+    W["↩️ Devolução ao Fabricante"]
+    X["🔍 Conferência Final de Lotes"]
+    Y["📄 Emissão de Documentação"]
+    Z["🚛 Expedição Controlada"]
+    AA{"📋 Instrução Recebida?"}
+    BB["♻️ Destruição Controlada"]
+
+    A --> B
+    B --> C
+    C --> D
+    D -->|"❌ Não Conforme"| E
+    D -->|"✅ Conforme"| F
+    E --> G
+    F --> H
+    G --> I
+    H --> J
+    J -->|"⚕️ Sim"| K
+    J -->|"🔄 Não"| L
+    K --> M
+    L --> N
+    M --> O
+    N --> O
+    O --> P
+    P --> Q
+    Q -->|"⚠️ Sim"| R
+    Q -->|"✅ Não"| S
+    R --> T
+    S --> U
+    T --> V
+    V -->|"❌ Não"| W
+    V -->|"✅ Sim"| U
+    U --> X
+    X --> Y
+    Y --> Z
+    I --> AA
+    AA -->|"✅ Aproveitamento"| U
+    AA -->|"❌ Descarte"| BB
+
+    classDef entry fill:#E3F2FD,stroke:#1976D2,stroke-width:2px,color:#0D47A1
+    classDef storage fill:#F3E5F5,stroke:#7B1FA2,stroke-width:2px,color:#4A148C
+    classDef control fill:#E8F5E8,stroke:#388E3C,stroke-width:2px,color:#1B5E20
+    classDef alert fill:#FFF3E0,stroke:#F57C00,stroke-width:2px,color:#E65100
+    classDef danger fill:#FFEBEE,stroke:#D32F2F,stroke-width:2px,color:#B71C1C
+    classDef success fill:#E0F2F1,stroke:#00796B,stroke-width:2px,color:#004D40
+
+    class A,B,C entry
+    class F,H,K,L,M,N,O,P storage
+    class X,Y,Z control
+    class R,T alert
+    class E,G,W,BB danger
+    class S,U success
+
 ```
 
+### 9.1.3 Fluxograma de Recall de Emergência
+
+```mermaid
+flowchart TD
+    A["🚨 COMUNICAÇÃO DE RECALL"]
+    B["🔍 Verificação Lotes Afetados"]
+    C["🚫 BLOQUEIO IMEDIATO Sistema"]
+    D["📢 Comunicação URGENTE Clientes"]
+    E{"📦 Produtos em Estoque?"}
+    F["🚧 Segregação Imediata"]
+    G["📍 Rastreamento Produtos"]
+    H["🏠 Identificação Área\nQuarentena"]
+    I["⚡ Programação Coleta URGENTE"]
+    J["🔐 Controle Acesso RESTRITO"]
+    K["🚛 Coleta nos Clientes"]
+    L["⏳ Aguardo Instruções"]
+    M["🚛 Transporte para Segregação"]
+    N{"📋 Instrução do Fabricante?"}
+    O["♻️ Destinação Incineração"]
+    P["📦 Retorno ao Fabricante"]
+    Q["🧪 Envio para Laboratório"]
+    R["📜 Certificado de Destruição"]
+    S["📄 Comprovante Devolução"]
+    T["📊 Laudo de Análise"]
+    U["📋 RELATÓRIO FINAL RECALL"]
+    V{"✅ Produto Aprovado?"}
+    W["🔄 Retorno à Comercialização"]
+    X["🔓 Liberação no Sistema"]
+    Y["📁 Arquivo Documentação"]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    E -->|"✅ Em Estoque"| F
+    E -->|"📤 Expedidos"| G
+    F --> H
+    G --> I
+    H --> J
+    I --> K
+    J --> L
+    K --> M
+    L --> N
+    M --> N
+    N -->|"🔥 Destruição"| O
+    N -->|"↩️ Devolução"| P
+    N -->|"🔬 Análise"| Q
+    O --> R
+    P --> S
+    Q --> T
+    R --> U
+    S --> U
+    T --> V
+    V -->|"✅ Aprovado"| W
+    V -->|"❌ Reprovado"| O
+    W --> X
+    U --> Y
+    X --> Y
+
+    classDef urgent fill:#FF1744,stroke:#B71C1C,stroke-width:3px,color:#fff
+    classDef action fill:#FF6F00,stroke:#E65100,stroke-width:2px,color:#fff
+    classDef check fill:#2E7D32,stroke:#1B5E20,stroke-width:2px,color:#fff
+    classDef process fill:#1565C0,stroke:#0D47A1,stroke-width:2px,color:#fff
+    classDef final fill:#6A1B9A,stroke:#4A148C,stroke-width:2px,color:#fff
+
+    class A,C,D urgent
+    class F,G,I,K,M action
+    class B,H,J,R,S,T check
+    class L,N,O,P,Q,U,W,X,Y process
+    class V final
+
+```
+
+### 9.1.4 Fluxograma de Controle de Temperatura
+
+```mermaid
+flowchart TD
+    A["🚛 Início do Transporte"]
+    B["🌡️ Verificação Temperatura\nInicial"]
+    C["📊 Ativação Data Logger"]
+    D["📡 Monitoramento Contínuo"]
+    E{"🌡️ Temperatura nos\nParâmetros?"}
+    F["➡️ Continuação Transporte"]
+    G["🚨 ALERTA IMEDIATO"]
+    H{"🏁 Chegada ao Destino?"}
+    I["💾 Download de Dados"]
+    J["📞 Comunicação Resp. Técnico"]
+    K["🔍 Avaliação da Situação"]
+    L{"🌡️ Temperatura Recuperada?"}
+    M["📝 Registro da Ocorrência"]
+    N["🛑 Parada para Manutenção"]
+    O["🔧 Verificação do Sistema"]
+    P{"🛠️ Sistema Reparado?"}
+    Q["🔄 Retorno Condições Normais"]
+    R["🚛 Solicitação Veículo Backup"]
+    S["📦 Transferência de Carga"]
+    T["✅ Verificação Integridade"]
+    U{"💊 Produto Comprometido?"}
+    V["🚫 Segregação e Recall"]
+    W["📊 Análise dos Dados"]
+    X{"📈 Temperatura Mantida?"}
+    Y["🔓 Liberação da Carga"]
+    Z["⏳ Quarentena para Análise"]
+    AA["📋 Relatório Não\nConformidade"]
+    BB["✅ Entrega Normal"]
+    CC["⏳ Aguardo Análise Técnica"]
+    DD["📁 Arquivo Documentação"]
+    EE{"🧪 Análise Favorável?"}
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    E -->|"✅ Normal 2-8°C"| F
+    E -->|"⚠️ Fora dos Parâmetros"| G
+    F --> H
+    H -->|"❌ Em Trânsito"| D
+    H -->|"✅ Chegou"| I
+    G --> J
+    J --> K
+    K --> L
+    L -->|"✅ Recuperada"| M
+    L -->|"❌ Não Recuperou"| N
+    M --> F
+    N --> O
+    O --> P
+    P -->|"✅ Reparado"| Q
+    P -->|"❌ Não Reparado"| R
+    Q --> F
+    R --> S
+    S --> T
+    T --> U
+    U -->|"✅ Íntegro"| F
+    U -->|"⚠️ Comprometido"| V
+    I --> W
+    W --> X
+    X -->|"✅ Mantida"| Y
+    X -->|"❌ Não Mantida"| Z
+    V --> AA
+    Y --> BB
+    Z --> CC
+    AA --> DD
+    BB --> DD
+    CC --> EE
+    EE -->|"✅ Favorável"| Y
+    EE -->|"❌ Desfavorável"| V
+
+    classDef cold fill:#B3E5FC,stroke:#0277BD,stroke-width:2px,color:#01579B
+    classDef normal fill:#C8E6C9,stroke:#388E3C,stroke-width:2px,color:#1B5E20
+    classDef warm fill:#FFCC80,stroke:#F57C00,stroke-width:2px,color:#E65100
+    classDef hot fill:#FFCDD2,stroke:#D32F2F,stroke-width:2px,color:#B71C1C
+    classDef critical fill:#F8BBD9,stroke:#C2185B,stroke-width:3px,color:#880E4F
+
+    class A,B,C,D,F,H cold
+    class M,Q,Y,BB normal
+    class G,J,K,L,T,W warm
+    class N,O,R,S,V,AA hot
+    class I,P,U,X,Z,CC,DD,EE critical
+
+```
+
+## 9.2 Fluxos Especiais
+
+### 9.2.1 Tratamento de Exceções e Não Conformidades
+
+```mermaid
+flowchart TD
+    A["⚠️ Identificação de Exceção"]
+    B["📝 Registro Detalhado"]
+    C["🔍 Análise de Impacto"]
+    D{"📊 Nível de Criticidade?"}
+    E["📋 Ação Corretiva Simples"]
+    F["🔄 Processo de Correção"]
+    G["🚨 Escalação Imediata"]
+    H["✅ Implementação Direta"]
+    I["👥 Formação de Equipe"]
+    J["📞 Comunicação Urgente"]
+    K["✅ Validação de Resultado"]
+    L["📋 Plano de Ação Detalhado"]
+    M["⚡ Mobilização de Recursos"]
+    N{"✅ Problema Resolvido?"}
+    O["⏱️ Execução Programada"]
+    P["🎯 Ação Imediata"]
+    Q["📊 Relatório de Fechamento"]
+    R["🔄 Reavaliação do Caso"]
+    S["📊 Monitoramento"]
+    T["⚡ Verificação Imediata"]
+    U{"🎯 Emergência Controlada?"}
+    V["📋 Documentação"]
+    W["🚨 Escalação Superior"]
+    X["🔍 Análise Aprofundada"]
+    Y["🛠️ Solução Alternativa"]
+    Z["🔄 Nova Tentativa"]
+    AA["📁 Arquivo Final"]
+    BB["📋 Relatório Crítico"]
+
+    A --> B
+    B --> C
+    C --> D
+    D -->|"🟢 Baixo"| E
+    D -->|"🟡 Médio"| F
+    D -->|"🔴 Alto"| G
+    E --> H
+    F --> I
+    G --> J
+    H --> K
+    I --> L
+    J --> M
+    K --> N
+    L --> O
+    M --> P
+    N -->|"✅ Sim"| Q
+    N -->|"❌ Não"| R
+    O --> S
+    P --> T
+    S --> N
+    T --> U
+    U -->|"✅ Controlada"| V
+    U -->|"❌ Não Controlada"| W
+    R --> X
+    X --> Y
+    Y --> Z
+    Z --> N
+    Q --> AA
+    V --> AA
+    W --> BB
+    BB --> AA
+
+    classDef exception fill:#FFECB3,stroke:#F57F17,stroke-width:2px,color:#E65100
+    classDef analysis fill:#E1F5FE,stroke:#0288D1,stroke-width:2px,color:#01579B
+    classDef action fill:#F3E5F5,stroke:#8E24AA,stroke-width:2px,color:#4A148C
+    classDef resolution fill:#E8F5E8,stroke:#43A047,stroke-width:2px,color:#2E7D32
+
+    class A,B,C exception
+    class D,N,U analysis
+    class E,F,G,H,I,J,L,O,P,R,X,Y,Z action
+    class K,Q,S,T,V,AA,BB resolution
+
+```
+
+### 9.2.2 Matriz de Processo de Correção
+
+| Passo | Ação Corretiva Detalhada                                                      | Responsável           | Prazo          | Validação           |
+| ----- | ----------------------------------------------------------------------------- | --------------------- | -------------- | ------------------- |
+| 1     | Identificação e isolamento do problema com documentação fotográfica detalhada | Operador de Campo     | Imediato       | Responsável Técnico |
+| 2     | Comunicação imediata às partes interessadas incluindo cliente e supervisão    | Coordenador           | 30 minutos     | Gerente Operacional |
+| 3     | Análise de causa raiz utilizando metodologia estruturada (5 Porquês)          | Equipe Técnica        | 2 horas        | Responsável Técnico |
+| 4     | Desenvolvimento de plano de ação com cronograma específico                    | Coordenador           | 4 horas        | Gerente Operacional |
+| 5     | Implementação das ações corretivas com monitoramento contínuo                 | Equipe Designada      | Conforme plano | Responsável Técnico |
+| 6     | Verificação da eficácia das ações através de indicadores específicos          | Analista de Qualidade | 24 horas       | Gerente Operacional |
+| 7     | Documentação completa do caso com lições aprendidas                           | Coordenador           | 48 horas       | Responsável Técnico |
+| 8     | Atualização de procedimentos quando necessário                                | Equipe Técnica        | 7 dias         | Gerente Operacional |
+
+# 10. ASPECTOS CONTÁBEIS E FISCAIS
+
+## 10.1 Tratamento Contábil
+
+### 10.1.1 Receitas de Transporte Farmacêutico
+
+**Reconhecimento de Receita:** A receita de transporte de medicamentos deve ser reconhecida pelo regime de competência no momento da conclusão efetiva do serviço, ou seja, na entrega da mercadoria no destino final com comprovante assinado pelo destinatário. Para operações de armazenagem, o reconhecimento ocorre proporcionalmente ao período de prestação do serviço, com faturamento mensal ou conforme acordado contratualmente.
+
+**Contas Envolvidas:** Débito em "Clientes - Serviços de Transporte" (Ativo Circulante) e crédito em "Receita de Prestação de Serviços" (Resultado). Para operações com substituição tributária, deve ser criada subconta específica "Receitas - Transporte Farmacêutico ST" para permitir controle segregado e facilitação de conciliações fiscais.
+
+**Critério de Mensuração:** O valor da receita corresponde ao montante acordado com cliente, líquido de impostos sobre vendas (ICMS, PIS, COFINS, ISS quando aplicável), descontos concedidos, e eventual ajuste para valor presente quando o prazo de recebimento for superior a um ano. Para medicamentos termolábeis, eventuais custos adicionais de equipamentos especiais devem ser considerados na formação do preço.
+
+### 10.1.2 Custos Operacionais Específicos
+
+**Custos Diretos de Transporte:** Incluem combustível, pedágio, manutenção de veículos, salários e encargos de motoristas, seguro de carga, e eventual custo de equipamentos especiais como sistemas de refrigeração para medicamentos termolábeis. Estes custos devem ser apropriados diretamente às operações através de centro de custos específico.
+
+**Custos Indiretos de Estrutura:** Abrangem licenças sanitárias, taxa ANVISA, honorários de responsável técnico, sistema de rastreamento, equipamentos de monitoramento de temperatura, treinamento especializado, e eventual consultoria técnica. Estes custos devem ser rateados às operações conforme critério técnico adequado como quilometragem percorrida ou valor da carga transportada.
+
+**Provisões e Contingências:** Devem ser constituídas provisões para eventual multa por descumprimento de prazo, indenização por dano a medicamentos, custo de recall por responsabilidade do transportador, e contingências fiscais relacionadas a questionamentos sobre cálculos de ICMS-ST. O valor deve ser baseado em análise técnica de probabilidade de ocorrência.
+
+## 10.2 Aspectos Fiscais
+
+### 10.2.1 Obrigações Principais
+
+**ICMS sobre Prestação de Serviço:** Incidência sobre o valor total do frete incluindo despesas acessórias, calculado conforme alíquota do estado de origem (geralmente 17% a 20% para operações internas e 7% ou 12% para interestaduais). Para medicamentos, deve ser observada eventual aplicação de benefício fiscal específico para produtos destinados a programas governamentais de saúde.
+
+**ICMS Substituição Tributária:** Para medicamentos enquadrados no Convênio ICMS 234/17, deve ser verificado se o ICMS-ST foi corretamente recolhido pelo remetente substituto tributário, validando cálculo baseado no PMPF vigente e eventual necessidade de complementação quando identificadas diferenças entre estados de origem e destino.
+
+**PIS e COFINS:** Incidência sobre receita de prestação de serviços conforme regime tributário da empresa (Lucro Real, Presumido ou Simples Nacional), com eventual direito a crédito sobre custos e despesas operacionais quando aplicável o regime não cumulativo. Para medicamentos, deve ser observada eventual aplicação de alíquota zero conforme legislação específica.
+
+**ISS:** Eventual incidência municipal sobre serviços complementares como armazenagem, quando caracterizada como atividade-meio e não meramente acessória ao transporte principal. A alíquota varia conforme município (2% a 5%) e deve ser recolhida no local de prestação do serviço.
+
+### 10.2.2 Obrigações Acessórias
+
+**EFD-ICMS/IPI:** Entrega mensal de arquivo digital contendo todas as operações de entrada e saída, apuração do ICMS, controle de créditos e débitos, e informações sobre substituição tributária. Para medicamentos, deve ser observado o correto preenchimento do registro H005 com informações específicas sobre PMPF e MVA aplicados.
+
+**SPED Contribuições:** Arquivo digital mensal para PIS e COFINS contendo detalhamento de receitas, custos, despesas, base de cálculo, e créditos apropriados. Para operações com medicamentos, deve ser mantida segregação adequada para facilitar eventual fiscalização sobre aplicação de benefícios específicos.
+
+**DEFIS (para Simples Nacional):** Declaração anual simplificada contendo receita bruta total, eventual excesso de sublimite, base de cálculo e valor devido de ICMS-ST quando a empresa atuar como substituto tributário, e informações sobre atividades desenvolvidas. Para medicamentos, deve ser identificada especificamente a receita desta atividade.
+
+**Escrituração Contábil Digital (ECD):** Quando obrigatória, deve conter todos os lançamentos contábeis relativos às operações de transporte e armazenagem de medicamentos, com plano de contas adequado para segregação das operações farmacêuticas das demais atividades da empresa.
+
+### 10.2.3 Controles Fiscais Específicos
+
+**Controle de PMPF:** Manutenção de tabela atualizada mensalmente com PMPF vigente em todos os estados de destino das operações, permitindo validação dos cálculos de ICMS-ST realizados pelos remetentes e eventual identificação de complementação necessária. Esta tabela deve ser integrada ao sistema de emissão de documentos fiscais.
+
+**Controle de Benefícios Fiscais:** Registro detalhado de todas as operações beneficiadas por isenção, redução de base de cálculo, ou diferimento, incluindo fundamento legal, período de vigência, condições para fruição, e documentação comprobatória exigida. Este controle é essencial para defesa em eventual questionamento fiscal.
+
+**Conciliação Mensal:** Procedimento de conciliação entre documentos fiscais emitidos, tributos recolhidos, movimentação financeira, e registros contábeis, identificando eventual divergência e promovendo correção imediata. Para medicamentos com ST, deve incluir conciliação específica dos valores de ICMS-ST destacados nos documentos.
+
+# 11. DOCUMENTAÇÃO E ANEXOS
+
+## 11.1 Modelos e Formulários
+
+### 11.1.1 Checklist de Transporte de Medicamentos
+
+Formulário padronizado para verificação de conformidade em todas as operações de transporte farmacêutico, incluindo itens específicos para medicamentos convencionais, termolábeis e controlados. Deve ser preenchido pelo responsável técnico ou pessoa designada antes do início de cada operação.
+
+### 11.1.2 Relatório de Monitoramento de Temperatura
+
+Modelo padronizado para registro das condições de temperatura mantidas durante transporte, incluindo gráfico de variação, identificação de eventuais desvios, ações corretivas adotadas, e aprovação técnica para liberação da carga. Deve acompanhar toda operação com medicamentos termolábeis.
+
+### 11.1.3 Formulário de Recall
+
+Template para comunicação de recall incluindo identificação do lote afetado, motivo do recolhimento, procedimentos específicos de coleta e segregação, prazo para conclusão, e responsabilidades de cada parte envolvida.
+
+## 11.2 Tabelas de Referência
+
+### 11.2.1 Tabela de PMPF por Estado
+
+| Estado | Código NCM | PMPF Vigente | MVA Aplicável | Última Atualização |
+| ------ | ---------- | ------------ | ------------- | ------------------ |
+| SE     | 3004.90.99 | R$ 45,32     | 45,50%        | Janeiro/2025       |
+| BA     | 3004.90.99 | R$ 47,18     | 46,20%        | Janeiro/2025       |
+| PE     | 3004.90.99 | R$ 44,95     | 44,80%        | Janeiro/2025       |
+| CE     | 3004.90.99 | R$ 46,77     | 45,90%        | Janeiro/2025       |
+
+### 11.2.2 Alíquotas de ICMS por Estado
+
+| Estado | Interna | Interestadual | FECP | Observações                          |
+| ------ | ------- | ------------- | ---- | ------------------------------------ |
+| SE     | 19%     | 7%/12%        | 2%   | Adicional FECP sobre base de cálculo |
+| BA     | 18%     | 7%/12%        | 1%   | Redução para medicamentos genéricos  |
+| PE     | 18%     | 7%/12%        | 1%   | Benefício para rede pública          |
+| CE     | 18%     | 7%/12%        | 1%   | Isenção para programas sociais       |
+
+# 12. PERGUNTAS FREQUENTES E TROUBLESHOOTING
+
+## 12.1 Questões Técnicas
+
+**Q: Como proceder quando há quebra da cadeia fria durante transporte?**
+
+R: Deve ser imediatamente acionado o protocolo de emergência incluindo comunicação com responsável técnico farmacêutico, avaliação do tempo e extensão da quebra, verificação da integridade dos produtos através de inspeção visual e eventual análise laboratorial, segregação preventiva da carga, e comunicação aos stakeholders. A liberação dos produtos deve ser condicionada à aprovação técnica baseada em análise de risco conforme guidelines da ANVISA.
+
+**Q: Qual a diferença entre PMPF e MVA no cálculo de ICMS-ST?**
+
+R: O PMPF (Preço Médio Ponderado ao Consumidor Final) é o preço de referência estabelecido pelo estado com base em pesquisa de mercado, enquanto a MVA (Margem de Valor Agregado) é o percentual aplicado sobre o preço de aquisição para chegar à base de cálculo do ICMS-ST. A fórmula é: Base ST = (Preço + IPI + Frete + Despesas) × (1 + MVA), limitada ao PMPF quando este for menor.
+
+**Q: É obrigatório ter farmacêutico responsável para transporte de todos os medicamentos?**
+
+R: Sim, conforme RDC 430/2020 da ANVISA, é obrigatória a designação de responsável técnico farmacêutico para todas as atividades de distribuição, armazenagem e transporte de medicamentos, com responsabilidade técnica registrada no respectivo Conselho Regional de Farmácia.
+
+## 12.2 Questões Operacionais
+
+**Q: Como identificar se um medicamento é termolábil?**
+
+R: A informação deve constar na embalagem do medicamento através de símbolos específicos (floco de neve), na documentação do fabricante, ou pode ser consultada no bulário oficial da ANVISA. Em caso de dúvida, deve ser solicitada orientação específica ao fabricante ou responsável técnico, adotando-se por precaução o protocolo de cadeia fria.
+
+**Q: Qual o prazo para arquivo da documentação de transporte farmacêutico?**
+
+R: O prazo legal mínimo é de 5 anos conforme legislação tributária, porém recomenda-se prazo superior para documentação crítica relacionada a medicamentos controlados, recall, ou investigações sanitárias. A documentação deve ser mantida de forma organizada e facilmente acessível para eventual fiscalização.
+
+**Q: Como proceder em caso de divergência na entrega?**
+
+R: Deve ser imediatamente registrada a divergência no comprovante de entrega com identificação clara do problema, comunicação ao coordenador de operações, registro fotográfico quando aplicável, segregação preventiva dos produtos envolvidos, e investigação para identificação da causa raiz. A resolução deve ser documentada e comunicada a todas as partes interessadas.
+
+## 12.3 Questões Regulamentares
+
+**Q: Quais são as principais diferenças entre RICMS dos estados nordestinos?**
+
+R: As principais diferenças estão nas alíquotas internas (variando de 18% a 20%), adicional de FECP (1% a 2%), procedimentos específicos para recolhimento antecipado, benefícios para medicamentos destinados à rede pública, e metodologia de aplicação do PMPF. Cada estado mantém particularidades que devem ser observadas nas operações interestaduais.
+
+**Q: Como é calculado o DIFAL para medicamentos?**
+
+R: O DIFAL é calculado pela fórmula: (Alíquota interna do estado de destino - Alíquota interestadual) × Base de cálculo da operação. Para medicamentos com ST, deve ser considerada a base de cálculo com ICMS-ST incluído. O valor é repartido entre estado de destino (80%) e origem (20%) conforme EC 87/2015.
+
 ---
 
-## CONSIDERAÇÕES FINAIS
+**EXEMPLO PRÁTICO:**
 
-Esta versão revisada e expandida do Procedimento Operacional Padrão incorpora de forma integral todos os requisitos específicos para transporte e armazenamento de medicamentos, estabelecendo diretrizes operacionais robustas que asseguram conformidade simultânea com exigências sanitárias da ANVISA e obrigações tributárias federais e estaduais.
+**Situação-Exemplo:**
+Transporte de medicamentos termolábeis de Anápolis/GO para Aracaju/SE, incluindo produtos sob regime de substituição tributária e medicamentos controlados, com valor da carga R$ 50.000,00 e frete de R\$ 2.500,00.
 
-A implementação efetiva deste POP exige treinamento contínuo das equipes operacionais, atualização periódica conforme evolução da legislação aplicável, e auditoria interna regular para verificação da aderência aos procedimentos estabelecidos. Recomenda-se revisão semestral do documento, com incorporação de eventuais alterações normativas e ajustes decorrentes da experiência operacional acumulada.
+**Dados da Operação:**
 
-A conformidade integral com os procedimentos aqui estabelecidos garante elevado padrão de segurança jurídica, fiscal e sanitária nas operações, contribuindo para consolidação da empresa como referência em logística farmacêutica no território nacional, especialmente na região Nordeste onde há significativo potencial de crescimento do setor.
+- **Origem:** Anápolis/GO - **Destino:** Aracaju/SE
+- **Valor da Mercadoria:** R$ 50.000,00 (com ICMS-ST já recolhido)
+- **Valor do Frete:** R$ 2.500,00
+- **Temperatura:** 2°C a 8°C (medicamentos termolábeis)
+- **PMPF Sergipe:** R$ 45,32 por unidade
+- **Alíquota ICMS Frete:** 7% (interestadual)
+- **ICMS sobre Frete:** R$ 175,00 (7% × R$ 2.500,00)
+
+**Aplicação do Procedimento:**
+
+1. Análise prévia: verificação da documentação de ST, qualificação do veículo refrigerado
+2. Emissão CT-e com destaque do ICMS R$ 175,00 e informações de temperatura
+3. Coleta com verificação de temperatura inicial e carregamento controlado
+4. Transporte com monitoramento contínuo de temperatura e rastreamento
+5. Entrega em Sergipe com conferência final e comprovante assinado
+
+**Resultado Final:**
+
+- **Receita Bruta:** R$ 2.500,00 (100%)
+- **ICMS Recolhido:** R$ 175,00 (7%)
+- **Receita Líquida:** R$ 2.325,00 (93%)
+- **Temperatura Mantida:** 100% do trajeto entre 2°C-8°C
 
 ---
 
-**Documento:** Procedimento Operacional Padrão - Fluxos Transportadora v2.0  
-**Data de Revisão:** Agosto 2025  
-**Próxima Revisão:** Fevereiro 2026  
-**Aprovado por:** [Identificação do Responsável]
+**HISTÓRICO DE REVISÕES:**
+
+| Versão | Data     | Responsável             | Alterações                        |
+| ------ | -------- | ----------------------- | --------------------------------- |
+| 1.0    | Fev/2024 | Equipe Técnica          | Criação do documento base         |
+| 1.5    | Jun/2024 | Coord. Fiscal           | Inclusão de procedimentos Sergipe |
+| 2.0    | Ago/2025 | Equipe Multidisciplinar | Reforma completa com medicamentos |
+
+---
+
+## ANEXO A - DOCUMENTAÇÃO DO PROCESSO BPMN
+
+### A.1 ESPECIFICAÇÃO PARA INTEGRAÇÃO COM ERPs
+
+Este anexo estabelece os requisitos técnicos para documentação e modelagem BPMN dos processos de transporte e armazenagem de medicamentos, viabilizando integração com sistemas de gestão empresarial (ERPs) através de padrões compatíveis com Camunda Modeler e Bizagi Modeler.
+
+### A.2 TEMPLATE DE DOCUMENTAÇÃO DO PROCESSO
+
+#### A.2.1 Informações do Processo
+
+**Nome:** TRANSP_MEDICAMENTOS  
+**Título:** TRANSPORTE E ARMAZENAGEM DE MEDICAMENTOS - OPERAÇÕES ESPECIALIZADAS  
+**Descrição:** Processo integrado para transporte rodoviário e armazenagem de produtos farmacêuticos com controles sanitários rigorosos, compliance fiscal integral, e rastreabilidade completa conforme RDC 430/2020 ANVISA e Convênio ICMS 234/17  
+**Categoria:** Operacional-Sanitário-Fiscal  
+**Tipo de Processo:** Híbrido (Manual + Automático)  
+**Formulário:** FORM_MEDICAMENTOS_001  
+**Versão BPMN:** 2.0.1  
+
+#### A.2.2 Gestores do Processo
+
+| Tipo             | Nome                         | Cargo                  | Responsabilidade                                  |
+| ---------------- | ---------------------------- | ---------------------- | ------------------------------------------------- |
+| Gestor Principal | Dr. Farmacêutico Responsável | Responsável Técnico RT | Supervisão sanitária integral e aprovação técnica |
+| Gestor Técnico   | Coordenador Operacional      | Gerente de Operações   | Execução operacional e controle de qualidade      |
+| Aprovador        | Diretor Técnico              | Diretor de Operações   | Aprovação final de procedimentos e compliance     |
+
+#### A.2.3 Papéis e Responsabilidades (Lanes/Pools)
+
+**Solicitante/Cliente**  
+
+- **Tipo:** Usuário Externo
+- **Responsável:** Estabelecimentos farmacêuticos clientes
+- **Atividades:** Solicitação de transporte, fornecimento de documentação, recebimento de produtos
+
+**Análise Fiscal**  
+
+- **Tipo:** Grupo Interno  
+- **Responsável:** Equipe fiscal especializada
+- **Atividades:** Análise tributária, cálculo de impostos, emissão de documentação fiscal, compliance regulatório
+
+**Operações Técnicas**
+
+- **Tipo:** Grupo Interno
+- **Responsável:** Equipe operacional especializada  
+- **Atividades:** Qualificação de veículos, execução de transporte, monitoramento de temperatura, controles de qualidade
+
+**Responsável Técnico**
+
+- **Tipo:** Usuário Específico
+- **Responsável:** Farmacêutico RT designado
+- **Atividades:** Aprovação técnica, liberação de cargas, tratamento de desvios, supervisão sanitária
+
+**Sistema Integrado**
+
+- **Tipo:** Sistema Automático
+- **Responsável:** ERP + WMS + Monitoramento
+- **Atividades:** Controle de lotes, monitoramento temperatura, rastreabilidade, alertas automáticos
+
+#### A.2.4 Atividades Detalhadas
+
+##### A.2.4.1 Análise de Solicitação de Transporte
+
+**Tipo:** User Task (Manual)  
+**Descrição:** Análise completa da solicitação incluindo viabilidade técnica, fiscal e operacional para transporte de medicamentos  
+**Responsável:** Análise Fiscal  
+**Tempo Estimado:** 30 minutos  
+
+**Campos/Dados de Entrada:**
+
+| ID  | Nome                    | Descrição                        | Tipo    | Obrigatório | Validação                        |
+| --- | ----------------------- | -------------------------------- | ------- | ----------- | -------------------------------- |
+| 1   | origem_estabelecimento  | CNPJ e razão social remetente    | Texto   | Sim         | CNPJ válido + Licença ANVISA     |
+| 2   | destino_estabelecimento | CNPJ e razão social destinatário | Texto   | Sim         | CNPJ válido + Inscrição estadual |
+| 3   | lista_medicamentos      | Relação produtos com NCM e lotes | Array   | Sim         | NCM farmacêutico + Lote válido   |
+| 4   | valor_mercadoria        | Valor total dos medicamentos     | Número  | Sim         | > 0 e <= limite operacional      |
+| 5   | condicoes_especiais     | Refrigeração, controlados, etc.  | Boolean | Não         | Validação por tipo de produto    |
+
+**Atividades de Entrada:** Solicitação de Transporte (StartEvent)  
+**Fluxos de Saída:**
+
+| Nome      | Condição                                            | Atividade Destino       |
+| --------- | --------------------------------------------------- | ----------------------- |
+| Aprovado  | viavel_fiscal == true AND licencas_validas == true  | Qualificação de Veículo |
+| Rejeitado | viavel_fiscal == false OR licencas_validas == false | Comunicação Rejeição    |
+
+##### A.2.4.2 Qualificação de Veículo Especializado
+
+**Tipo:** User Task (Manual)  
+**Descrição:** Seleção e verificação de veículo adequado às características específicas dos medicamentos  
+**Responsável:** Operações Técnicas  
+**Tempo Estimado:** 45 minutos  
+
+**Campos/Dados de Entrada:**
+
+| ID  | Nome                | Descrição                       | Tipo      | Obrigatório | Validação                    |
+| --- | ------------------- | ------------------------------- | --------- | ----------- | ---------------------------- |
+| 1   | tipo_medicamento    | Termolábil, controlado, comum   | Enum      | Sim         | Valores pré-definidos        |
+| 2   | volume_carga        | Volume total em m³              | Número    | Sim         | > 0 e <= capacidade veículo  |
+| 3   | temperatura_exigida | Faixa de temperatura necessária | Range     | Condicional | 2-8°C para termolábeis       |
+| 4   | prazo_entrega       | Prazo solicitado pelo cliente   | Data/Hora | Sim         | >= data atual + tempo mínimo |
+
+**Fluxos de Saída:**
+
+| Nome                | Condição                                    | Atividade Destino                |
+| ------------------- | ------------------------------------------- | -------------------------------- |
+| Veículo Refrigerado | termolabil == true                          | Verificação Sistema Refrigeração |
+| Veículo Padrão      | termolabil == false AND controlado == false | Preparação Documentação          |
+| Veículo Especial    | controlado == true                          | Preparação Segurança Reforçada   |
+
+##### A.2.4.3 Monitoramento Temperatura em Tempo Real
+
+**Tipo:** Service Task (Automático)  
+**Descrição:** Monitoramento contínuo e automático das condições de temperatura durante todo transporte  
+**Responsável:** Sistema Integrado  
+**Tempo Estimado:** Contínuo durante transporte  
+
+**Campos/Dados de Entrada:**
+
+| ID  | Nome              | Descrição                       | Tipo   | Obrigatório | Validação                      |
+| --- | ----------------- | ------------------------------- | ------ | ----------- | ------------------------------ |
+| 1   | temperatura_min   | Temperatura mínima permitida    | Número | Sim         | Conforme especificação produto |
+| 2   | temperatura_max   | Temperatura máxima permitida    | Número | Sim         | Conforme especificação produto |
+| 3   | intervalo_medicao | Frequência de medição (minutos) | Número | Sim         | Entre 1 e 15 minutos           |
+| 4   | tolerancia_tempo  | Tempo tolerável fora da faixa   | Número | Sim         | Máximo 30 minutos              |
+
+**Fluxos de Saída:**
+
+| Nome               | Condição                                     | Atividade Destino      |
+| ------------------ | -------------------------------------------- | ---------------------- |
+| Temperatura Normal | temp_atual BETWEEN temp_min AND temp_max     | Continuação Transporte |
+| Alerta Temperatura | temp_atual NOT BETWEEN temp_min AND temp_max | Protocolo Emergência   |
+
+### A.3 ESPECIFICAÇÕES TÉCNICAS PARA XML BPMN
+
+#### A.3.1 Requisitos para Compatibilidade com Camunda Modeler
+
+**Namespaces Obrigatórios:**
+
+```xml
+<definitions 
+  xmlns="http://www.omg.org/spec/BPMN/20100524/MODEL"  
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  
+  xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI"  
+  xmlns:omgdc="http://www.omg.org/spec/DD/20100524/DC"  
+  xmlns:omgdi="http://www.omg.org/spec/DD/20100524/DI"
+  xmlns:camunda="http://camunda.org/schema/1.0/bpmn"
+  targetNamespace="http://transportadora.com.br/medicamentos">
+```
+
+**Estrutura de Processo Principal:**
+
+```xml
+<process id="TRANSP_MEDICAMENTOS" name="Transporte de Medicamentos" isExecutable="true">
+  <extensionElements>
+    <camunda:properties>
+      <camunda:property name="categoria" value="farmaceutico" />
+      <camunda:property name="criticidade" value="alta" />
+      <camunda:property name="compliance" value="ANVISA_RDC430" />
+    </camunda:properties>
+  </extensionElements>
+</process>
+```
+
+**Elementos Essenciais Farmacêuticos:**
+
+```xml
+<!-- Evento de Início -->
+<startEvent id="StartEvent_Solicitacao" name="Solicitação Recebida">
+  <extensionElements>
+    <camunda:formData>
+      <camunda:formField id="cnpj_origem" label="CNPJ Remetente" type="string" />
+      <camunda:formField id="produtos" label="Lista Medicamentos" type="json" />
+    </camunda:formData>
+  </extensionElements>
+</startEvent>
+
+<!-- Tarefa de Usuário para Análise Fiscal -->
+<userTask id="Task_Analise_Fiscal" name="Análise Fiscal Especializada" 
+          camunda:assignee="${analista_fiscal}">
+  <extensionElements>
+    <camunda:properties>
+      <camunda:property name="sla_minutos" value="30" />
+      <camunda:property name="escalacao" value="coordenador_fiscal" />
+    </camunda:properties>
+  </extensionElements>
+</userTask>
+
+<!-- Gateway Exclusivo para Decisão -->
+<exclusiveGateway id="Gateway_Viabilidade" name="Operação Viável?" />
+
+<!-- Tarefa de Serviço para Monitoramento -->
+<serviceTask id="Service_Monitoramento" name="Monitor Temperatura" 
+             camunda:delegateExpression="${monitorTemperaturaDelegate}">
+  <extensionElements>
+    <camunda:properties>
+      <camunda:property name="intervalo_segundos" value="60" />
+      <camunda:property name="alerta_desvio" value="true" />
+    </camunda:properties>
+  </extensionElements>
+</serviceTask>
+```
+
+#### A.3.2 Requisitos para Compatibilidade com Bizagi Modeler
+
+**Namespaces Padrão BPMN 2.0:**
+
+```xml
+<definitions 
+  xmlns="http://www.omg.org/spec/BPMN/20100524/MODEL"  
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  
+  xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI"  
+  xmlns:omgdc="http://www.omg.org/spec/DD/20100524/DC"  
+  xmlns:omgdi="http://www.omg.org/spec/DD/20100524/DI"
+  xmlns:bizagi="http://www.bizagi.com/BPMN20"
+  targetNamespace="http://transportadora.bizagi.com/medicamentos">
+```
+
+**Documentação de Elementos com Bizagi:**
+
+```xml
+<userTask id="Task_Qualificacao_Veiculo" name="Qualificar Veículo Especializado">
+  <documentation>
+    Processo de seleção e verificação de veículo adequado para transporte 
+    de medicamentos, incluindo verificação de sistemas de refrigeração 
+    para produtos termolábeis e protocolos de segurança para controlados.
+  </documentation>
+  <extensionElements>
+    <bizagi:Form type="FORM_QUALIFICACAO" name="Formulário Qualificação Veículo">
+      <bizagi:Field name="tipo_veiculo" type="dropdown" required="true" />
+      <bizagi:Field name="temperatura_controlada" type="boolean" />
+      <bizagi:Field name="certificacao_valida" type="boolean" required="true" />
+    </bizagi:Form>
+  </extensionElements>
+</userTask>
+```
+
+### A.4 TEMPLATE XML CAMUNDA - PROCESSO PRINCIPAL
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions xmlns="http://www.omg.org/spec/BPMN/20100524/MODEL" 
+             xmlns:camunda="http://camunda.org/schema/1.0/bpmn"
+             targetNamespace="http://transportadora.com.br/medicamentos"
+             id="Definition_TransporteMedicamentos">
+
+  <process id="TRANSP_MEDICAMENTOS_V2" name="Transporte Medicamentos v2.0" isExecutable="true">
+
+    <!-- Evento Início -->
+    <startEvent id="StartEvent_1" name="Solicitação&#10;Transporte">
+      <outgoing>Flow_1</outgoing>
+    </startEvent>
+
+    <!-- Análise Fiscal -->
+    <userTask id="Task_Analise" name="Análise Fiscal&#10;Especializada" camunda:assignee="${analista}">
+      <incoming>Flow_1</incoming>
+      <outgoing>Flow_2</outgoing>
+    </userTask>
+
+    <!-- Gateway de Decisão -->
+    <exclusiveGateway id="Gateway_1" name="Viável?">
+      <incoming>Flow_2</incoming>
+      <outgoing>Flow_Aprovado</outgoing>
+      <outgoing>Flow_Rejeitado</outgoing>
+    </exclusiveGateway>
+
+    <!-- Qualificação de Veículo -->
+    <userTask id="Task_Qualificacao" name="Qualificação&#10;Veículo" camunda:candidateGroups="operacoes">
+      <incoming>Flow_Aprovado</incoming>
+      <outgoing>Flow_3</outgoing>
+    </userTask>
+
+    <!-- Monitoramento Automático -->
+    <serviceTask id="Service_Monitor" name="Monitoramento&#10;Temperatura" 
+                 camunda:delegateExpression="${temperaturaMonitor}">
+      <incoming>Flow_3</incoming>
+      <outgoing>Flow_4</outgoing>
+    </serviceTask>
+
+    <!-- Entrega Final -->
+    <userTask id="Task_Entrega" name="Entrega&#10;Controlada" camunda:assignee="${motorista}">
+      <incoming>Flow_4</incoming>
+      <outgoing>Flow_5</outgoing>
+    </userTask>
+
+    <!-- Evento Fim -->
+    <endEvent id="EndEvent_1" name="Processo&#10;Concluído">
+      <incoming>Flow_5</incoming>
+    </endEvent>
+
+    <!-- Fluxos de Sequência -->
+    <sequenceFlow id="Flow_1" sourceRef="StartEvent_1" targetRef="Task_Analise" />
+    <sequenceFlow id="Flow_2" sourceRef="Task_Analise" targetRef="Gateway_1" />
+    <sequenceFlow id="Flow_Aprovado" name="Aprovado" sourceRef="Gateway_1" targetRef="Task_Qualificacao">
+      <conditionExpression xsi:type="tFormalExpression">${aprovado == true}</conditionExpression>
+    </sequenceFlow>
+    <sequenceFlow id="Flow_3" sourceRef="Task_Qualificacao" targetRef="Service_Monitor" />
+    <sequenceFlow id="Flow_4" sourceRef="Service_Monitor" targetRef="Task_Entrega" />
+    <sequenceFlow id="Flow_5" sourceRef="Task_Entrega" targetRef="EndEvent_1" />
+
+  </process>
+</definitions>
+```
+
+### A.5 TEMPLATE XML BIZAGI - PROCESSO SIMPLIFICADO
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions xmlns="http://www.omg.org/spec/BPMN/20100524/MODEL"
+             xmlns:bizagi="http://www.bizagi.com/BPMN20"
+             targetNamespace="http://transportadora.bizagi.com/medicamentos"
+             id="Definitions_Medicamentos_Bizagi">
+
+  <collaboration id="Collaboration_TransporteMedicamentos">
+    <participant id="Participant_Transportadora" name="Transportadora Especializada" 
+                 processRef="Process_TransporteMedicamentos" />
+    <participant id="Participant_Cliente" name="Cliente Farmacêutico" />
+  </collaboration>
+
+  <process id="Process_TransporteMedicamentos" name="Processo Transporte Medicamentos">
+
+    <laneSet id="LaneSet_Principal">
+      <lane id="Lane_Fiscal" name="Área Fiscal">
+        <flowNodeRef>Task_Analise_Fiscal</flowNodeRef>
+        <flowNodeRef>Gateway_Viabilidade</flowNodeRef>
+      </lane>
+      <lane id="Lane_Operacional" name="Operações">
+        <flowNodeRef>Task_Qualificacao</flowNodeRef>
+        <flowNodeRef>Task_Transporte</flowNodeRef>
+        <flowNodeRef>Task_Entrega</flowNodeRef>
+      </lane>
+      <lane id="Lane_Tecnico" name="Responsável Técnico">
+        <flowNodeRef>Task_Aprovacao_Tecnica</flowNodeRef>
+      </lane>
+    </laneSet>
+
+    <!-- Elementos do processo com documentação Bizagi -->
+    <startEvent id="StartEvent_Solicitacao" name="Solicitação&#10;Recebida" />
+
+    <userTask id="Task_Analise_Fiscal" name="Análise Fiscal&#10;Especializada">
+      <documentation>
+        Análise completa da viabilidade fiscal e regulatória da operação,
+        incluindo verificação de licenças, cálculo de tributos e compliance.
+      </documentation>
+      <extensionElements>
+        <bizagi:Form type="AnaliseForm">
+          <bizagi:Field name="cnpj_origem" type="text" required="true" />
+          <bizagi:Field name="medicamentos" type="grid" required="true" />
+          <bizagi:Field name="valor_total" type="currency" required="true" />
+        </bizagi:Form>
+      </extensionElements>
+    </userTask>
+
+    <endEvent id="EndEvent_Concluido" name="Transporte&#10;Concluído" />
+
+  </process>
+</definitions>
+```
+
+### A.6 CHECKLIST DE VALIDAÇÃO BPMN
+
+#### A.6.1 Validação Estrutural
+
+- ✅ **Eventos de início e fim definidos** - Todo processo deve ter pelo menos um StartEvent e um EndEvent
+- ✅ **Fluxos de sequência conectados** - Todos os elementos devem estar conectados por SequenceFlow
+- ✅ **Gateways balanceados** - Número de fluxos de entrada = número de fluxos de saída  
+- ✅ **Pools e Lanes definidos** - Responsabilidades claramente demarcadas
+- ✅ **IDs únicos** - Cada elemento deve ter ID único no modelo
+
+#### A.6.2 Validação de Negócio
+
+- ✅ **Conformidade regulatória** - Processo atende RDC 430/2020 e legislação fiscal
+- ✅ **Responsabilidades definidas** - Cada task tem responsável designado
+- ✅ **SLAs especificados** - Tempos máximos definidos para atividades críticas
+- ✅ **Controles de qualidade** - Pontos de verificação em etapas críticas
+- ✅ **Tratamento de exceções** - Fluxos alternativos para situações anômalas
+
+#### A.6.3 Validação Técnica
+
+- ✅ **Compatibilidade com ERP** - Campos e dados integráveis com sistema principal
+- ✅ **Automatização possível** - Service Tasks configuráveis com delegates
+- ✅ **Formulários definidos** - User Tasks com forms adequados
+- ✅ **Variáveis de processo** - Dados necessários para decisões automáticas
+- ✅ **Monitoramento configurado** - Indicadores e alertas implementáveis
+
+### A.7 PROCEDIMENTOS DE IMPLEMENTAÇÃO
+
+#### A.7.1 Roteiro de Deploy
+
+**Preparação (Fase 1):**
+
+1. **Modelagem:** Criar o diagrama BPMN seguindo este template
+2. **Documentação:** Preencher todas as seções do anexo A.2
+3. **Exportação:** Gerar XML conforme templates A.4 ou A.5  
+4. **Validação:** Verificar conformidade usando checklist A.6
+5. **Importação:** Importar no Camunda/Bizagi para validação
+6. **Deploy:** Implementar no ERP seguindo procedimentos específicos
+
+#### A.7.2 Considerações para Deploy em Produção
+
+- **Testes:** Executar testes completos em ambiente de homologação
+- **Permissões:** Configurar perfis de usuário conforme papéis definidos  
+- **Formulários:** Implementar interfaces de usuário para tarefas manuais
+- **Monitoramento:** Configurar logs e métricas de desempenho
+- **Backup:** Manter versionamento dos modelos BPMN
+
+---
+
+**Data de Emissão:** Agosto/2025
+**Versão:** 2.0
+**Aprovação:** Diretoria Operacional
+
+---
+
+*Este documento deve ser revisado semestralmente ou sempre que houver alteração na legislação tributária, sanitária ou regulamentações aplicáveis ao transporte de medicamentos.*

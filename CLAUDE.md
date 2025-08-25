@@ -88,31 +88,51 @@ POP-Equiplex/
 
 ## POPs Catalogados
 
-### Categoria Tributário (4 POPs)
+### Categoria Tributário (7 POPs)
 1. **Escrituração das Operações com Cartão Combustível** (v1.0)
    - Ticket Soluções, ICMS, créditos fiscais
    
-2. **Procedimentos de Impostos de Importação** (v1.0)
+2. **Procedimentos de Impostos de Importação Consolidado** (v2.0)
    - II, IPI, PIS, COFINS, ICMS em comércio exterior
+   - **ATUALIZADO**: Versão consolidada com novos procedimentos
 
-3. **Ajustes de Inventário na Indústria Farmacêutica** (v1.0)
+3. **Ajustes de Inventário na Indústria Farmacêutica** (v2.0)
    - Diretrizes para execução de ajustes de inventário
    - Conformidade com NBC TG 16 e legislação fiscal
    - Medicamentos controlados e SNGPC
+   - **ATUALIZADO**: Novos fluxogramas com Mermaid
 
-4. **Apuração do ICMS - Programa FOMENTAR** (v1.0)
+4. **Apuração do ICMS - Programa FOMENTAR** (v2.0)
    - Procedimentos de apuração mensal para beneficiários FOMENTAR
    - Classificação por CFOPs e cálculo do financiamento
    - Preenchimento da EFD ICMS/IPI
+   - **ATUALIZADO**: Novos fluxogramas com Mermaid
+
+5. **Controle de Crédito de ICMS do Ativo Permanente (CIAP) - Goiás** (v1.0) **NOVO**
+   - Metodologia completa para apropriação parcelada de créditos
+   - Específico para Estado de Goiás
+   - Inclui fluxogramas detalhados
+
+6. **ICMS-ST sobre Energia Elétrica em Mercado Livre - Goiás** (v1.0) **NOVO**
+   - Cálculo e registro do ICMS-ST para ACL
+   - Procedimentos específicos para Goiás
+   - Inclui fluxogramas detalhados
+
+7. **ICMS-ST sobre Frete** (v1.0) **NOVO**
+   - Metodologia padronizada para substituição tributária
+   - Aplicável a transportes interestaduais
+   - Inclui fluxogramas detalhados
 
 ### Categoria Transporte (1 POP)
-5. **Fluxos Transportadora** (v2.0)
+8. **Fluxos Transportadora - Medicamentos** (v3.0)
    - Operações de transporte e armazenamento
    - Foco especial em medicamentos e farmacêuticos
+   - **ATUALIZADO**: Versão 3.0 com novos fluxogramas Mermaid
 
 ### Categoria Farmacêutico (1 POP)
-6. **Remessa para Incineração de Produtos Farmacêuticos** (v1.0)
+9. **Remessa para Incineração de Produtos Farmacêuticos** (v2.0)
    - Procedimentos fiscais e operacionais para descarte
+   - **ATUALIZADO**: Versão 2.0 com novos procedimentos
 
 ## Tecnologias Utilizadas
 
@@ -120,6 +140,7 @@ POP-Equiplex/
 - **CSS3** - Estilos avançados com variáveis CSS e Flexbox/Grid
 - **JavaScript ES6+** - Funcionalidades interativas e modernas
 - **Markdown** - Formato padrão para documentação dos POPs
+- **Mermaid.js** - Renderização de diagramas e fluxogramas
 - **GitHub Pages** - Hospedagem gratuita e automática
 
 ## Como Adicionar Novos POPs
@@ -256,6 +277,7 @@ Este projeto foi desenvolvido especificamente para **Expertzy Inteligência Trib
 
 ---
 
-**Última atualização**: 24 de agosto de 2025
+**Última atualização**: 25 de agosto de 2025
 **Desenvolvido por**: Claude Code (Anthropic)
-**Status do projeto**: ✅ Concluído - 6 POPs disponíveis
+**Status do projeto**: ✅ Atualizado - 9 POPs disponíveis (3 novos POPs adicionados, 5 atualizados)
+**Novidade**: ✨ Suporte completo para diagramas Mermaid implementado
